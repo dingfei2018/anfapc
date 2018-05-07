@@ -1,0 +1,21 @@
+.banner-right-list .banner-right-list-liopc{
+		    /*  width: auto !important;
+		    display:inline-block !important; display:inline;  */
+		   }
+		   .banner-right-list .banner-right-list-liopd{
+		     width: auto !important;
+		   /*  display:inline-block !important; display:inline;  */
+/* 		    margin-left: 144px; */
+		   }
+		   .city-picker-span{
+		      width: 126px !important;
+		      padding-left: 5px;
+		      padding-right: 30px;
+		      overflow: hidden;
+		      border: 1px solid #999 !important;
+		   }
+		   .banner-right-list .city-picker-span .title{
+		  		float: right;
+		  		white-space: nowrap; 
+		  }
+		  

@@ -1,0 +1,90 @@
+.white_content2{
+	display: block !important;
+}
+
+.banner-right-p{
+	color: #3974F8;
+}
+
+
+.banner-list5-div1{
+	width: 100%;
+	margin: auto;	
+	margin-top: 10px;
+	overflow: hidden;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #DCDCDC;
+}
+.banner-list5-div1 table{
+	margin: auto;
+}
+
+
+.banner-list5-div1 td{
+	height: 50px;
+	line-height: 50px;
+	width: 300px;
+	
+}
+
+.button-sure{
+	display: inline-block;
+    width: 120px;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+    color: #fff;
+    background-color: #3974F8;
+    font-size: 14px;
+    cursor: pointer;
+    position: absolute;
+    left: 400px;
+    bottom: -42px;
+}
+
+.back{
+	display: inline-block;
+    width: 120px;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+    color: #3974f8;
+   /* background-color: #3974F8;*/
+    font-size: 14px;
+    cursor: pointer;
+    position: absolute;
+    left: 540px;
+    bottom: -54px;
+}
+
+.banner-right-list3{
+	width: 100%;
+    height: auto;
+
+    margin-top: 40px;
+    float: left;
+    padding-bottom: 20px;
+    border-top: none;
+    position: relative;
+ /*   overflow: hidden;*/
+}
+
+.banner-right-list3-margin{
+	margin-top: 30px;
+}
+
+.banner-right-list3 table{
+	margin-top: 30px;
+	overflow: auto;
+	width: 95%;
+	margin: auto;
+	text-align: center;
+}
+
+.banner-right-list3 td{
+	padding: 0 10px;
+	height: 50px;
+	line-height: 50px;;
+	white-space: nowrap;
+	overflow-y: auto;
+}

@@ -1,0 +1,275 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+/*杞挱鐨勫唴瀹�*/
+.main{
+	width: 1200px;
+	height: 160px;
+	margin: auto;
+	border: 1px solid #323232;
+	position: relative;
+	margin-top: 20px;
+}
+.main-left{
+	width: 450px;
+	height: 160px;
+	border-right: 1px solid #323232;
+	position: relative;
+}
+.main-left p{
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+	color: red;
+	text-align: center;
+	position: absolute;
+	right: 15px;
+	bottom: 15px;
+	cursor: pointer;
+}
+.main-left img{
+	margin: 30px 0 0 30px;
+}
+.main-right{
+	width: 750px;
+	height: 160px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	text-align: center;
+	line-height: 160px;
+	overflow: hidden;
+}
+.main-right ul{
+	list-style-type: none;
+}
+.main-right li{
+	float: left;
+}
+
+/*涓棿鐨勫唴瀹�*/
+.content{
+	width: 1200px;
+	height: 800px;
+	margin: auto;
+	border: 1px solid #323232;
+	margin-top: 20px;
+	position: relative;
+}
+.content-left{
+	width: 230px;
+	height: 800px;
+	/*background-color: red;*/
+	border-right: 1px solid #323232;
+}
+.content-left ul{
+	list-style-type: none;
+}
+.content-left li{
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	border-bottom: 1px solid #323232;
+}
+.content-left li:hover{
+	background-color: #0024FF;
+}
+.content-left a{
+	text-decoration: none;
+	color: #323232;
+}
+.content-left a:hover{
+	color: white;
+}
+.content-left dl{
+	font-size: 12px;
+	text-align: center;
+	color: #323232;
+	display: none;
+}
+.content-left dt{
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #323232;
+}
+.content-left dt:hover{
+	background-color: #0066FF;
+}
+.content-left dd{
+	line-height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #323232;
+}
+.content-left dd:hover{
+	background-color: #0066FF;
+}
+/*鍙宠竟鐨勫唴瀹�*/
+.content-right{
+	width: 970px;
+	height: 266px;
+	border-bottom: 1px solid #323232;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.content-right table{
+	width: 300px;
+	height: 100px;
+	margin: 40px 0 0 90px;
+}
+.content-right th{
+	height: 40px;
+}
+.content-right td{
+	width: 80px;
+	height: 40px;
+	border: 1px solid #323232;
+	text-align: center;
+}
+.content-right ul{
+	position: absolute;
+	left: 400px;
+	bottom: 50px;
+	list-style-type: none;
+}
+.content-right li{
+	float: left;
+	margin-left: 50px;
+}
+.content-right a{
+	text-decoration: none;
+	color: #0024FF;
+	font-size: 14px;
+}
+.content-right span{
+	position: absolute;
+	left: 544px;
+	top: 55px;
+}
+.content-right dl{
+	width: 120px;
+	position: absolute;
+	right: 100px;
+	top: 52px;
+}
+.content-right dt{
+	margin-left: 15px;
+}
+.content-right dd{
+	margin-top: 5px;
+}
+
+.content-rights{
+	width: 970px;
+	height: 266px;
+	border-bottom: 1px solid #323232;
+	position: absolute;
+	right: 0;
+	top: 266px;
+}
+.content-rights table{
+	width: 300px;
+	height: 100px;
+	margin: 40px 0 0 90px;
+}
+.content-rights th{
+	height: 40px;
+}
+.content-rights td{
+	width: 80px;
+	height: 40px;
+	border: 1px solid #323232;
+	text-align: center;
+}
+.content-rights ul{
+	position: absolute;
+	left: 516px;
+	bottom: 50px;
+	list-style-type: none;
+}
+.content-rights li{
+	float: left;
+	margin-left: 50px;
+}
+.content-rights a{
+	text-decoration: none;
+	color: #0024FF;
+	font-size: 14px;
+}
+.content-rights span{
+	position: absolute;
+	left: 544px;
+	top: 55px;
+}
+.content-rights dl{
+	width: 120px;
+	position: absolute;
+	right: 100px;
+	top: 52px;
+}
+.content-rights dt{
+	margin-left: 15px;
+}
+.content-rights dd{
+	margin-top: 5px;
+}
+
+.content-rightu{
+	width: 970px;
+	height: 266px;
+	/*border-bottom: 1px solid #323232;*/
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.content-rightu table{
+	width: 300px;
+	height: 100px;
+	margin: 40px 0 0 90px;
+}
+.content-rightu th{
+	height: 40px;
+}
+.content-rightu td{
+	width: 80px;
+	height: 40px;
+	border: 1px solid #323232;
+	text-align: center;
+}
+.content-rightu ul{
+	position: absolute;
+	left: 480px;
+	bottom: 50px;
+	list-style-type: none;
+}
+.content-rightu li{
+	float: left;
+	margin-left: 50px;
+}
+.content-rightu a{
+	text-decoration: none;
+	color: #0024FF;
+	font-size: 14px;
+}
+.content-rightu span{
+	position: absolute;
+	left: 544px;
+	top: 55px;
+}
+.content-rightu dl{
+	width: 120px;
+	position: absolute;
+	right: 100px;
+	top: 52px;
+}
+.content-rightu dt{
+	margin-left: 15px;
+}
+.content-rightu dd{
+	margin-top: 5px;
+}

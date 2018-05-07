@@ -1,0 +1,261 @@
+
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Microsoft YaHei" ! important;
+}
+
+
+/*涓棿閮ㄥ垎鐨勫唴瀹�*/
+.content{
+	width: 1200px;
+	height: 160px;
+	border: 1px solid #323232;
+	margin: auto;
+	margin-top: 25px;
+	position: relative;
+}
+.content-left{
+	width: 450px;
+	height: 160px;
+	/*border: 1px solid red;*/
+	border-right: 1px solid #323232;
+	position: absolute;
+	left: 0;
+	top: 0;
+	position: relative;
+}
+.content-left p{
+	width: 200px;
+	color: red;
+	position: absolute;
+	right: 15px;
+	bottom: 15px;
+}
+.content-left img{
+	margin: 24px 0 0 21px;
+}
+.content-right{
+	width: 750px;
+	height: 160px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	overflow: hidden;
+}
+.content-right img{
+	width: 750px;
+	height: 160px;
+}
+.content-right ul{
+	list-style-type: none;
+}
+.content-right li{
+	float: left;
+}
+/*涓棿鐨勫唴瀹�*/
+.banner{
+	width: 1200px;
+	height: 755px;
+	border: 1px solid #323232;
+	margin: auto;
+	margin-top: 25px;
+}
+/*绗竴涓鎯呯殑div*/
+.banner-top{
+	width: 1200px;
+	height: 250px;
+	/*border: 1px solid red;*/
+	border-top: 1px solid white;
+	border-bottom: 1px solid #969696;
+	position: relative;
+}
+.banner-top p{
+	margin: 20px 0 0 50px;
+	font-size: 24px;
+	font-weight: bold;
+}
+.banner-top .banner-tops{
+	position: absolute;
+	left: 120px;
+	top: 80px;
+	width: 250px;
+	height: 120px;
+	border: 1px solid #323232;
+	line-height: 120px;
+	text-align: center;
+}
+.banner-top table{
+	position: absolute;
+	left: 400px;
+	top: 70px;
+}
+.banner-top th{
+	height: 30px;
+}
+.banner-top td{
+	height: 30px;
+	width: 150px;
+}
+.banner-top b{
+	margin-right: 119px;
+}
+.banner-top span{
+	color: red;
+}
+.banner-top .banner-top-a{
+	text-decoration: none;
+	color: #0024FF;
+	position: absolute;
+	right: 223px;
+	bottom: 57px;
+}
+.banner-topc{
+	position: absolute;
+	right: 20px;
+	top: 80px;
+	width: 150px;
+	height: 100px;
+	border: 1px solid blue;
+	text-align: center;
+	line-height: 100px;
+	border-radius: 15px;
+	background-color: #0024FF;
+}
+.banner-topc a{
+	text-decoration: none;
+	color: white;
+}
+
+
+/*绗簩涓缁嗛〉闈㈢殑div*/
+.banner-topo{
+	width: 1200px;
+	height: 250px;
+	border-top: 1px solid white;
+	border-bottom: 1px solid #969696;
+	position: relative;
+}
+.banner-topo p{
+	margin: 20px 0 0 50px;
+	font-size: 24px;
+	font-weight: bold;
+}
+.banner-topo .banner-tops{
+	position: absolute;
+	left: 120px;
+	top: 80px;
+	width: 250px;
+	height: 120px;
+	border: 1px solid #323232;
+	line-height: 120px;
+	text-align: center;
+}
+.banner-topo table{
+	position: absolute;
+	left: 400px;
+	top: 70px;
+}
+.banner-topo th{
+	height: 30px;
+}
+.banner-topo td{
+	height: 30px;
+	width: 150px;
+}
+.banner-topo b{
+	margin-right: 119px;
+}
+.banner-topo span{
+	color: red;
+}
+.banner-topo .banner-top-a{
+	text-decoration: none;
+	color: #0024FF;
+	position: absolute;
+	right: 223px;
+	bottom: 57px;
+}
+.banner-topc{
+	position: absolute;
+	right: 20px;
+	top: 80px;
+	width: 150px;
+	height: 100px;
+	border: 1px solid blue;
+	text-align: center;
+	line-height: 100px;
+	border-radius: 15px;
+	background-color: #0024FF;
+}
+.banner-topc a{
+	text-decoration: none;
+	color: white;
+}
+
+/*绗笁涓鎯呴噹铔殑DIV*/
+.banner-topp{
+	width: 1200px;
+	height: 250px;
+	border-top: 1px solid white;
+	position: relative;
+}
+.banner-topp p{
+	margin: 20px 0 0 50px;
+	font-size: 24px;
+	font-weight: bold;
+}
+.banner-topp .banner-tops{
+	position: absolute;
+	left: 120px;
+	top: 80px;
+	width: 250px;
+	height: 120px;
+	border: 1px solid #323232;
+	line-height: 120px;
+	text-align: center;
+}
+.banner-topp table{
+	position: absolute;
+	left: 400px;
+	top: 70px;
+}
+.banner-topp th{
+	height: 30px;
+}
+.banner-topp td{
+	height: 30px;
+	width: 150px;
+}
+.banner-topp b{
+	margin-right: 119px;
+}
+.banner-topp span{
+	color: red;
+}
+.banner-topp .banner-top-a{
+	text-decoration: none;
+	color: #0024FF;
+	position: absolute;
+	right: 223px;
+	bottom: 57px;
+}
+.banner-topc{
+	position: absolute;
+	right: 20px;
+	top: 80px;
+	width: 150px;
+	height: 100px;
+	border: 1px solid blue;
+	text-align: center;
+	line-height: 100px;
+	border-radius: 15px;
+	background-color: #0024FF;
+}
+.banner-topc a{
+	text-decoration: none;
+	color: white;
+}

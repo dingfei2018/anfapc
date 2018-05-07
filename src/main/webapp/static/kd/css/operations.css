@@ -1,0 +1,224 @@
+ * {
+ 	margin: 0;
+ 	padding: 0;
+ }
+ 
+  .active {
+ 	background: #3974f8 !important;
+ 	color: #fff !important;
+ }
+ body{
+ 	background-color: #fff;
+ }
+ 
+ .banner{
+ 	width: 97%;
+ 	height: auto;
+ 	margin: auto;
+ 	margin-top: 40px;
+ 	border: 1px solid #dcdcdc;
+ }
+ 
+  .banner-left {
+ 	width: 200px;
+ 	height: auto;
+ 	float: left;
+ 	background-color: #fff;
+ }
+ 
+ .banner-left-list1 {
+ 	width: 200px;
+ 	height: 100px;
+ 	text-align: center;
+ }
+ 
+ .banner-left-list1 img {
+ 	margin-top: 22px;
+ }
+  .banner-left-list1 a{
+    color: #666;
+    text-decoration: none;
+  }
+ .banner-list{
+ 	width: auto;
+ 	min-height: 650px; 
+ 	margin-left: 200px;
+ 	padding-left: 20px;
+ 	overflow: hidden;
+ 	border-left: 1px solid #dcdcdc;
+ 	padding-bottom: 40px;
+ }
+ 
+.banner-list-right{
+ 	width: 99%;
+ 	height: 50px;
+ 	line-height:50px;
+	border-radius: 5px;
+	margin: auto;
+	margin-bottom: 5px;
+	position: relative;
+}
+
+.banner-list-right-p{
+	color: #3974f8;
+    background-image: url(../img/lanse.png);
+    background-repeat: no-repeat;
+    background-position: 5px;
+    padding-left: 35px;
+    cursor: pointer;
+    background-color: #c5d5f9;
+}
+ 
+ .banner-list-right-p:hover{
+ 	background-color: #f9e5c5;
+ 	background-image: url(../img/huangse.png);
+ }
+ .banner-list-right-xia{
+ 	display: none;
+ 	position: absolute;
+    left: 187px;
+    top: 24px;
+ }
+ .banner-list-right-you{
+ 	position: absolute;
+    left: 190px;
+    top: 19px;
+    
+ }
+ /* .banner-list-right-back{
+ 	width: 10px;
+    height: 10px;
+    line-height: 10px;
+    background-image: url(../img/xiangyou.png);
+    background-repeat: no-repeat;
+    background-position: 6px 5px;
+    padding-left: 90px;
+ } */
+ .banner-right-list {
+ 	
+ 	width: 99%;
+ 	height: auto;
+ 	border: 1px solid #fff;
+ 	
+ 	padding-top: 10px;
+ 	padding-bottom: 30px;
+ }
+ 
+ .banner-right-list span {
+ 	margin-left: 20px;
+ }
+ 
+ .banner-right-list .span2 {
+ 	margin-left: 24px;
+ }
+ 
+ .banner-right-list .span3 {
+ 	margin-left: 34px;
+ }
+ 
+ .banner-right-list .span4 {
+ 	margin-left: 36px;
+ }
+ 
+ .banner-right-list input {
+ 	width: 120px;
+ 	height: 25px;
+ 	margin-top: 20px;
+ }
+ 
+ .banner-right-list select {
+ 	width: 120px;
+ 	height: 30px;
+ 	margin-top: 20px;
+ }
+ 
+ .banner-right-list button {
+ 	margin-left: 30px;
+ 	width: 110px;
+ 	height: 30px;
+ 	border-radius: 3px;
+ 	background: url(../img/search.jpg) no-repeat 21px 7px;
+ 	color: #3973F8;
+ 	border: 1px solid #3973F8;
+ 	cursor: pointer;
+ }
+ .banner-right-list2{
+ 	width: 99%;
+ 	height: auto;
+ 	/*border: 1px solid red;*/
+ 	overflow: hidden;
+ 	padding-bottom: 20px;
+ }
+ .banner-right-list2 p{
+	margin-left: 20px;
+	margin-top: 20px;
+	font-weight: bold;
+}
+.banner-right-list2-left{
+	width: 250px;
+	height: 200px;
+	border: 1px solid #0000FF;
+	float: left;
+	margin-left: 120px;
+	margin-top: 20px;
+	border-radius: 5px;
+}
+.banner-right-list2-left .banner-right-list2-left-top{
+	width: 160px;
+	height: 60px;
+	/*border: 1px solid green;*/
+	margin: auto;
+	text-align: center;
+	padding-top: 20px;
+	border-bottom: 1px solid #0000FF;
+}
+.banner-right-list2-left .banner-right-list2-left-top span{
+	color: #666;
+}
+.banner-right-list2-left .banner-right-list2-left-top b{
+	color: goldenrod;
+}
+.banner-right-list2-left .banner-right-list2-left-bottom{
+	width: 160px;
+	height: 80px;
+	/*border: 1px solid blue;*/
+	margin: auto;
+	padding-top: 20px;
+	text-align: center;
+}
+.banner-right-list2-left .banner-right-list2-left-bottom span{
+	color: #666;
+}
+.banner-right-list2-left .banner-right-list2-left-bottom b{
+	color: goldenrod;
+}
+.banner-right-list2-left .banner-right-list2-left-bottoms{
+	width: 160px;
+	height: 130px;
+	/*border: 1px solid blue;*/
+	margin: auto;
+	padding-top: 70px;
+	text-align: center;
+}
+.banner-right-list2-left .banner-right-list2-left-bottoms span{
+	color: #666;
+}
+.banner-right-list2-left .banner-right-list2-left-bottoms b{
+	color: goldenrod;
+}
+.banner-right-list3{
+	width: 99%;
+	height: auto;
+	/*border: 1px solid yellow;*/
+	/* display: none; */
+	
+}
+.banner-right-list3 p{
+	margin-left: 20px;
+	margin-top: 20px;
+	font-weight: bold;
+}
+.banner-right-list3 img{
+	margin-left: 40px;
+	margin-top: 20px;
+}

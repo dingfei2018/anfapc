@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* author lyc */
+
+*{ margin:0px; padding:0px; font-family:'微软雅黑'; -webkit-tap-highlight-color:rgba(0,0,0,0);  }
+li{ list-style:none }
+img{ border:none}
+/* a{text-decoration:none;}  */
+
+body{}
+
+
+.Top_Record{}
+
+.record_Top{width:90%; height:50px; background:url(../images/record_Bg.png) center center no-repeat; background-size:contain; text-align:center; line-height:50px; margin:30px auto 0px; color:#fff;}
+
+.topRec_List dl dd{color:#999}
+.topRec_List dl,.maquee{width:90%; overflow:hidden; margin:0 auto; color:#323232}
+.topRec_List dd{ float:left; text-align:center;  font-size: 12px;}
+.topRec_List dl dd:nth-child(1){ width:21%; height:25px; line-height:25px;}
+.topRec_List dl dd:nth-child(2){ width:3%; height:25px; line-height:25px;}
+.topRec_List dl dd:nth-child(3){ width:19%; height:25px; line-height:25px; }
+.topRec_List dl dd:nth-child(4){ width:20%; height:25px; line-height:25px; }
+.topRec_List dl dd:nth-child(5){ width:14%; height:25px; line-height:25px; padding-left: 10px;}
+.topRec_List dl dd:nth-child(6){ width:19%; height:25px; line-height:25px; }
+.topRec_List dl dd:nth-child(7){ width:13%; height:25px; line-height:25px; }
+.topRec_List dl dd:nth-child(8){ width:0%; height:25px; line-height:25px; }
+.topRec_List dl dd:nth-child(9){ width:0%; height:25px; line-height:25px; }
+.maquee{ height:165px;}
+.topRec_List ul{ width:100%; height:50px;}
+.topRec_List li{ width:100%; height:33px; line-height:33px; text-align:center; font-size:12px;word-break:keep-all; overflow:hidden; text-overflow:ellipsis;}
+/*.topRec_List li:nth-child(2n){ background:#077cd0}*/
+.topRec_List li div{ float:left;}
+.topRec_List li div:nth-child(1){ width:20%; word-break:keep-all; overflow:hidden; text-overflow:ellipsis;}
+.topRec_List li div:nth-child(2){ width:5%; word-break:keep-all; overflow:hidden; text-overflow:ellipsis;}
+.topRec_List li div:nth-child(3){ width:18%;}
+.topRec_List li div:nth-child(4){ width:20%;}
+.topRec_List li div:nth-child(5){ width:16%;}
+.topRec_List li div:nth-child(6){ width:16%;}
+.topRec_List li div:nth-child(7){ width:9%;}
+.topRec_List li div:nth-child(8){ width:0%;}
+.topRec_List li div:nth-child(9){ width:0%;}

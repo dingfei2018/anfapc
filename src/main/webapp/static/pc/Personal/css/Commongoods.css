@@ -1,0 +1,416 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Microsoft Yahei";
+}
+
+.main-right img{
+	 width : 860px;
+}
+
+li.active a{
+	color: #0066FF;
+	font-weight: bold;
+}
+
+
+/*涓棿鐨勫唴瀹�*/
+.content{
+	width: 1200px;
+	height: auto;
+	margin: auto;
+	margin-top: 20px;
+	/* float: left; */
+	position: relative;
+	overflow: hidden;
+}
+
+.banner-top{
+	width: 1010px;
+	height: 350px;
+	/*border: 1px solid red;*/
+	border-top: 1px solid white;
+	position: relative;
+}
+.banner-top p{
+	margin: 20px 0 0 30px;
+	font-size: 24px;
+	font-weight: bold;
+}
+.banner-top table{
+	width: 300px;
+	height: 100px;
+	/*border: 1px solid red;*/
+	margin: 71px 0 0 160px;
+}
+.banner-top th{
+	height: 40px;
+}
+.banner-top td{
+	width: 80px;
+	height: 40px;
+	border: 1px solid #323232;
+	text-align: center;
+}
+.banner-top .banner-top-ul{
+	position: absolute;
+	left: 370px;
+	top: 245px;
+	list-style-type: none;
+}
+.banner-top li{
+	float: left;
+	margin-left: 110px;
+}
+.banner-top a{
+	text-decoration: none;
+	color: #0024FF;
+}
+
+.content-right{	
+	border: 1px solid #dfdfdf;
+    width: 995px;
+    height: auto;
+    min-height: 790px;
+	padding-bottom: 40px;
+    overflow: hidden;
+    float: right;
+	
+}
+.content-right ul{
+	list-style-type: none;
+    height: 60px;
+    border-bottom: 2px solid #dcdcdc;
+}
+.content-right li{
+	float: left;
+    margin-left: 60px;
+    height: 60px;
+    line-height: 60px;
+}
+.content-right li a{
+	color: #323232;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 10px;
+}
+/* .content-right li a:hover{
+	color: #0066FF;
+} */
+/* .content-right li:hover{
+	color: #0066FF;
+	border-bottom: 2px solid #323232;
+} */
+.content-right .content-right-li{
+	margin-left: 17px;
+}
+.content-right .content-right-tab{
+	width: 925px;
+    height: 150px;
+    border: 1px solid #dcdcdc;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+}
+.content-right .content-right-tab p{
+    height: 35px;
+    background-color: #e2e6f7;
+    font-size: 12px;
+    color: #666666;
+    position: relative;
+}
+.content-right .content-right-tab p .content-right-uo{
+	position: absolute;
+	left: 10px;
+	top: 12px;
+}
+.content-right .content-right-tab p .content-right-up{
+	position: absolute;
+	left: 38px;
+	top: 8px;
+}
+.content-right .content-right-tab p .content-right-us{
+	position: absolute;
+	left: 201px;
+	top: 8px;
+	font-weight: normal;
+}
+.content-right .content-right-tab p .content-right-uss{
+	position: absolute;
+	right: 9px;
+	top: 9px;
+	cursor: pointer;
+}
+.content-right .content-right-tab .content-right-tab1{
+    width: 440px;
+    height: 115px;
+    border: 1px solid white;
+    float: left;
+    border-right: 1px solid #dcdcdc;
+    text-align: center;
+}
+.content-right .content-right-tab .content-right-tab1 table{
+	width: 100%;
+	margin-top: 32px;
+	/* margin-left: 96px; */
+}
+.content-right .content-right-tab .content-right-tab1 table td{
+	height: 40px;
+}
+.content-right .content-right-tab .content-right-tab1 table th{
+	font-size: 16px;
+    font-weight: normal;
+    color: #323232;}
+.content-right .content-right-tab .content-right-tab1 table button {
+    min-width: 120px;
+    height: 27px;
+    color: #666;
+    box-shadow: 2px 2px 1px #b4c2ee;
+    line-height: 27px;
+    font-size: 12px;
+    background-color: #d5dcf3;
+    border-radius: 5px;
+    /* border-radius: 10px; */
+    /* border: 1px #dcdcdc solid; */
+    border: 0;
+    /* background: url(../../img/kuang_2.png) no-repeat; */
+}
+.content-right .content-right-tab .content-right-tab2{
+	width: 200px;
+	height: 105px;
+	border: 1px solid white;
+	/* border-right: 1px solid #dcdcdc; */
+	text-align: center;
+	position: absolute;
+	left: 362px;
+	top: 35px;
+	line-height: 105px;
+}
+.content-right .content-right-tab .content-right-tab2 a{
+	text-decoration: none;
+	color : #0066FF;
+}
+.content-right .content-right-tab .content-right-tab3{
+    width: 240px;
+    height: 105px;
+    border: 1px solid white;
+    border-right: 1px solid #dcdcdc;
+    text-align: center;
+    float: left;
+    position: relative;
+    /* position: absolute; */
+    /* left: 402px; */
+    /* top: 35px; */
+    line-height: 105px;
+}
+.content-right-tab .content-right-tab3 strong{
+	position: absolute;
+	left: 68px;
+	top: -17px;
+	font-weight: normal;
+}
+.content-right-tab .content-right-tab3 a{
+	display: inline-block;
+	margin-top: 0px;
+	text-decoration: none;
+	color : #0066FF;
+	height: 0px;
+
+}
+
+.content-right .content-right-tab .content-right-tab4{
+    width: 234px;
+    height: 105px;
+    border: 1px solid white;
+    text-align: center;
+    float: left;
+    /* position: absolute; */
+    /* right: 0px; */
+    /* top: 35px; */
+}
+.content-right .content-right-tab .content-right-tab4 a {
+	display: inline-block;
+    width: 84px;
+    height: 36px;
+    line-height: 36px;
+    margin-top: 37px;
+    border-radius: 5px;
+    /* color: white; */
+    /* background-color: #06F; */
+    color: #fff;
+    font-size: 14px;
+    background-color: #3974f8;
+}
+.content-right .content-right-tab .content-right-tab4 a:hover{
+	background-color: #ff7801;
+}
+.content-right .content-right-tabu{
+    width: 145px;
+    height: 26px;
+    border: 1px solid white;
+    margin: 22px 0 0 32px;
+    line-height: 26px;
+
+}
+.content-right .content-right-tabu button {
+	width: 46px;
+    height: 24px;
+    margin-left: 20px;
+    margin-top: -2px;
+    border-radius: 3px;
+    background-color: white;
+    border: 1px solid #cbcbcb;
+    color: #666;
+    font-family: 'Microsoft YaHei';
+    font-size: 12px;
+    cursor: pointer;
+}
+.content-right .content-right-tabu button:hover{
+	background-color: #3974f8;
+	color: white;
+}
+.content-centent-bottom{
+	width: 1010px;
+	height: 60px;
+	border: 1px solid white;
+	position: relative;
+	margin-top: 32px;
+}
+.content-centent-bottom ul {
+    position: absolute;
+    left: 430px;
+    top: 18px;
+}
+.content-centent-bottom ul {
+    list-style-type: none;
+    border: 0px;
+}
+.content-centent-bottom li {
+    float: left;
+    width: 50px;
+    height: 25px;
+    border: 1px solid #dcdcdc;
+    margin-left: 9px;
+    text-align: center;
+    line-height: 25px;
+}
+.content-centent-bottom li a {
+    display: inline-block;
+    text-decoration: none;
+    width: 50px;
+    height: 25px;
+    color: #323232;
+}
+.content-centent-bottom .content-centent-bottompo {
+    width: 50px;
+    height: 25px;
+    border: 1px solid #dcdcdc;
+    background-color: white;
+}
+.content-centent-bottom .content-centent-bottom-li{
+	border: 0;
+}
+.content-centent-bottom .content-centent-bottom-lis{
+	border: 0;
+}
+.content-centent-bottom .content-centent-bottoms {
+    position: absolute;
+    right: 398px;
+    top: 19px;
+    width: 50px;
+    height: 25px;
+    border: 1px solid #dcdcdc;
+    background-color: white;
+}
+.content-centent-bottom span {
+    position: absolute;
+    right: 159px;
+    top: 19px;
+    color: #323232;
+}
+.content-centent-bottom input{
+	width: 50px;
+}
+.content-centent-bottom .content-centent-bottomusy {
+    width: 50px;
+    margin-left: 10px;
+    height: 25px;
+    color: #323232;
+    border: 0;
+    background-color: white;
+    border: 1px solid #dcdcdc;
+}
+/* .content-right p{
+	height: 30px;
+	background: url(../../img/daohangtiao.png) repeat-x;
+	line-height: 30px;
+	text-indent: 52px;
+	margin-top: 2px;
+}
+.content-right img{
+	margin-left: 76px;
+}
+.content-right ul{
+	list-style-type: none;
+}
+.content-right .content-right-ul{
+	list-style-type: none;
+	margin-top: -47px;
+	margin-left: 244px;
+}
+.content-right li{
+	height: 60px;
+}
+.content-right span{
+	margin-left: 30px;
+}
+.content-right .content-right-span{
+	margin-left: 0;
+}
+.content-right .content-right-spans{
+	margin-left: 47px;
+}
+.content-right input{
+	width: 320px;
+	height: 30px;
+	margin-left: 20px;
+	text-indent: 15px;
+}
+.content-right .content-right-input{
+    margin-left: 20px;
+}
+.content-right b{
+	font-weight: normal;
+	font-size: 14px;
+	color : #0066FF;
+}
+.content-right a{
+	margin-left: 20px;
+	text-decoration: none;
+	color: #0024FF;
+	font-size: 14px;
+}
+.content-right .content-button{
+	width: 185px;
+	height: 50px;
+	background: url(../../img/youce.png) repeat-y;
+	font-size: 20px;
+	color: white;
+	border-radius: 10px;
+	margin: 35px 0 0 377px;
+	border: 0;
+}
+.content-right .content-buttons{
+	width: 300px;
+	height: 60px;
+	background-color: #0066FF;
+	font-size: 24px;
+	color: white;
+	border-radius: 15px;
+	position: absolute;
+	left: 37%;
+	top: 31%;
+	display: none;
+}
+ */

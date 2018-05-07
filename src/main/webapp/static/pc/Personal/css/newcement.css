@@ -1,0 +1,262 @@
+
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Microsoft YaHei";
+}
+
+.main-right img{
+	 width : 750px;
+}
+
+/* .active {
+    background: url(../../img/youce.png) repeat-y;
+}
+ */
+
+/*婵犵數鍋為崹鍫曞箹閳哄懎鐭楅柛鎰╁壆濞戙垹閿ゆ俊銈忔嫹缂侊拷閸愵喗鐓曟繛鎴濆船瀵箖鏌涢悢閿嬪枠闁哄矉缍佹俊鎼佸Ψ閵夘喕绱旈梻浣侯焾鐎涒晠骞愰崘鑼殾婵鍩栭弲鎼佹煥閻曞倹瀚�*/
+.content{
+	 width: 1200px;
+    /* height: 838px; */
+    /* border: 1px solid #323232; */
+    margin: auto;
+    margin-top: 25px;
+    position: relative;
+    height: auto;
+    overflow: hidden;
+}
+
+.content-right{
+    border: 1px solid #dfdfdf;
+    width: 995px;
+    height: auto;
+    min-height: 590px;
+    padding-bottom: 40px;
+    overflow: hidden;
+    float: right;
+
+}
+
+.content-right ul {
+    list-style-type: none;
+    height: 54px;
+    padding-top: 16px;
+    width: 925px;
+    margin: auto;
+    border-bottom: 1px solid #dcdcdc;
+}
+.content-right li{
+	float: left;
+	height: 54px;
+	width: 93px;
+	text-align: center;
+	line-height: 54px;
+}
+.content-right li a{
+	/* color : #323232; */
+	text-decoration: none;
+	font-size: 16px;
+    display: block;
+	color: #333;
+	height: 54px;
+	width: auto;
+	text-align: center;
+	line-height: 54px;
+}
+.content-right li a:hover{
+	display: block;
+	color: #3974f8;
+	font-size: 16px;
+	height: 54px;
+	width: auto;
+	text-align: center;
+	line-height: 54px;
+}
+
+.content-right li a.active{
+	display: block;
+	font-weight: bold;
+	color: #3974f8;
+	border-bottom: 1px solid #3974f8;
+	font-size: 18px;
+	height: 54px;
+	width: auto;
+	text-align: center;
+	line-height: 54px;
+}
+.p3 textarea { padding:10px; color: #666;}
+
+
+.content-right-top{
+
+    margin-top: 40px;
+	width:auto;
+	height: auto;
+	overflow: hidden;
+	padding-bottom: 50px;
+	position: relative;
+}
+.content-right-top .p1{
+	margin-top: 120px;
+	margin-left: 54px;
+}
+.content-right-top .p2{
+	margin-left: 54px;
+	font-size: 14px;
+	color: #333;
+}
+.content-right-top .p4{
+	margin-top: 46px;
+	color: #333;
+	margin-left: 54px;
+	font-size: 14px;
+	display: inline-block;
+}
+.content-right-top .p3{
+	margin-top: 12px;
+	margin-left: 54px;
+	width: 840px;
+	position: relative;
+}
+.content-right-top .p3 span{
+	position: absolute;
+	right: 0px;
+	color: #333;
+	bottom: -30px;
+	font-size: 12px;
+}
+.content-right-top .p3 b{
+	font-weight: normal;
+	color : red;
+}
+.input{
+	margin-left: 15px;
+    height: 22px;
+    background: url(../../img/dateoui.png) no-repeat 117px 4px;
+    text-indent: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    width: 140px;
+}
+.content-right-top .input1{
+	margin-left: 54px;
+	margin-top: 10px;
+	width: 840px;
+	height: 35px;
+}
+p.p_btn {text-align:center;}
+p button{
+    cursor: pointer;
+    width: 190px;
+    height: 40px;
+    background-color: #3974f8;
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    font-family: "Microsoft YaHei";
+}
+
+p button:hover{
+    background-color: #ff7801;
+}
+
+.content-right-top .content-right-top-p {
+	display: inline-block;
+	width: 1019px;
+    height: 30px;
+    background: url(../../img/daohangtiao.png) repeat-x;
+    line-height: 30px;
+    text-indent: 52px;
+    margin-top: 2px;
+}
+.content-right-top a{
+	text-decoration: none;
+}
+.content-right-top ul{
+	list-style-type: none;
+	/* margin: 25px 0 0 30px; */
+	position: absolute;
+	left: 50px;
+	top: 40px;
+}
+.content-right-top li{
+	width: 150px;
+	height: 35px;
+	line-height: 35px;
+	float: left;
+	border: 1px solid #323232;
+    text-align: center;
+}
+.content-right-top li:hover{
+	background: url(../../img/huiyuan.png) repeat-x;
+}
+.content-right-top li a{
+	 display: inline-block;
+	 width: 150px;
+	 height: 35px;
+	 text-decoration: none;
+	 color : #666;
+}
+
+/* #btn{
+	display: inline-block;
+	width: 46px;
+	height: 24px;
+	line-height: 24px;
+	background: #3974f8;
+	text-decoration: none;
+	color: white;
+	border-radius: 3px;
+	font-size: 12px;
+	font-family: "Microsoft YaHei";
+}
+#btn:hover{
+	background-color: #ff7801;
+}
+#btns{
+	display: inline-block;
+	width: 46px;
+	height: 24px;
+	line-height: 24px;
+	border: 1px solid blue;
+	margin-left: 10px;
+	color: #666;
+	border-radius: 3px;
+	font-size: 12px;
+	text-decoration: none;
+	font-family: "Microsoft YaHei";
+}
+#btns:hover{
+	background-color: #3974f8;
+	color: #fff;
+}
+ */
+.btn{
+	position: relative;
+}
+.btn img{
+	position: absolute;
+	left: 0px;
+	top: 8px;
+}
+.content-right-top li a:hover{
+	color : white;
+}
+.content-right-top .content-right-top-li{
+	border-right: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+

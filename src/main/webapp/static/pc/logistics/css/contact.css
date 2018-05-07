@@ -1,0 +1,242 @@
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family:'Microsoft YaHei','΢���ź�';
+}
+/* body { margin: 0; font: 13px/1.5 "Microsoft YaHei", "Helvetica Neue", "Sans-Serif"; min-height: 960px; min-width: 600px; } */
+
+.my-map { margin: 0 auto; width: 864px; height: 400px; }
+.my-map .icon { background: url(http://lbs.amap.com/console/public/show/marker.png) no-repeat; }
+.my-map .icon-cir { height: 31px; width: 28px; }
+.my-map .icon-cir-green { background-position: -11px -155px; }
+.amap-container{height: 100%;}
+
+/*澶撮儴鐨勫唴瀹�*/
+
+
+.benner{
+	width: 100%;
+	/* height: 763px; */
+	/* border: 1px solid #dcdcdc; */
+	margin: auto;
+	padding-top: 20px;
+	position: relative;
+	background: url("../../img/con_bj.jpg") top repeat-x;
+}
+
+.banner-guno{
+	width: 1202px;
+	height: 217px;
+	border-radius: 3px;
+	/* border: 1px solid white; */
+	margin: auto;
+}
+.banner-guno img{
+	width: 1202px;
+	height: 217px;
+}
+
+.banner-list{
+	width: 1200px;
+	height: 763px;
+	/* border: 1px solid #dcdcdc; */
+	margin: auto;
+	position: relative;
+	margin-top: 20px;
+}
+
+.banner-list-left{
+	width: 200px;
+	height: 549px;
+	background-color: white;
+    background: url("../../img/zs_con_leftbj.jpg") repeat-x;
+}
+.banner-list-left p{
+	display: inline-block;
+	margin-top: 30px;
+	margin-left: 27px;
+	font-size: 28px;
+}
+.banner-list-left ul{
+	list-style-type: none;
+	margin-top: 25px;
+}
+.banner-list-left li{
+	height: 30px;
+	line-height: 30px;
+	text-indent: 27px;
+	margin-top: 10px;
+} 
+.banner-list-left .banner-list-lefts{
+	background: url("../../img/zs_connav_bj.jpg") repeat-x;
+	color : white;
+}
+.banner-list-left .banner-list-lefts-a{
+	text-decoration: none;
+	color : #323232;
+}
+.banner-list-left .banner-list-lefts-as{
+	text-decoration: none;
+	color : white;
+}
+.banner-list-left dt{
+	color : #0066FF;
+}
+.banner-list-left dl{
+	font-size: 14px;
+}
+.banner-list-left1{
+	width: 200px;
+	height: 40px;
+	margin-top: 40px;
+	position: relative;
+}
+.banner-list-left1 img{
+	margin-left: 20px;
+}
+.banner-list-left1 dl{
+	position: absolute;
+	left: 70px;
+	top: 0px;
+}
+
+.banner-list-left2{
+	width: 200px;
+	height: 40px;
+	margin-top: 25px;
+	position: relative;
+}
+.banner-list-left2 img{
+	margin-left: 20px;
+}
+.banner-list-left2 dl{
+	position: absolute;
+	left: 70px;
+	top: 0px;
+}
+
+.banner-list-left3{
+	width: 200px;
+	height: 40px;
+	margin-top: 25px;
+	position: relative;
+}
+.banner-list-left3 img{
+	margin-left: 20px;
+}
+.banner-list-left3 dl{
+	position: absolute;
+	left: 70px;
+	top: 0px;
+}
+
+.banner-list-left4{
+	width: 200px;
+	height: 40px;
+	margin-top: 25px;
+	position: relative;
+}
+.banner-list-left4 img{
+	margin-left: 20px;
+}
+.banner-list-left4 dl{
+	position: absolute;
+	left: 70px;
+	top: 0px;
+}
+
+
+.banner-list-right{
+	width: 900px;
+	height: 763px;
+	/* border: 1px solid #323232; */
+	position: relative;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	background-color: white;
+	padding: 0 40px 0 40px;
+}
+
+.banner-list-rights{
+	width: 162px;
+	height: 40px;
+	position: absolute;
+	right: 40px;
+	top: 20px;
+	background-color: white;
+}
+
+.banner-list-rights ul{
+	list-style-type: none;
+	/* position: absolute;
+	right: -52px;
+	top: 10px; */
+}
+.banner-list-rights li{
+	float: left;
+}
+.banner-list-rights .li{
+	margin-top: 9px;
+}
+.banner-list-rights li a{
+	display: block;
+	width: 44px;
+	height: 44px;
+	background: url(../../img/zs_r_icon8899.jpg);
+}
+.banner-list-rights li a:hover{
+	background: url(../../img/zs_r_icon8898.jpg);
+}
+.banner-list-rights .content-right-okl{
+	width: 44px;
+	height: 44px;
+	background: url(../../img/zs_r_icon8855.jpg);
+}
+.banner-list-rights .content-right-okl:hover{
+	background: url(../../img/zs_r_icon8856.jpg);
+}
+
+
+
+.banner-list-rights img{
+	margin-top: 13px;
+	margin-left: 25px;
+}
+.banner-list-rights span{
+	margin-left: 10px;
+	color : #666;
+	font-size: 14px;
+}
+.banner-list-right h1{
+	margin-top: 100px;
+	margin-left: 17px;
+}
+.banner-list-right ul{
+	list-style-type: none;
+	margin-top: 30px;
+	margin-left: 17px;
+}
+.banner-list-right li{
+	margin-top: 15px;
+}
+.banner-list-rightsl{
+	width: 864px;
+	height: 402px;
+	border: 1px solid #ccc;
+	margin-top: 30px;
+	margin-left: 17px;
+}
+.banner-list-rightsl img{
+	width: 864px;
+	height: 402px;
+}
+
+
+
+
+
+

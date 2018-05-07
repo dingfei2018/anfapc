@@ -1,0 +1,222 @@
+
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Microsoft YaHei";
+}
+
+
+.main-right img{
+	 width : 750px;
+}
+
+/* .active {
+    background: url(../../img/youce.png) repeat-y;
+} */
+
+/*濠电姷鏁搁崑鐐哄垂閸洖绠归柍鍝勬噹閻鏌涢幇鈺佸婵炴垯鍨归柨銈嗕繆閵堝繑瀚圭紓渚婃嫹闁告劦鍠楅悡鏇熺箾閹存繂鑸圭�殿噣绠栭弻娑㈡偄闁垮鏋犻梺鍝勭焿缂嶄焦淇婇幖浣肝ㄩ柕澶樺枙缁辨棃姊绘担渚劸閻庢稈鏅犻獮鎰板礃閼碱剚娈惧┑顔筋焾閸╂牠寮查幖浣圭叆闁绘洖鍊圭�氾拷*/
+.content{
+	width: 1200px;
+	height: 638px;
+	 /* border: 1px solid #323232; */ 
+	margin: auto;
+	margin-top: 25px;
+	position: relative;
+}
+
+.content-right{
+	width: 1000px;
+	height: 638px;
+	position: absolute;
+    right: 0;
+    top: 0;
+    border: 1px solid #dfdfdf;
+}
+.content-right .content-right-p {
+    height: 30px;
+    background: url(../../img/daohangtiao.png) repeat-x;
+    line-height: 30px;
+    text-indent: 16px;
+    margin-top: 2px;
+    color: #666;
+    font-size: 14px;
+    font-family: "Microsoft Yahei";
+    
+}
+.content-right strong {
+    margin-left: 4px;
+    font-family: "Microsoft Yahei";
+    font-size: 14px;
+}
+.content-right b {
+    font-weight: normal;
+    font-size: 14px;
+    color: #3974f8;
+    margin-left: 1px;
+    font-family: "Microsoft Yahei";
+}
+
+.content-right-top{
+	width: 1000px;
+	height: 638px;
+	border-top: 1px solid white;
+}
+.content-right-top ul{
+	list-style-type: none;
+	margin: 25px 0 0 30px;
+}
+.content-right-top li{
+	width: 150px;
+	height: 36px;
+	float: left;
+	/* border: 1px solid #323232; */
+}
+ .content-right-top #content-right-top-a{
+	display: inline-block;
+	width: 150px;
+	height: 36px;
+	text-align: center;
+	line-height: 36px;
+	color : #323232;
+	text-decoration: none;
+} 
+
+#gtn{
+	display: inline-block;
+	width: 46px;
+	height: 24px;
+	line-height: 24px;
+	background: #3974f8;
+	text-decoration: none;
+	color: white;
+	border-radius: 3px;
+	font-size: 12px;
+	font-family: "Microsoft YaHei";
+}
+#gtn:hover{
+	background-color: #ff7801;
+}
+#gtns{
+	display: inline-block;
+	width: 46px;
+	height: 24px;
+	line-height: 24px;
+	border: 1px solid #3974f8;
+	margin-left: 10px;
+	color: #3974f8;
+	border-radius: 3px;
+	font-size: 12px;
+	text-decoration: none;
+	font-family: "Microsoft YaHei";
+}
+#gtns:hover{
+	background-color: #3974f8;
+	color: #fff;
+}
+.content-right-top button{
+	width: 150px;
+	height: 38px;
+	cursor: pointer;
+	background-color: white;
+	border: 1px solid #323232;
+}
+.content-right-top button:hover{
+	background: url(../../img/huiyuan.png) repeat-x;
+	color: white;
+}
+.content-right-top p{
+	margin-top: 120px;
+	margin-left: 423px;
+}
+.content-right-top table{
+	 
+    height: 100px;
+    margin-top: 30px;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.content-right-top th{
+	font-weight: normal;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-bottom: 1px solid #C8C8C8;
+	border-top: 1px solid #C8C8C8;
+	color: #969696;
+	font-size: 14px;
+}
+.content-right-top td{
+	height: 40px;
+	/* line-height: 40px; */
+	border-bottom: 1px solid #C8C8C8;
+	text-align: center;
+	font-size: 14px;
+}
+.content-right-top .content-right-td{
+	color: red;
+}
+
+.content-right ul {
+    list-style-type: none;
+    height: 54px;
+    padding-top: 16px;
+    width: 925px;
+    margin: auto;
+    border-bottom: 1px solid #dcdcdc;
+}
+.content-right li{
+	float: left;
+	height: 54px;
+	width: 93px;
+	text-align: center;
+	line-height: 54px;
+}
+.content-right li a{
+	/* color : #323232; */
+	text-decoration: none;
+	font-size: 16px;
+	
+		display: block;
+	color: #333;
+	
+	height: 54px;
+	width: auto;
+	text-align: center;
+	line-height: 54px;
+	
+}
+.content-right li a:hover{
+	display: block;
+	color: #3974f8;
+
+	font-size: 16px;
+	
+	height: 54px;
+	width: auto;
+	text-align: center;
+	line-height: 54px;
+}
+
+.content-right li a.active{
+	display: block;
+	font-weight: bold;
+	color: #3974f8;
+
+	border-bottom: 1px solid #3974f8;
+	font-size: 18px;
+	
+	height: 54px;
+	width: auto;
+	text-align: center;
+	line-height: 54px;
+	
+}
+
+
+
+
+

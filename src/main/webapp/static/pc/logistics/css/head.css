@@ -1,0 +1,277 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family:'Microsoft YaHei','寰蒋闆呴粦';
+}
+
+
+/*忙戮露忙鈥櫬モ�灺疵┞惵モ�孤モ�澛疵р偓鹿茂驴陆*/
+
+.heads{
+	width: 100%;
+	height: 44px;
+	border-bottom: 1px solid #dcdcdc;
+	font-size: 12px;
+}
+.heads-test{
+	width: 1200px;
+	height: 44px;
+	margin: auto;
+	position: relative;
+}
+.heads-test a{
+	font-size: 12px;
+}
+.heads-test-img{
+	margin-top: 13px;
+	margin-left: 0px;
+}
+.heads-test ul{
+	list-style-type: none;
+	position: absolute;
+	left: 47px;
+	top: 12px;
+}
+.heads-test li{
+	float: left;
+	margin-left: 17px;
+}
+.heads-test .heads-test-li{
+	margin-left: 0px;
+	cursor: pointer;
+}
+.heads-test .heads-test-li a{
+	color: #666;
+	font-size: 14px;
+	cursor: pointer;
+}
+.heads-test a{
+	text-decoration: none;
+	color : #3974f8;
+	font-size: 14px;
+}
+
+.heads-test a:hover{
+	color : #3974f8;
+}
+.heads-test .head-right {
+    width: 200px;
+    height: 40px;
+    position: relative;
+    position: absolute;
+    right: 0px;
+    top: -5px;
+}
+.head-right ul li{ margin-left: 20px; height: 19px; line-height: 19px;}
+.head-right ul li a{ color: #666;font-size: 12px; margin-left: 5px;}
+.heads-test .head-right ul{
+	position: absolute;
+	left: 6px;
+	top: 17px;
+}
+.heads-test .head-right img{
+	float: left;
+	margin-top: 3px;
+}
+.head-kgn{
+	width: auto;
+	height: auto;
+	/* background: #0461be; */
+	margin: auto;
+	position: relative;
+	position: absolute;
+	right: 0px;
+	bottom: 20px;
+}
+.head-kgn ul{
+	list-style-type: none;
+}
+.head-kgn li{
+	float: left;
+	width: auto;
+	height: auto;
+	line-height: auto;
+	margin-left: 28px;
+}
+.head-kgn a:hover{
+	color: #006edc;
+}
+#active{
+	color: #006edc;
+	
+}
+.head-kgn a{
+	display: inline-block;
+    text-decoration: none;
+    color: #666;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-size: 14px;
+}
+.head-kgn-right{
+	width: 180px;
+	height: auto;
+	background-color: #e00a0a;
+	position:relative;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	line-height: auto;
+	text-align: center;
+}
+.head-kgn-right:hover{ background: #f00;}
+.head-kgn-right a{	text-indent: 70px; width: 180px; text-align: left; line-height: 47px;}
+.head-kgn-right img{
+	position: absolute;
+	left: 45px;
+	top: 7px;
+}
+
+.header {
+	width: 1200px;
+	height: 110px;
+	margin: auto;
+	position: relative;
+}
+
+.header .header-ul{
+	list-style-type: none;
+	position: absolute;
+	left: 0px;
+}
+.header .header-ul li{
+	float: left;
+	width: 35px;
+	padding-left: 97px;
+	height: 24px;
+	margin-top: 0px;
+}
+.header .header-ul li a{
+	display: block;
+
+	margin-top: 5px;
+	text-decoration: none;
+	color : white;
+	width: 35px;
+	text-align: center;
+	font-size: 12px;
+}
+.header .header-li{
+	background: url(../../img/zs_com_icon1.jpg);
+
+}
+.header .header-lis{
+	background: url(../../img/zs_com_icon2.jpg);
+	
+	margin-left: 19px;
+}
+.header h1 {
+	width: 800px;
+	height: 53px;
+	padding-top:13px;
+	color: #000;
+	text-indent: 0px;
+	font-size: 30px;
+}
+
+.header-right {
+	width: 283px;
+	height: auto; 
+	position: relative;
+	position: absolute;
+	right: 0px;
+	text-align: center;
+	top: 20px;
+}
+.header-right p{
+    text-align: center;
+    color: #9e1d1d;
+    padding-bottom: 5px;
+    font-size: 19px;
+    position: absolute;
+    left: 7px;
+    top: 4px;
+    text-indent: 17px;
+}
+.header-right img{
+    margin-right: 290px;
+	margin-top:9px; 
+}
+.header-right b{
+	font-weight: normal;
+    text-align: center;
+    font-size: 24px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    color: #9e1d1d;
+}
+.header-right span {
+	color: red;
+}
+.head-list{
+	margin-top: 20px;
+}
+.head-stu{
+	width: 1200px;
+	height: 40px;
+	margin: auto;
+	line-height: 40px;
+	position: relative;
+	background-color: #0461be;
+}
+.head-stu button{
+	width: 190px;
+    height: 40px;
+    background-color : #e00a0a;
+    position: absolute;
+    right: 0;
+    top: 0px;
+    border: 0;
+    color : white;
+    cursor: pointer;
+}
+.head-list ul {
+	list-style-type: none;
+	margin-top: 10px;
+	margin: auto;
+}
+
+.head-list a {
+	display: inline-block;
+	width: 150px;
+	height: 40px;
+	text-decoration: none;
+	color: #323232;
+	font-size: 16px;
+	
+}
+.head-list a:hover{
+	color: white;
+}
+.head-list li {
+	width: 150px;
+	height: 40px;
+	float: left;
+	line-height: 40px;
+	text-align: center;
+	cursor: pointer;
+	background-color: #0461be;
+}
+.head-list li:hover{
+	background: #0024FF;
+}
+.head-right-span{
+	position: absolute;
+	right: 13px;
+	bottom: -3px;
+	display: none;
+}
+
+.head-right-spans{
+	position: absolute;
+	right: 106px;
+	bottom: -3px;
+    display: none;
+}

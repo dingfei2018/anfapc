@@ -1,0 +1,73 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Microsoft YaHei" ! important;
+}
+
+.main-right img{
+	 width : 860px;
+}
+
+/*涓棿鐨勫唴瀹�*/
+.content{
+	width: 1200px;
+	height: auto;
+	overflow: hidden;
+	margin: auto;
+	margin-top: 20px;
+	position: relative;
+}
+
+li.active a{
+	color: #0066FF;
+	font-weight: bold;
+}
+
+.content-right{
+	border: 1px solid #dfdfdf; 
+	width: 995px;
+	height: auto;
+	min-height: 500px;
+	overflow: hidden;
+    float: right;
+}
+.content-right .conr_titles{
+	width: 300px;
+	height: 200px;
+	/* border: 1px solid red; */
+	margin: auto;
+}
+.content-right .conr_titles label{
+	display: inline-block;
+	margin-left: 30px;
+	margin-top: 22px;
+}
+.content-right .conr_titles .conr_titles-input{
+	margin-left: 10px;
+}
+.content-right .conr_titles .conr_titles-inputt{
+	margin-left: -31px;
+}
+.content-right .conr_titles .conr_titles-inputts{
+	margin-left: -31px;
+}
+.content-right .conr_titles .conr_titles-inputs{
+	margin-left: 10px;
+}
+.content-right button{
+	margin: 50px 0 0 385px;
+	cursor: pointer;
+    width: 190px;
+    height: 40px;
+    /* background: url(../../img/youce.png) repeat-y; */
+    background-color: #3974f8;
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    font-family: "Microsoft YaHei";
+}
+.content-right button:hover{
+	background-color: #ff7801; 
+}

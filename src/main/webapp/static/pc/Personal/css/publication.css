@@ -1,0 +1,240 @@
+
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Microsoft YaHei" ! important;
+}
+
+.main-right img{
+	 width : 864px;
+	 height: 162px;
+}
+
+.active a{
+    /* background: url(../../img/youce.png) repeat-y; */
+    font-weight: bold;
+    /* border-bottom: 1px solid blue; */
+    color: blue;
+} 
+
+
+/*婵犵數濮烽弫鎼佸磻閻愬搫鍨傞柛顐ｆ礀缁犲綊鏌嶉崫鍕櫣闁活厽顨婇弻娑㈠箛閳轰礁顥嬪┑鐐村灟閸ㄥ綊鏌ㄩ妶鍡曠箚闁靛牆绻戠�氬湱绱撴笟濠冨闂佸憡鍔﹂崰妤呮偂閺囩喓绠鹃柟瀛樼箓閼稿湱锟芥鍣ｇ粻鏍蓟濞戙垺鍋勯梺鍨儏閺嬬娀姊洪崫鍕効缂傚秳鐒︽穱濠囧箹娴ｈ倽銊╂煏婢舵ê鏋欑紒杈ㄦ濮婄粯鎷呮笟顖滃姼闁诲孩绋堥弲鐘荤嵁閹版澘绀冮柤纰卞墯濞堟儳鈹戦绛嬬劸闁糕晜鐗犲鏌ュ箹娴ｅ湱鍙嗛梺缁樻礀閸婂湱锟芥熬鎷�*/
+.content{
+	width: 1200px;
+    /* height: 838px; */
+    /* border: 1px solid #323232; */
+    margin: auto;
+    margin-top: 25px;
+    position: relative;
+    height: auto;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.content-right{
+	width: 1000px;
+    /* height: 838px; */
+    /* position: absolute; */
+    /* right: -2px; */
+    /* top: 0; */
+    border: 1px solid #d2d2d2;
+    height: auto;
+    overflow: hidden;
+    margin-left: 10px;
+    float: left;
+    padding-bottom: 50px;
+}
+
+.content-right ul {
+    list-style-type: none;
+    height: 54px;
+    padding-top: 16px;
+    width: 925px;
+    margin: auto;
+    border-bottom: 1px solid #dcdcdc;
+}
+.content-right li{
+	float: left;
+	height: 54px;
+	width: 93px;
+	text-align: center;
+	line-height: 54px;
+}
+.content-right li a{
+	/* color : #323232; */
+	text-decoration: none;
+	font-size: 16px;
+	display: block;
+	height: 54px;
+	width: auto;
+	text-align: center;
+	line-height: 54px;
+	
+}
+.content-right li a:hover{
+	display: block;
+	color: #3974f8;
+
+	font-size: 16px;
+	
+	height: 54px;
+	width: auto;
+	text-align: center;
+	line-height: 54px;
+}
+
+.content-right li a.active{
+	display: block;
+	font-weight: bold;
+	color: #3974f8;
+
+	border-bottom: 1px solid #3974f8;
+	font-size: 18px;
+	
+	height: 54px;
+	width: auto;
+	text-align: center;
+	line-height: 54px;
+	
+}
+
+
+.content-right-top{
+	width: 1019px;
+    /* height: 638px; */
+    height: auto;
+	
+}
+.content-right-top .content-right-top-p b{
+	font-weight: normal;
+	font-size: 14px;
+	color : #0066FF;
+}
+.content-right-top .content-right-top-p {
+	display: inline-block;
+	width: 1019px;
+    height: 30px;
+    background: url(../../img/daohangtiao.png) repeat-x;
+    line-height: 30px;
+    text-indent: 16px;
+    margin-top: 2px;
+    color: #666;
+    font-size: 14px;
+    font-family: "Microsoft Yahei";
+}
+.content-right-top a{
+	text-decoration: none;
+}
+.content-right-top ul{
+	list-style-type: none;
+	/* margin: 25px 0 0 30px; */
+	position: absolute;
+	left: 50px;
+	top: 60px;
+}
+.content-right-top li{
+	width: 150px;
+	height: 35px;
+	line-height: 35px;
+	float: left;
+	border: 1px solid #323232;
+    text-align: center;
+}
+.content-right-top li:hover{
+	background: url(../../img/huiyuan.png) repeat-x;
+}
+.content-right-top li a{
+	 display: inline-block;
+	 width: 150px;
+	 height: 35px;
+	 text-decoration: none;
+	 color : #323232;
+}
+
+#gtn{
+	display: inline-block;
+	width: 46px;
+	height: 24px;
+	line-height: 24px;
+	background: #3974f8;
+	text-decoration: none;
+	color: white;
+	border-radius: 3px;
+	font-size: 12px;
+	font-family: "Microsoft YaHei";
+}
+#gtn:hover{
+	background-color: #ff7801;
+}
+#gtns{
+	display: inline-block;
+	width: 46px;
+	height: 24px;
+	line-height: 24px;
+	border: 1px solid #3974f8;
+	margin-left: 10px;
+	color: #3974f8;
+	border-radius: 3px;
+	font-size: 12px;
+	text-decoration: none;
+	font-family: "Microsoft YaHei";
+}
+#gtns:hover{
+	background-color: #3974f8;
+	color: #fff;
+}
+
+.btn{
+	position: relative;
+}
+.btn img{
+	position: absolute;
+	left: 13px;
+	top: 14px;
+}
+.content-right-top li a:hover{
+	color : white;
+}
+.content-right-top .content-right-top-li{
+	border-right: 0px;
+}
+.content-right-top button{
+	width: 120px;
+	height: 40px;
+	cursor: pointer;
+	background-color: white;
+	border: 1px solid #323232;
+}
+.content-right-top button:hover{
+	background-color: #0024FF;
+	color: white;
+}
+.content-right-top p{
+	margin-top: 60px;
+	margin-left: 423px;
+}
+.content-right-top table{
+	width: 954px;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+.content-right-top th{
+	font-weight: normal;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-bottom: 1px solid #C8C8C8;
+	border-top: 1px solid #C8C8C8;
+	color: #969696;
+	font-size: 14px;
+}
+.content-right-top td{
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #C8C8C8;
+	text-align: center;
+	font-size: 14px;
+}

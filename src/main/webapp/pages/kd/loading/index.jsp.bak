@@ -1,0 +1,270 @@
+<%@ page contentType="text/html; charset=utf-8;" pageEncoding="utf-8"%>
+<%@ include file="/resources/includes/tags.jsp"%>
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>装车配载</title>
+		<link rel="stylesheet" href="${ctx}/static/kd/css/stowage.css?v=${version}">
+		<link rel="stylesheet" href="${ctx}/static/pc/src/loading.css" />
+		<link rel="stylesheet" href="${ctx}/static/pc/lightbox2/css/lightbox.min.css">
+		<link rel="stylesheet" href="${ctx}/static/pc/css/head2.css" />
+		<link rel="stylesheet" href="${ctx}/static/pc/css/footer.css" />
+		<link rel="stylesheet" href="${ctx}/static/pc/css/dropdown.css" />
+		<%@ include file="../common/commonhead.jsp" %>
+		<script src="${ctx}/static/kd/js/load.js?v=${version}"></script>
+		<script src="${ctx}/static/pc/src/loading.js"></script>
+	</head>
+	<body>
+		<%@ include file="../common/head2.jsp" %>
+		<%@ include file="../common/head.jsp" %>
+		<div class="banner">
+			<%@ include file="../common/fahuoleft.jsp" %>
+			<script type="text/javascript">
+		     $(function(){
+				  var _width=$("body").width();
+				  var _widths = $(".banner-left").width();
+				  var _widthd = _width - _widths - 80;
+				  parseInt(_widthd)
+				  $('.banner-right').css('width',_widthd+'px');
+		     });
+		     $(window).resize(function(){ 
+			   	  var Width = $(window).width();
+		  	      var _widths = $(".banner-left").width();
+		 		  var _widthd = Width - _widths - 80;
+		 		  parseInt(_widthd)
+		 		  $('.banner-right').css('width',_widthd+'px');
+		   	 });
+		    </script>
+			<div class="banner-right">
+				<ul>
+					<li>
+						<a href="javascript:;" class="active at">装车配载</a>
+					</li>
+					<li>
+						<a href="${ctx}/kd/loading/loadlist" class="at">发车列表</a>
+					</li>
+				</ul>
+				<div class="banner-right-daohang">
+					<img  src="${ctx }/static/kd/img/p_1.png" />
+				</div>
+				<div class="banner-right-list">
+					<form id="searchFrom" onsubmit="return false;">
+					<div class="div">
+					<span class="span">出发地：</span>
+					<div class="banner-right-list-liopc">
+						<div class="form-group">
+							<div style="position: relative;">
+							<input type="hidden" name="startCode">
+								<input id="city-picker2" class="form-control"
+									placeholder="请选择省/市/区" readonly type="text"
+									data-toggle="city-picker">
+							</div>
+							<script>
+									$(".city-picker-span").css("width","153px");
+							</script>
+						</div>
+					</div>
+					</div>
+					<div class="div">
+					<span class="span">到达地：</span>
+					<div class="banner-right-list-liopd">
+						<div class="form-group">
+							<div style="position: relative;">
+							<input type="hidden" name="endCode">
+								<input id="city-picker2" class="form-control" placeholder="请选择省/市/区" readonly type="text" data-toggle="city-picker">
+							</div>
+							<script>
+									$(".city-picker-span").css("width","153px");
+							</script>
+						</div>
+					</div>
+					</div>
+					<div class="div">
+					<span class="span">托运方：</span><input type="text" name="sendName" id="senderId"/>
+					</div>
+					<div class="div">
+					<span class="span">收货方：</span><input type="text" name="receiveName" id="receiveId"/>
+					</div>
+					
+					<div class="div">
+					 	<span class="span">运单号：</span><input class="input2" type="text" name="shipSn"/>  
+					  </div>
+					  <div class="div">
+					    <button id="search">查询</button>
+					    <input class="buttons" type="reset" value="重置"/>
+					  </div>
+					</form>
+				</div>
+				<div class="banner-right-list2">
+				<ul class="ul2">
+						<!-- <li><input type="checkbox" id="checkbox" class="selectAll"/><label for="checkbox">全选</label></li> -->
+						<li class="ul2-li">
+							<a href="javascript:;" class="banner-right-a3"  id="upAll">装车</a>
+						</li>
+					</ul>
+					<p class="banner-right-p">运单列表</p>
+					<div style="overflow: auto; width: 100%;">
+						<table border="0" class="tab_css_1"  id="loadId">
+							<thead>
+								<th><span>全选</span><input type="checkbox"  class="selectAll" ></th>
+								<th>序号</th>
+								<th>运单号</th>
+								<th>开单网点</th>
+								<th>出发地</th>
+								<th>到达地</th>
+								<th>托运方</th>
+								<th>收货方</th>
+								<th>体积</th>
+								<th>重量</th>
+								<th class="banner-right-padding">件数</th>
+								<th class="banner-right-th1">操作</th>
+							</thead>
+						</table>
+						<div id="page" style="text-align: center;">
+						</div>
+					</div>
+					
+				</div>
+				<div class="banner-right-list2">
+				<ul class="ul2">
+						<!-- <li><input type="checkbox"  class="selectAll"/>全选</li> -->
+						<li class="ul2-li">
+							<a href="javascript:;" class="banner-right-a3" id="removeAll">删除</a>
+						</li>
+					</ul>
+					<p class="banner-right-p">装车信息</p>
+					<div style="overflow: auto; width: 100%;">
+						<table border="0" class="tab_css_1"  id="unloadId">
+							<thead>
+								<th><span>全选</span><input type="checkbox"  class="selectAll" /></th> 
+								<th>序号</th>
+								<th>运单号</th>
+								<th>开单网点</th>
+								<th>出发地</th>
+								<th>到达地</th>
+								<th>托运方</th>
+								<th>收货方</th>
+								<th>体积</th>
+								<th>重量</th>
+								<th class="banner-right-padding">件数</th>
+								<th class="banner-right-th1">操作</th>
+							</thead>
+						</table>
+					</div>
+					
+				</div>
+               <div class="banner-right-list3">
+               	 <p class="banner-right-p">司机信息</p>
+                	<div class="div">
+                		<span class="span">车牌号：</span><input type="text" name="truck_id_number" id="truck_id_number"/><span class="red" id="truck_id_numberId">*</span>
+					</div>
+					<div class="div">
+					<span class="span">司机：</span><input type="text" name="truck_driver_name" id="truck_driver_name"/><span class="red">*</span>
+					</div>
+					<div class="div">
+					<span class="span">司机电话：</span><input type="text" name="truck_driver_mobile" id="truck_driver_mobile"/><span class="red">*</span><br />
+					</div>
+					<div class="content-right-tem2" data="scrol">
+						<span>车辆资料 :</span>
+					<div class="gtu1">  
+				      <div class="gtu2">
+							<img class="gtu2-img" src="${ctx}/static/kd/img/pic-iu.png">
+				      </div>
+				      <div class="gtu3">
+				      	<input type="hidden" data="img" name="filename1">
+				        <img class="imgs" src="${ctx}/static/kd/img/add00.png">
+				         <a href="javascript:;" id="file">上传电脑中图片
+						    <input type="file" name="file" id="">
+						 </a>   
+				      </div>
+				   </div>
+				</div><br />
+				<button class="banner-right-list3-button" onclick="addtr()">继续添加</button>
+				<script>
+					var otr = $(".gtu1").eq(0).clone();
+					function addtr(){
+					   var tr = otr.clone();
+					   var size = $("input[data='img']").length+1;
+					   tr.find("input[data='img']").attr("name", "filename"+size);
+					   tr.appendTo(".content-right-tem2");
+					}
+				</script>
+               </div>
+               <div class="banner-right-list4">
+               	   <p class="banner-right-p">费用</p>
+               	   <span>运输类型 : </span>
+               	   <select name="load_transport_type" id="load_transport_type">
+               	   <option value="1">提货</option>
+               	   <option value="2">短驳</option>
+               	   <option value="3" selected="selected">干线</option>
+               	   <option value="4">送货</option>
+               	   </select><span class="red">*</span>
+               	   <span>运费 : </span><input type="text"  name="load_fee" id="load_fee" onkeyup="this.value=this.value.replace(/\D/g,'')"  onafterpaste="this.value=this.value.replace(/\D/g,'')" /><span class="red">*</span>
+               	   <span>分摊方式 : </span>
+               	   <select name="load_fee_allocation_way">
+               	   <option value="2">按体积</option>
+               	   <option value="3">按重量</option>
+               	   <option value="1">按单</option>
+               	   </select><span class="red">*</span>
+               </div>
+               <div class="banner-right-list5">
+               	   <p class="banner-right-p">发车信息</p>
+               	 <div class="banner-right-list5-float">
+							<span class="span">配载网点 : </span>
+		               	   <select class="select"  name="network_id"  id="network_id">
+		               	   		<option value="0">请选择网点</option>
+								<c:forEach items="${networks}" var="net">
+									<option value="${net.id}">${net.sub_network_name}</option>
+								</c:forEach>
+		               	   </select><span class="red">*</span>  
+					<span class="span-5">到货网点 : </span>
+		               	   <select name="load_next_network_id"  id="load_next_network_id">
+		               	   		<option value="0">请选择网点</option>
+								<c:forEach items="${allnetWorks}" var="net">
+									<option value="${net.id}">${net.sub_network_name}</option>
+								</c:forEach>
+		               	   </select>  	
+		               <span class="span">发车时间 : </span><input name="load_depart_time" type="text" onclick="WdatePicker({dateFmt:'yyyy-MM-dd HH:mm:ss'})" value="${time}"/><span class="red">*</span>
+		             </div>    
+               	   <div class="banner-right-list-liopd">
+						<span class="span4">到达地：</span>
+						<div class="form-group" id="city2">
+							<div style="position: relative;">
+								<input type="hidden" name="load_delivery_to"  id="load_delivery_to">
+								<input id="city-picker2" class="form-control" placeholder="请选择省/市/区" readonly type="text" data-toggle="city-picker">
+							</div><span class="reds">*</span>
+							<script>
+								$(function(){
+									$(".city-picker-span").css("width","auto");
+								})
+							</script>
+						</div>
+					</div>
+               	   <div class="banner-right-list-liopc">
+						<span class="span4">出发地：</span>
+						<div class="form-group" id="city1">
+							<div style="position: relative;">
+								<input type="hidden" name="load_delivery_from"  id="load_delivery_from">
+								<input id="city-picker1" class="form-control" placeholder="请选择省/市/区" readonly type="text" data-toggle="city-picker">
+							</div><span class="reds">*</span>
+							<script>
+								$(function(){
+									$(".city-picker-span").css("width","auto");
+								})
+							</script>
+						</div>
+					</div>
+             	   
+               	   <div class="banner-right-list5-div">
+               	    <span>备注 : </span><textarea  name="load_remark" maxlength="45"></textarea>
+               	   </div>
+               	   </div>	
+               <div class="banner-right-list6">
+               	 <button class="banner-right-list6-list" id="fahuo">发车</button>
+               </div>
+			</div>
+		</div>
+		<%@ include file="../common/loginfoot.jsp" %>
+	</body>
+</html>

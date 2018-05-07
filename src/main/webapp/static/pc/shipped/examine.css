@@ -1,0 +1,131 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#NormalCss{background-image:url(../img/paixu_default.png);background-repeat:no-repeat;background-position:99% 43%; background-color: #B8D9EA; font-weight: normal; cursor: pointer;}
+#SortDescCsst{background-image:url(../img/paixu_down.png); background-repeat:no-repeat;background-position:99% 43%; background-color: #B8D9EA; font-weight: normal; color: red;}
+#SortAscCsst{background-image:url(../img/paixu_up.png);background-repeat:no-repeat;background-position:99% 43%; background-color: #B8D9EA; font-weight: normal; color: red;}
+
+#NormalCsss{background-image:url(../img/paixu_default.png);background-repeat:no-repeat;background-position:88% 43%; background-color: #B8D9EA; font-weight: normal;}
+#SortDescCsss{background-image:url(../img/paixu_down.png); background-repeat:no-repeat;background-position:88% 43%; background-color: #B8D9EA; font-weight: normal; color: red;}
+#SortAscCsss{background-image:url(../img/paixu_up.png);background-repeat:no-repeat;background-position:88% 43%; background-color: #B8D9EA; font-weight: normal; color: red;}
+
+#NormalCssc{background-image:url(../img/paixu_default.png);background-repeat:no-repeat;background-position:92% 43%; background-color: #B8D9EA; font-weight: normal;}
+#SortDescCssc{background-image:url(../img/paixu_down.png); background-repeat:no-repeat;background-position:92% 43%; background-color: #B8D9EA; font-weight: normal; color: red;}
+#SortAscCssc{background-image:url(../img/paixu_up.png);background-repeat:no-repeat;background-position:92% 43%; background-color: #B8D9EA; font-weight: normal; color: red;}
+
+#NormalCssd{background-image:url(../img/paixu_default.png);background-repeat:no-repeat;background-position:94% 43%; background-color: #B8D9EA; font-weight: normal;}
+#SortDescCssd{background-image:url(../img/paixu_down.png); background-repeat:no-repeat;background-position:94% 43%; background-color: #B8D9EA; font-weight: normal; color: red;}
+#SortAscCssd{background-image:url(../img/paixu_up.png);background-repeat:no-repeat;background-position:94% 43%; background-color: #B8D9EA; font-weight: normal; color: red;}
+
+#NormalCsso{background-image:url(../img/paixu_default.png);background-repeat:no-repeat;background-position:79% 43%; background-color: #B8D9EA; font-weight: normal;}
+
+/*濠电偞鍨堕幖鈺呭矗閸愩剮娑㈠锤濡や礁鍓梺鍛婃处閸嬪嫰寮崼鏇熷�甸柣褍鎲＄�氾拷*/
+.content{
+	width: 1200px;
+    margin: auto;
+    border: 1px solid #e4e4e4;
+    margin-top: 45px;
+    position: relative;
+    /* height: 600px; */
+    height: auto;
+    padding-bottom: 50px;
+}
+.content .p{
+	margin-top: -24px;
+}
+.content-top{
+	width: 1128px;
+	height: 72px;
+	border: 1px solid white;
+	margin: auto;
+	margin-top: 5px;
+	border-bottom: 1px solid #e4e4e4;
+	position: relative;
+}
+.content-top .span{
+	position: absolute;
+	right: 534px;
+    top: 25px;
+}
+.content-top .span2{
+    position: absolute;
+    right: 284px;
+    top: 25px;
+}
+.content-top .input{
+	width: 150px;
+    height: 24px;
+    position: absolute;
+    right: 369px;
+    top: 22px;
+    text-indent: 10px;
+    font-size: 12px;
+}
+.content-top .input2{
+	width: 150px;
+    height: 24px;
+	position: absolute;
+    right: 117px;
+    top: 22px;
+    text-indent: 10px;
+    font-size: 12px;
+}
+.content-top .button{
+	width: 46px;
+	height: 27px;
+	border-radius: 3px;
+	background-color: #3974f8;
+	color: #fff;
+	font-size: 12px;
+	border: none;
+	position: absolute;
+	right: 39px;
+    top: 22px;
+    cursor: pointer;
+}
+.content-top .button:hover{
+	background-color: #ff7801;
+}
+
+.content table{
+	width: 1128px;
+	height: auto;
+	border: 1px solid #fff;
+	margin: auto;
+    margin-top: 34px;
+    text-align: center;
+}
+.content th{
+	height: 36px;
+	font-weight: normal;
+	color: #999;
+	font-size: 14px;
+	background-color: #B8D9EA;
+}
+.content td{
+	height: 40px;
+	color: #666;
+	font-size: 14px;
+}
+.content td a{
+	color: #3974f8;
+	font-size: 14px;
+}
+.content .content-a{
+	display: inline-block;
+	width: 46px;
+	height: 24px;
+	background-color: #3974f8;
+	color: #fff;
+	font-size: 12px;
+	border-radius: 3px;
+	line-height: 24px;
+}
+.content .content-a:hover{
+	background-color: #ff7801;
+}
+
+

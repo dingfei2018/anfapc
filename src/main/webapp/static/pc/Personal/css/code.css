@@ -1,0 +1,95 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+input:-webkit-autofill {
+	         -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+
+.main-right img{
+	width: 860px;
+	height: 160px;
+}
+
+li.active a{
+	color: #0066FF;
+	font-weight: bold;
+}
+
+.content{
+	width: 1200px;
+	height: auto;
+	overflow: hidden;
+	margin: auto;
+	/* border: 1px solid #323232; */
+	margin-top: 20px;
+	position: relative;
+}
+
+
+.content-right{
+	 border: 1px solid #dfdfdf; 
+	width: 995px;
+	height: auto;
+	min-height: 500px;
+	overflow: hidden;
+float: right;}
+
+.content-right b{
+	font-weight: normal;
+    font-size: 14px;
+    color: #3974f8;
+    margin-left: 1px;
+    font-family: "Microsoft Yahei";
+}
+.content-right a{
+	margin-left: 20px;
+	text-decoration: none;
+	color: #0024FF;
+	font-size: 14px;
+}
+.content-right p {
+    height: 30px;
+    background: url(../../img/daohangtiao.png) repeat-x;
+    line-height: 30px;
+    text-indent: 16px;
+    margin-top: 2px;
+    color: #666;
+    font-size: 14px;
+    font-family: "Microsoft Yahei";
+}
+.content-right a {
+   text-decoration: none;
+}
+.content-right span{
+	width: 120px;
+	font-size: 14px;
+	color: #333;
+	margin-left: 273px;
+}
+.content-right input{
+	width: 350px;
+	height: 40px;
+	margin-top:60px;
+	color: #666;
+	text-indent: 15px;
+}
+.content-right button{
+	
+	margin: 47px 0 0 346px;
+	cursor: pointer;
+    width: 190px;
+    height: 40px;
+    /* background: url(../../img/youce.png) repeat-y; */
+    background-color: #3974f8;
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    font-family: "Microsoft YaHei";
+}
+.content-right button:hover{
+	background-color: #ff7801;
+}

@@ -1,0 +1,591 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family:'Microsoft YaHei';
+}
+
+/* .benner{
+	height: 910px;
+} */
+.benner-translate{
+	width: 1200px;
+	height: 350px;
+	margin : auto;
+}
+
+select {
+    border: 1px #cccccc solid;
+    color: #333;
+}
+input {
+    border: 1px #cccccc solid;
+}
+
+ .benner-translate{
+	width: 1200px;
+	height: auto;
+	overflow: hidden;
+	margin-top:50px;
+	position: relative;
+}
+.benner-translate-map{
+	width: 1198px;
+	height: auto;
+	border: 1px solid #dcdcdc;
+	margin-top: 20px;
+}
+.benner-translate ul{
+	list-style-type: none;
+	margin-top: 20px;
+	width: 100%;
+	height:auto;
+	overflow: hidden;
+}
+.benner-translate li{
+	float: left;
+	text-align: center;
+	height: 30px;
+	font-size: 14px;
+	line-height: 30px;
+}
+.benner-translate li.ld { padding-left:6px;}
+
+
+.benner-translate li .ld{
+    display: block;
+	width: 116px;
+	height: 28px;
+	text-align: center;
+	line-height: 28px;
+	text-decoration: none;
+	background-color: #fff;
+	border-top-left-radius:4px;
+	border-bottom-left-radius:4px;
+	border:1px #969696 solid;
+	color : #323232;
+}
+
+
+.benner-translate li.active .ld{
+	background-color: #3974f8;
+    color: white;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    height: 28px;
+    border-top-right-radius: 0px;
+    border: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.benner-translate #active{
+	background-color: #3974f8;
+    color: white;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    height: 28px;
+    border-top-right-radius: 0px;
+    border: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+
+.benner-translate li .zc{
+
+	display: block;
+	width: 116px;
+	height: 28px;
+	text-align: center;
+	line-height: 28px;
+	text-decoration: none;
+	background-color: #fff;
+	border-top-right-radius:4px;
+	border-bottom-right-radius:4px;
+	border:1px #969696 solid;
+	border-left:0px;
+	color : #323232;
+}
+
+
+.benner-translate li.active .zc{
+	background-color: #3974f8;
+    color: white;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    height: 28px;
+    border-top-right-radius: 4px;
+    border: 0px;
+    border-bottom-right-radius: 4px;
+}
+
+.benner-translate li input:hover{
+	background-color: #3974f8;
+	color : white;
+	border: 1px #3974f8 solid;
+	cursor: pointer;
+}
+
+#hairfulladdress{
+	width: 440px;
+    text-indent: 15px;
+    height: 25px;
+    border: 1px #cccccc solid;
+}
+#closedfulladdress{
+	width: 440px;
+    text-indent: 15px;
+    height: 25px;
+    border: 1px #cccccc solid;
+
+}
+.benner-translate h1{
+	font-size: 19px;
+}
+.benner-translate p{
+	margin-left: 30px;
+	margin-top: 36px;
+	font-size: 14px;
+	font-weight: bold;
+}
+#ids{
+	background-color: #e5e5e5;
+	margin-left: 0px;
+	height: 40px;
+    line-height: 40px;
+	text-align: center;
+}
+#ids b{
+	margin: 10px;
+	color: red;
+}
+.benner-opsan{
+	background: url(../img/zsxd_icon1.jpg) no-repeat;
+    padding-left: 30px;
+    font-size: 16px;
+    color: #3974f8;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.benner-translate span{
+	    margin-left: 10px;
+    color: red;
+    font-size: 12px;
+    text-decoration: none;
+	font-weight: bold;
+}
+.benner-translate a{
+    display: inline-block;
+    width: auto;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: bold;
+	float: right;
+	margin-left: 770px;
+    text-decoration: none;
+    font-size: 12px;
+    color: #3974f8;
+    border: 1px solid #3974f8;
+    border-radius: 3px;
+}
+.benner-translate a:hover { background-color:#3974f8; color: #fff;}
+
+.benner-translate .a{
+    display: inline-block;
+    width: auto;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: bold;
+	float: right;
+	margin-left: 901px;
+    text-decoration: none;
+    font-size: 12px;
+    color: #3974f8;
+    border: 1px solid #3974f8;
+    border-radius: 3px;
+}
+.benner-translate .a:hover { background-color:#3974f8; color: #fff;}
+
+#location{
+	margin-top: 34px;
+	padding-left: 47px;
+    font-size: 14px;
+}
+#location b{
+	margin-left: 136px;
+	font-weight: normal;
+}
+#location select{
+	width: 100px;
+    border: 1px #cccccc solid;
+    color: #666;
+    height: 25px;
+}
+#locations{
+	margin-top: 25px;
+	padding-left: 47px;
+    font-size: 14px;
+}
+#locations b{
+	margin-left: 136px;
+	font-weight: normal;
+
+}
+#locations select{
+	width: 100px;
+	border: 1px #cccccc solid;
+    color: #666;
+    height: 25px;
+        
+}
+
+
+.benner-gunp{
+	width: 1198px;
+	
+	border: 1px solid #dcdcdc;
+	margin: auto;
+	margin-top: 45px;
+}
+.benner-gunp p{
+	    margin: 10px 0 0 27px;
+    background: url(../img/zsxd_icon2.jpg) no-repeat;
+    padding-left: 30px;
+    font-size: 16px;
+    color: #3974f8;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.benner-gunp table{
+	width: 100%;
+	text-align: center;
+	margin-top: 40px;
+    margin-bottom: 40px;
+}
+.benner-gunp th{
+	color: #999;
+	    font-size: 14px;
+    padding-bottom: 10px;
+	font-weight: normal;
+}
+.benner-gunp td{
+	height: 50px;
+	font-size: 14px;
+}
+
+
+
+
+
+.benner-translatet{
+	width: 1198px;
+    margin: auto;
+	position: relative;
+	border: 1px solid #dcdcdc;
+	margin-top: 45px;
+}
+
+.benner-translatet p{
+	font-size: 24px;
+	font-weight: bold;
+	margin: 25px 0 0 35px;
+}
+
+.benner-translatet p.ts {
+	display: block;
+    margin: 10px 0 0 0px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #999;
+    width: 100%;
+    text-align: center;
+    height: 30px;
+    padding-top: 30px;
+}
+
+.benner-translatet .benner-translatet-span{
+	    margin-left: 10px;
+    color: red;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.benner-translatet input{
+	width: 50px;
+	height: 20px;
+	text-align: center;
+}
+
+.benner-translatet input.del {
+    width: 50px;
+    height: 24px;
+    line-height: 24px;
+    color: #666;
+    font-size: 12px;
+    cursor: pointer;
+    background-color: #d4d4d4;
+    border-radius: 3px;
+}
+
+.benner-translatet input.del:hover{
+	background-color: #3974f8;
+	border: 0px;
+	color: #fff;
+}
+
+#btn{
+	width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 24px;
+    text-align: center;
+    line-height: 24px;
+    font-size: 12px;
+    color: #3974f8;
+    border: 1px #3974f8 solid;
+    padding-top: 0px;
+    border-radius: 3px;
+    background: none;
+    margin-left: 10px;
+}
+
+#btn:hover{
+	background-color: #3974f8;
+	color: #fff;
+	cursor: pointer;
+	
+}
+
+.benner-translatet-table{
+	width: 1013px;
+	margin-top: 45px;
+}
+
+.benner-translatet-table th{
+	text-align: center;
+	font-weight: normal;
+	color: #999;
+    font-size: 14px;
+}
+.benner-translatet-table td{
+	height: 50px;
+	text-align: center;
+}
+.benner-translatet-table span{
+	color: red;
+}
+.benner-translatet-button{
+	position: absolute;
+	right: 24px;
+	top: 70px;
+	
+}
+.benner-translatet-buttons{
+	position: absolute;
+	right: 96px;
+	top: 144px;
+	width: 50px;
+	height: 30px;
+	background: white;
+	color: #0000FF;
+}
+.benner-translatet-button button{
+	width: 50px;
+	height: 30px;
+	background: white;
+	color: #0000FF;
+}
+.benner-translatet-button a{
+	text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    display: block;
+    float: left;
+    line-height: 24px;
+    height: 24px;
+    background-color: #3974f8;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 3px;
+}
+
+.benner-translatet-button a:hover{
+	background-color: #ff7800;
+}
+
+
+#totalInfos{
+	width: 1200px;
+	background-color: #e5e5e5;
+	height: 40px;
+    line-height: 40px;        
+	position: relative;
+}
+
+.benner-translatet ul{
+	ist-style-type: none;
+    color: #333;
+    margin: auto;
+    width: auto;
+    padding-left: 350px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+}
+.benner-translatet li{
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 20px;
+	list-style: none;
+	
+}
+.benner-translatet-li{
+	color: #E4EBF3;
+	font-size: 14px;
+}
+.benner-translatet span{
+	display: inline-block;
+	font-size: 16px;
+	color: red;
+}
+.benner-translatet b{
+	font-size: 16px;
+    background: url(../img/zsxd_icon3.jpg) no-repeat;
+}
+
+.benner-translateg{
+	width: 1200px;
+	height: 195px;
+	position: relative;
+	margin: auto;
+	border: 1px solid #dcdcdc;
+	margin-top: 20px;
+}
+.benner-opsans{
+    background: url(../img/zsxd_icon5.jpg) no-repeat;
+    padding-left: 30px;
+    font-size: 16px;
+    color: #3974f8;
+    margin-top: 20px;
+    font-weight: bold;
+ }
+.benner-translateg p{
+	margin: 30px 0 0 35px;
+}
+.benner-translateg span{
+    margin-left: 10px;
+    color: red;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.benner-translateg-table{
+	width: 862px;
+    margin-top: 30px;
+}
+
+.benner-translateg-table td{
+	height: 40px;
+	margin-top: 10px;
+	text-align: center;
+	font-size: 14px;
+    color: #333;
+}
+.benner-translateg-table input{
+	height: 25px;
+    width: 200px;
+}
+
+.benner-buttont{
+	width: 1200px;
+	height: 60px;
+	margin: auto;
+	margin-top: 32px;
+	background-color: #e5e5e5;
+	line-height: 60px;
+	font-size: 14px;
+    font-weight: bold;
+}
+#btnu{
+	margin-left: 50px;
+}
+.benner-buttont #btns{
+	    width: 190px;
+    height: 40px;
+    margin-left: 319px;
+    border: 0;
+    background: #3974f8;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    margin-top: 11px;
+} 
+.benner-buttont #btns:hover{
+	background: #ff7800;
+	cursor: pointer;
+}
+
+
+/*第三个内容的DIV*/
+.benner-translateo{
+	width: 1198px;
+	height: auto;
+	font-size: 14px;
+	margin: auto;
+	padding-bottom: 70px;
+	margin-top: 20px;
+	border: 1px solid #dcdcdc;
+	overflow: hidden;
+	position: relative;
+}
+.benner-translateo p{
+	margin-top: 20px;
+	margin-left: 35px;
+	clear: both;
+}
+.benner-translateo span{
+	margin-left: 66px;
+}
+.benner-translateo select{
+	margin-top: 20px;
+
+}
+.benner-translateo input{
+	    height: 30px;
+    margin-left: 5px;
+}
+.benner-translateo b{
+	/* background: url(../../img/zsxd_icon3.jpg) no-repeat; */
+}
+.benner-translateo strong{
+	margin-left: 10px;
+	font-weight: normal;
+	color: #999;
+}
+.benner-translateo textarea{
+	width: 500px;
+    height: 60px;
+    margin-top: 20px;
+    position: absolute;
+    left: 142px;
+	border: 1px #cccccc solid;
+    bottom: 28px;
+	
+
+}
+.benner-translateo .benner-translateo-span{
+	display:inline-block;
+}
+
+.zc_txt { width:auto; height: auto; overflow: hidden; clear: both;    margin-top: 25px; }
+.zc_txt b {	color: #333;
+	padding-left: 5px;
+	font-weight: normal;}

@@ -1,0 +1,79 @@
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.banner{
+	width: 1200px;
+	height: auto;
+	border: 1px solid #ccc;
+	margin: auto;
+	padding-bottom: 40px;
+}
+.banner h1{
+	text-align: center;
+}
+.banner .banner-list{
+	width: 1200px;
+	height: 150px;
+	border: 1px solid #ccc;
+	margin-top: 20px;
+	border-left: none;
+	border-right: none;
+}
+.banner .banner-list table{
+	width: 100%;
+	height: 150px;
+	text-indent: 20px;
+}
+
+.banner .banner-list2{
+	width: 1200px;
+	height: auto;
+	border: 1px solid #ccc;
+	margin-top: 20px;
+	border-left: none;
+	border-right: none;
+}
+.banner .banner-list2 table{
+	width: 100%;
+	height: auto;
+	text-indent: 20px;
+	text-align: center;
+}
+.banner .banner-list3{
+	width: 1200px;
+	height: 150px;
+	border: 1px solid #ccc;
+	margin-top: 20px;
+	border-left: none;
+	border-right: none;
+	text-indent: 20px;
+}
+.banner .banner-list3 table{
+	width: 100%;
+	height: 150px;
+	text-indent: 63px;
+	text-align: left;
+}
+
+.banner .button {
+	margin-left: 546px;
+}
+.banner button {
+	width: 120px;
+	height: 40px;
+	margin-top: 60px;
+	font-size: 18px;
+	color: #fff;
+	border: none;
+	background-color: #3974f8;
+	cursor: pointer;
+}
+.banner button:hover{
+	background-color: #ff7801;
+}
+
+
+

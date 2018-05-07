@@ -1,0 +1,90 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*杞挱鐨勫唴瀹�*/
+.main{
+	width: 1200px;
+	height: 160px;
+	margin: auto;
+	border: 1px solid #323232;
+	position: relative;
+	margin-top: 20px;
+}
+.main-left{
+	width: 450px;
+	height: 160px;
+	border-right: 1px solid #323232;
+	position: relative;
+}
+.main-left p{
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+	color: red;
+	text-align: center;
+	position: absolute;
+	right: 15px;
+	bottom: 15px;
+	cursor: pointer;
+}
+.main-left img{
+	margin: 30px 0 0 30px;
+}
+.main-right{
+	width: 750px;
+	height: 160px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	text-align: center;
+	line-height: 160px;
+	overflow: hidden;
+}
+.main-right ul{
+	list-style-type: none;
+}
+.main-right li{
+	float: left;
+}
+
+/*涓棿鐨勫唴瀹�*/
+.content{
+	width: 1200px;
+	height: 830px;
+	margin: auto;
+	border: 1px solid #323232;
+	margin-top: 20px;
+	position: relative;
+}
+/*logo鍥剧墖*/
+.content-img{
+	width: 315px;
+	height: 140px;
+	margin: 20px 0 0 35px;
+	background: url(../../img/image_hotline.png) no-repeat;
+}
+.content-ul{
+	width: 1200px;
+	height: 50px;
+	/*border: 1px solid red;*/
+	margin-top: 63px;
+}
+.content-ul ul{
+	list-style-type: none;
+}
+.content-ul ul a{
+	text-decoration: none;
+	color: #323232;
+}
+.content-ul li{
+	float: left;
+	margin-left: 80px;
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	background: url(../../img/image_QQ.png) no-repeat -5px -1px;
+	text-align: center;
+}

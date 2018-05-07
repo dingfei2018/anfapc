@@ -1,0 +1,24 @@
+<% var content = { %>
+       <!-- 数据列表 -->
+		<tbody>
+			<% for(item in hotLines){ %>
+				<tr>
+				<td>${itemLP.index }</td>
+					<%  // 列表内容 %>
+					<td>${item.from_addr}</td>
+					<td>${item.to_addr}</td> 
+					<td>${item.corpname}</td>
+					<td>${item.credit}</td> 
+					<td>${item.feedback}%</td> 
+					<td>${item.price_heavy}</td> 
+					<td>${item.price_small}</td> 
+					<td>1天${item.frequency}次</td> 					
+				<td>
+				<a href="javascript:void(0);" class="btn btn-sm btn-success" onclick="oper.view(${item.id});">发货</a> 
+				</td>
+				</tr>
+			<% } %>
+			</tbody>
+<% }; %>
+<% layout("/pages/template/_layout_raw.html",{content:content}){ %>
+<% } %>

@@ -1,0 +1,182 @@
+
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Microsoft YaHei" ! important;
+}
+
+/*涓棿閮ㄥ垎鐨勫唴瀹�*/
+.content{
+	width: 1200px;
+	height: 160px;
+	border: 1px solid #323232;
+	margin: auto;
+	margin-top: 25px;
+	position: relative;
+}
+.content-left{
+	width: 450px;
+	height: 160px;
+	/*border: 1px solid red;*/
+	border-right: 1px solid #323232;
+	position: absolute;
+	left: 0;
+	top: 0;
+	position: relative;
+}
+.content-left p{
+	width: 200px;
+	color: red;
+	position: absolute;
+	right: 15px;
+	bottom: 15px;
+}
+.content-left img{
+	margin: 24px 0 0 21px;
+}
+.content-right{
+	width: 750px;
+	height: 160px;
+	/*border: 1px solid blue;*/
+	position: absolute;
+	right: 0;
+	top: 0;
+	overflow: hidden;
+}
+.content-right img{
+	width: 750px;
+	height: 160px;
+}
+.content-right ul{
+	list-style-type: none;
+}
+.content-right li{
+	float: left;
+}
+/*涓棿鐨勫唴瀹�*/
+.banner{
+	width: 1200px;
+/* 	height: 850px; */
+	border: 1px solid #323232;
+	margin: auto;
+	margin-top: 25px;
+}
+.banner-top{
+	width: 1200px;
+	height: 350px;
+	/*border: 1px solid red;*/
+	border-top: 1px solid white;
+	position: relative;
+}
+.banner-top p{
+	margin: 20px 0 0 30px;
+	font-size: 24px;
+	font-weight: bold;
+}
+.banner-top table{
+	width: 300px;
+	height: 100px;
+	/*border: 1px solid red;*/
+	margin: 71px 0 0 160px;
+}
+.banner-top th{
+	height: 40px;
+}
+.banner-top td{
+	width: 80px;
+	height: 40px;
+	border: 1px solid #323232;
+	text-align: center;
+}
+.banner-top ul{
+	position: absolute;
+	left: 600px;
+	bottom: 50px;
+	list-style-type: none;
+}
+.banner-top li{
+	float: left;
+	margin-left: 110px;
+}
+.banner-top a{
+	text-decoration: none;
+	color: #0024FF;
+	font-size: 14px;
+}
+
+.banner-banner{
+	width: 1200px;
+	height: 250px;
+	border-top: 1px solid #323232;
+	position: relative;
+}
+
+.banner-banner table{
+	width: 300px;
+	height: 100px;
+	/*border: 1px solid red;*/
+	margin: 71px 0 0 160px;
+}
+.banner-banner th{
+	height: 40px;
+}
+.banner-banner td{
+	width: 80px;
+	height: 40px;
+	border: 1px solid #323232;
+	text-align: center;
+}
+.banner-banner ul{
+	position: absolute;
+	left: 600px;
+	bottom: 50px;
+	list-style-type: none;
+}
+.banner-banner li{
+	float: left;
+	margin-left: 110px;
+}
+.banner-banner a{
+	text-decoration: none;
+	color: #0024FF;
+	font-size: 14px;
+}
+
+.banner-botton{
+	width: 1200px;
+	height: 250px;
+	border-top: 1px solid #323232;
+	position: relative;
+}
+
+.banner-botton table{
+	width: 300px;
+	height: 100px;
+	/*border: 1px solid red;*/
+	margin: 71px 0 0 160px;
+}
+.banner-botton th{
+	height: 40px;
+}
+.banner-botton td{
+	width: 80px;
+	height: 40px;
+	border: 1px solid #323232;
+	text-align: center;
+}
+.banner-botton ul{
+	position: absolute;
+	left: 600px;
+	bottom: 50px;
+	list-style-type: none;
+}
+.banner-botton li{
+	float: left;
+	margin-left: 110px;
+}
+.banner-botton a{
+	text-decoration: none;
+	color: #0024FF;
+	font-size: 14px;
+}

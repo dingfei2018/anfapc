@@ -1,0 +1,105 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Microsoft YaHei" ! important;
+}
+
+.main-right img{
+	 width : 750px;
+}
+
+    .activety{
+     display: inline-block;
+      width: 115px;
+    height: 40px;
+    line-height: 40px;
+      border-bottom: 1px solid blue;
+    }
+   /*  #activety{
+      display: inline-block;
+      width: 115px;
+    height: 40px;
+    line-height: 40px;
+      border-bottom: 1px solid blue;
+    } */
+
+/*中间内容的Css*/
+.content{
+	width: 1200px;
+	height: 700px;
+	margin: auto;
+	/* border: 1px solid #323232; */
+	margin-top: 20px;
+	position: relative;
+}
+
+.content-right{	
+	width: 990px;
+	height: 700px;
+	border: 1px solid #dcdcdc;
+	position: relative;
+	position: absolute;
+	right: 0;
+	top: 0;
+	background: url(../../img/renzhen_1.jpg) repeat-x;
+}
+.content-right-ops{
+    width: 709px;
+    height: 61px;
+    position: absolute;
+    left: 162px;
+    top: 126px;
+}
+.content-right-ups{
+    width: 709px;
+    height: 150px;
+    border: 1px solid #dcdcdc;
+    position: relative;
+    position: absolute;
+    left: 162px;
+    top: 235px;
+    font-size: 14px;
+}
+.content-right-ups img{
+	display: block;
+	margin-top: 23px;
+	margin-left: 41px;
+}
+.content-right-ups ul{
+	list-style-type: none;
+	position: absolute;
+	left: 166px;
+	top: 25px;
+}
+.content-right-ups li{
+	height: 35px;
+}
+.content-right-ups span{
+	color : red;
+}
+.content-right-ups a{
+	display: inline-block;
+	width: 145px;
+	height: 40px;
+	line-height: 40px;
+	color : white;
+	text-align: center;
+	border-radius: 5px;
+	text-decoration: none;
+	background: #3974f8;
+}
+.content-right-ups a:hover{
+	background-color: #ff7801;
+	
+}
+.content-right-upso{
+    width: 709px;
+    height: 167px;
+    border: 1px solid white;
+    position: relative;
+    position: absolute;
+    left: 162px;
+    top: 446px;
+}
+

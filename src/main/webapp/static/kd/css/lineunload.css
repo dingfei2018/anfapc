@@ -1,0 +1,65 @@
+.banner-sure{
+	width: 80%;
+	margin: auto;
+}
+.banner-sure h3{
+	margin-top: 20px;
+	text-align: center;
+	font-weight: 900;
+	font-size: 20px;
+}
+
+.banner-sure table{
+	width: 400px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.banner-sure tr{
+	height: 50px;
+    font-size: 16px;
+}
+
+.banner-sure ul{
+	width: 565px;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 30px;
+    font-size: 16px;
+    
+}
+
+.banner-sure li{
+	float: left;
+}
+
+.banner-sure input{
+	height: 25px;
+    width: 126px;
+}
+
+.sure-button{
+	width: 210px;
+	margin: auto;
+	margin-top: 30px;
+}
+.banner-sure .button1{
+	width: 97px;
+	height: 32px;
+	background-color: #3974f8;
+	border-radius: 5px;
+	font-size: 16px;
+	line-height: 32px;
+	color: #fff;
+	border: none;
+}
+.banner-sure .button2{
+	width: 64px;
+	height: 32px;
+	border-radius: 5px;
+	border: solid 1px #d2d2d2;
+	font-size: 16px;
+	line-height: 32px;
+	background-color: #fff;
+	margin-left: 20px;
+}

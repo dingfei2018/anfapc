@@ -1,0 +1,317 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	max-width: 12rem;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+.header {
+	width: 12rem;
+	height: 3.2rem;
+	border: .01rem solid blue;
+	margin: auto;
+	position: relative;
+}
+
+.header h1 {
+	width: 8rem;
+	height: 2rem;
+	line-height: 2rem;
+	text-indent: .35rem;
+}
+
+.header-right {
+	width: 2.8rem;
+	height: 1.2rem;
+	border: .01rem solid blue;
+	position: absolute;
+	right: .2rem;
+	top: .83rem;
+}
+
+.header-right dl {
+	float: left;
+	width: 1rem;
+	height: .8rem;
+	margin-left: .32rem;
+}
+
+.header-right dd {
+	width: 1rem;
+	height: .3rem;
+	margin-top: .2rem;
+	text-indent: .1rem;
+	line-height: .3rem;
+}
+
+.header-right span {
+	color: red;
+}
+
+.header-right .header-dl {
+	text-align: center;
+}
+
+.header-right .header-dd {
+	color: red;
+}
+
+.header ul {
+	list-style-type: none;
+	margin-top: .4rem;
+}
+
+.header a {
+	text-decoration: none;
+	color: white;
+	font-size: .18rem;
+}
+
+.header li {
+	width: 1.98rem height: .8rem;
+	border: .01rem solid yellow;
+	float: left;
+	line-height: .8rem;
+	text-align: center;
+	background: #0024FF;
+}
+
+.centent {
+	width: 12rem;
+	height: 4.5rem;
+	border: .01rem solid red;
+	margin: auto;
+	margin-top: .35rem;
+	line-height: 4.5rem;
+	text-align: center;
+}
+
+.benner {
+	width: 12rem;
+	height: 9.7rem;
+	border: .01rem solid green;
+	margin: auto;
+	margin-top: .35rem;
+	position: relative;
+}
+
+.benner-translate {
+	width: 7rem;
+	height: 9.7rem;
+	border: .01rem solid blue;
+	position: relative;
+}
+
+.benner-translate h1 {
+	margin: .42rem 0 0 .34rem;
+}
+
+.benner-translate h2 {
+	margin: 4.2rem 0 0 .34rem;
+	font-size: .3rem;
+}
+
+.benner-translate-tleft {
+	width: 2rem;
+	height: 1.5rem;
+	border: .01rem solid blue;
+	position: absolute;
+	left: .2rem;
+	top: 1.2rem;
+}
+
+.benner-translate-tcontent {
+	width: 2rem;
+	height: 1.5rem;
+	border: .01rem solid blue;
+	position: absolute;
+	left: 2.5rem;
+	top: 1.2rem;
+}
+
+.benner-translate-tright {
+	width: 2rem;
+	height: 1.5rem;
+	border: .01rem solid blue;
+	position: absolute;
+	right: .2rem;
+	top: 1.2rem;
+}
+
+.benner-translate-pleft {
+	width: 2rem;
+	height: 1.5rem;
+	border: .01rem solid blue;
+	position: absolute;
+	left: .2rem;
+	top: 5.85rem;
+}
+
+.benner-translate-pright {
+	width: 2rem;
+	height: 1.5rem;
+	border: .01rem solid blue;
+	position: absolute;
+	left: 2.5rem;
+	top: 5.85rem;
+}
+
+.benner-translate-right {
+	width: 4.65rem;
+	height: 2.5rem;
+	border: .01rem solid red;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.benner-translate-right dl {
+	width: 3.5rem;
+	height: 2rem;
+	margin-left: .52rem;
+	margin-top: .25rem;
+}
+
+.benner-translate-right dt {
+	font-size: .18rem;
+	font-weight: bold;
+	margin-left: .15rem;
+	height: .6rem;
+	line-height: .6rem;
+}
+
+.benner-translate-right dd {
+	margin-left: .15rem;
+	margin-top: .2rem;
+}
+
+.benner-translate-right span {
+	font-size: .16rem;
+	font-weight: normal;
+	margin-left: .2rem;
+}
+
+.benner-translate-right b {
+	color: red;
+}
+
+.benner-table span {
+	margin-left: .05rem;
+}
+
+.benner-dedicated .benner-th {
+	width: 1rem;
+}
+
+.benner-dedicated-right {
+	width: 4.65rem;
+	height: 2.9rem;
+	border: .01rem solid red;
+	position: absolute;
+	right: 0;
+	top: 2.75rem;
+}
+
+.benner-dedicated-right p {
+	height: .5rem;
+	line-height: .5rem;
+	text-indent: .7rem;
+	margin-top: .7rem;
+}
+
+.benner-dedicated-right span {
+	color: red;
+}
+
+.benner-curve-right {
+	width: 4.65rem;
+	height: .2rem;
+	border: .01rem solid red;
+	position: absolute;
+	right: 0;
+	top: 5.9rem;
+}
+
+.benner-curve-right p {
+	height: .4rem;
+	line-height: .4rem;
+	margin-top: .17rem;
+	margin-left: .67rem;
+}
+
+.benner-curve-right .benner-p {
+	font-size: .18rem;
+	font-weight: bold;
+}
+
+.benner-curve-right span {
+	margin-left: .1rem;
+}
+
+.benner-curve-right b {
+	margin-left: .1rem;
+	font-weight: normal;
+}
+
+.benner-picture-right {
+	width: 4.65rem;
+	height: 1.5rem;
+	border: .01rem solid blue;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.benner-picture ul {
+	list-style-type: none;
+	margin-top: 1.88rem;
+}
+
+.benner-picture li {
+	width: 2rem;
+	float: left;
+	margin-left: .25rem;
+	text-align: center;
+	height: .25rem;
+	line-height: .25rem;
+	margin-top: .08rem;
+}
+
+.benner-picture-rights {
+	width: 4.65rem;
+	height: 1.5rem;
+	border: .01rem solid blue;
+}
+
+.benner-picture-rights b {
+	font-size: .18rem;
+	height: .6rem;
+	line-height: .6rem;
+}
+
+.benner-picture-rights p {
+	margin-left: .67rem;
+	margin-top: .16rem;
+}
+
+.footer {
+	width: 12rem;
+	height: 1.5rem;
+	border: .01rem solid #323232;
+	margin: auto;
+	margin-top: .35rem;
+}
+
+.footer span {
+	color: red;
+}
+
+.footer p {
+	margin-top: .15rem;
+	text-align: center;
+}

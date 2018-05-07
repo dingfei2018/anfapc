@@ -1,0 +1,181 @@
+/*闂傚倷鐒﹁ぐ鍐矓閸洘鍋柛鈩冿供濞撹埖淇婇娑卞劌闁告艾娲弻锝夊Ω閵夈儺浠煎銈忓缁垰顭囪箛鏇熷厹闁告侗鍨冲畷娲⒑閸涘﹦鐭婇柤娲诲灦瀹曨剛锟芥稒蓱缂嶅洨鐥鐐村櫧闁绘冻鎷�*/
+*{
+    margin:0;
+    padding:0;
+}
+/*闂佹眹鍩勯崹浼村箺濠婂牆鏋侀柕鍫濐槸閸愶拷闂佹悶鍎弲鈺呭礉椤曪拷閺岋綁濡搁妷銉痪闂佺粯顨呭畷顒勵敋閿濆牏鐤�婵炴垶蓱椤忕喓绱撻崒姘灕闁瑰嚖鎷�*/
+i{
+    font-style: normal;
+}
+a{
+    text-decoration: none;
+}
+input{
+    outline: none;
+    border:none;
+
+    
+}
+/*闂佽崵濮抽悞锕傚磿閹惰姤鍋╃紒璺哄厳ml闂備礁鎲＄划宀勬偩閻ㄤ龚y闂備焦鐪归崝宀�锟芥凹鍓熼、娆撳籍閿熶粙骞嗛弮鍫熸櫆闁兼剚鍨抽ˇ锟�100%*/
+html,body{
+    width:100%; 
+    font: 14px/150% tahoma,arial,Microsoft YaHei,Hiragino Sans GB,"\u5b8b\u4f53",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    color: #666;
+}
+/*濠电姰鍨奸崺鏍箰閹惰棄纾块柨鐕傛嫹*/
+.logo{
+	width: 160px;
+    height:50px;
+    background: url(../img/icon.png) no-repeat;
+    position: absolute;
+    top:20px;
+    left:20px;
+}
+.desc{
+	font-size: 18px;
+    line-height: 34px;
+    border-left: 1px solid #ccc;
+    position: absolute;
+    left: 200px;
+    top:28px;
+    padding-left: 20px;
+    font-weight:bold;
+}
+header{
+	width:100%;
+    height: 110px;
+    box-shadow: 10px 10px 10px rgba(111,111,111,.5);
+    position: relative;
+}
+/*婵犵數鍋涢ˇ顓㈠礉瀹�鍕埞闁兼亽鍎抽埞宥夋煃閳轰礁鏆曠紒鎲嬫嫹*/
+/*闂備浇顕栭崜婵嬵敊婵犲嫮绀婇悗锝庡墯閺嗘粓鏌涢幇鈺佸婵狅拷閿燂拷*/
+form{
+	width: 400px;
+	margin: auto;
+	margin-top: 20px;
+}
+.register-box{
+	border: 1px solid #ddd;
+    margin-bottom: 32px;
+}
+.register-box label{
+	height: 52px;
+    line-height: 52px;
+    padding-left: 20px;
+    display: inline-block;
+}
+.register-box .register-input {
+	width: 144px;
+	height: 52px;
+	background-color: white;
+	text-align: center;
+	border-left: 1px solid #dcdcdc;
+	cursor: pointer;
+	text-indent: 0px;
+	color: #666;
+    font-family: "微软雅黑";
+	}
+/* .register-box input{
+	width: 177px;
+    height: 19px;
+    padding-left: 17px;
+    font-size: 14px;
+} */
+.register-box .tips{
+	position: absolute;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #ccc;
+}
+/*闂備胶鍎甸崑鎾诲礉瀹ュ鏄ユ繛鎴欏灩鐟欙箓鏌ㄩ悤鍌涘*/
+.register-box .username_label{
+	word-spacing: 10px;
+	/* border: 1px solid red; */
+	width: 376px;
+}
+.register-box  #phoneNumber{
+	width: 303px;
+    height: 49px;
+    /* border: 1px solid blue; */
+}
+.register-box #other_label{
+	width: 376px;
+	/* border: 1px solid blue; */
+}
+#password{
+	width: 303px;
+	height: 49px;
+	/* border: 1px solid blue; */
+	margin-left: 8px;
+}
+.register-box #other_label{
+	width: 376px;
+	/* border: 1px solid blue; */
+}
+#newPassword{
+	width: 303px;
+	height: 49px;
+	/* border: 1px solid blue; */
+	margin-left: 8px;
+}
+/*闂佽閰ｅ褍螞濞戙垺鍋夋繝濠傜墛閺咁剛锟界櫢鎷烽柨鐔剁矙閸ㄦ儳螣閸忕厧顎涢梺闈涚墕閹虫劕危閺囥垺鐓熸い鏃囧吹缁涘繒绱掗幉瀣*/
+.register-box .other_label{
+	word-spacing: 2px;
+}
+/*闂備礁缍婂褔顢栭崱妞绘敠闁跨喍绮欓弻娑樷枎濞嗘劕顏�*/
+.register-box span{
+    display: inline-block;
+    width: 77px;
+    height: 52px;
+    border-right: 1px solid #ddd;
+}
+.register-box .phone{
+	padding-left: 18px;
+}
+/*濠德板�楁慨鎾儗娓氾拷閹焦寰勯幇顓炲壓闂佽法鍣﹂幏锟�*/
+#code{
+	display: inline-block;
+    width: 100px;
+    height: 46px;
+    vertical-align: middle;
+    background-color: black;
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    line-height: 46px;
+}
+.register-boxp{
+	margin-top: -17px;
+	
+}
+/*闂備礁鎲￠〃鍛崲濡ゅ拋鏁婇柨鐕傛嫹*/
+.arguement{
+	margin-bottom: 13px;
+	text-indent: 0px;
+	margin-top: 3px;
+}
+.arguement input{
+	vertical-align: middle;
+}
+.arguement a{
+	color: #38f;
+    text-decoration: none;
+    font-size: 12px;
+}
+/*闂備礁婀辩划顖炲礉閹烘埈娼╅柨鏇炲�哥粻鏉款熆閼搁潧濮堥悘蹇ユ嫹*/
+.submit_btn .submit_btn-button{
+	width: 100%;
+    height: 54px;
+    color: #fff;
+    background: #0066FF;
+    border: 0;
+    font-size: 20px;
+    border-radius: 5px;
+    font-family: "Microsoft YaHei","Hiragino Sans GB";
+    margin-top: 20px;
+    cursor: pointer;
+}
+.submit_btn .submit_btn-button:hover{
+	background-color: #ff7801;
+}

@@ -1,0 +1,116 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Microsoft YaHei";
+	 
+}
+ input{outline:none;}
+
+.main-right img{
+	 width : 860px;
+	 height: 160px;
+}
+
+.active{
+	background-color: #0024FF;
+}
+
+
+/*涓棿鐨勫唴瀹�*/
+.content{
+	width: 1200px;
+	height: 700px;
+	margin: auto;
+	/* border: 1px solid #323232; */
+	margin-top: 20px;
+	position: relative;
+}
+
+.content-right{
+	 border: 1px solid #dfdfdf; 
+	width: 995px;
+	height: auto;
+	min-height: 680px;
+	overflow: hidden;
+	float: right;
+	margin-bottom: 20px;
+}
+.conr_title { width:926px; height: auto; margin: auto; font-weight: bold; overflow: hidden;font-size: 18px; color: #333; padding-top: 34px; padding-bottom: 18px; border-bottom: 1px #dddddd solid; margin-bottom: 38px;}
+.conr_con { width:926px; height: auto; margin: auto; overflow: hidden; padding-bottom: 40px;}
+.content-right b{
+	font-size: 14px;
+	color : #0066FF;
+	font-weight: normal;
+}
+.content-right p {
+    height: 30px;
+    background: url(../../img/daohangtiao.png) repeat-x;
+    line-height: 30px;
+    text-indent: 52px;
+    margin-top: 2px;
+}
+.content-right ul{
+	list-style-type: none;
+	margin-top: 0px;
+	margin-left: 270px;
+}
+.content-right li{
+	height: 60px;
+	margin-top: 20px;
+}
+.content-right span{
+	margin-left: 0px;
+}
+.content-right .content-right-span{
+	margin-left: 0;
+}
+
+.content-right input{
+	width: 320px;
+	height: 30px;
+	margin-left: 20px;
+	text-indent: 15px;
+	border: 1px solid #dcdcdc;
+}
+.content-right .content-right-input{
+    margin-left: 20px;
+    height: 50px;
+}
+.content-right .content-right-inputs{
+    width: 183px;
+    height: 48px;
+    border: 1px solid #dcdcdc;
+}
+
+.content-right .content-right-inputss{
+    width: 138px;
+    height: 50px;
+    margin-left: -6px;
+    background: white;
+    color: #323232;
+    border: 1px solid #dcdcdc;
+    cursor: pointer;
+}
+.content-right a{
+	margin-left: 16px;
+	text-decoration: none;
+	color: #0024FF;
+}
+.content-right .content-right-botton{
+    width: 412px;
+    height: 40px;
+    background: #3974f8;
+    font-size: 18px;
+    color: white;
+    border-radius: 5px;
+    margin: 50px 0 0 270px;
+    color: #fff;
+    border: 0px;
+}
+.content-right .content-right-botton:hover{
+	background: #ff7801;
+}
+.conr_con img{
+	margin-left: 230px;
+}

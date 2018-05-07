@@ -1,0 +1,234 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+/*杞挱鐨勫唴瀹�*/
+.main{
+	width: 1200px;
+	height: 160px;
+	margin: auto;
+	border: 1px solid #323232;
+	position: relative;
+	margin-top: 20px;
+}
+.main-left{
+	width: 450px;
+	height: 160px;
+	border-right: 1px solid #323232;
+	position: relative;
+}
+.main-left p{
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+	color: red;
+	text-align: center;
+	position: absolute;
+	right: 15px;
+	bottom: 15px;
+	cursor: pointer;
+}
+.main-left img{
+	margin: 30px 0 0 30px;
+}
+.main-right{
+	width: 750px;
+	height: 160px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	text-align: center;
+	line-height: 160px;
+	overflow: hidden;
+}
+.main-right ul{
+	list-style-type: none;
+}
+.main-right li{
+	float: left;
+}
+
+/*涓棿鐨勫唴瀹�*/
+.content{
+	width: 1200px;
+	height: 830px;
+	margin: auto;
+	border: 1px solid #323232;
+	margin-top: 20px;
+	position: relative;
+}
+.content .content-ul{
+	list-style-type: none;
+	position: absolute;
+	left: 200px;
+	top: 10px;
+}
+.content li{
+	float: left;
+	margin-left: 100px;
+}
+.content .content-li{
+	margin-left: 20px;
+}
+.content li button{
+	width: 190px;
+	height: 40px;
+}
+.content li button:hover{
+	background-color: #0066FF;
+	color: white;
+}
+.content li button a{
+	text-decoration: none;
+	color: #323232;
+}
+.content li button a:hover{
+	color: white;
+}
+
+.content-list{
+	width: 1200px;
+    height: 100px;
+    border-top: 1px solid #B4B4B4;
+    border-bottom: 1px solid #B4B4B4;
+    margin-top: 60px;
+}
+.content-list .content-list-span{
+	display: inline-block;
+	margin: 32px 0 0 325px;
+}
+.content-list button{
+	width: 40px;
+    height: 20px;
+    border-radius: 5px;
+    line-height: 20px;
+    background-color: #2F21CD;
+    border: 0;
+    color: white;
+}
+.content-tops{
+	width: 1200px;
+	height: 160px;
+	border-top: 1px solid white;
+    border-bottom: 1px solid #B4B4B4;
+	position: relative;
+}
+.content-tops .content-dl{
+	margin-left: 165px;
+	margin-top: 23px;
+}
+.content-tops .content-dd{
+	margin-left: 10px;
+	margin-top: 10px;
+	width: 130px;
+	height: 88px;
+	border: 1px solid #323232;
+}
+.content-tops .content-dls{
+	position: absolute;
+	right: 193px;
+	top: 23px;
+} 
+.content-tops .content-dls dt{
+	text-indent: 18px;
+}
+.content-tops .content-dls dd{
+	margin-top: 10px;
+}
+.content-tops ul{
+	position: absolute;
+	left: 250px;
+	bottom: 20px;
+	list-style-type: none;
+}
+.content-tops li{
+	margin-left: 253px;
+}
+.content-tops li a{
+	text-decoration: none;
+	color: #0066FF;
+	font-size: 14px;
+}
+.content-tops .content-lin{
+	margin-left: 80px;
+}
+.content-tops .content-lint a{
+	color: red;
+}
+.content .content-bottom{
+	width: 1200px;
+	height: 40px;
+	border-top: 1px solid white;
+	margin-top: 66px;
+	position: relative;
+}
+.content .content-bottom .content-bottons{
+	margin-left: 260px;
+	margin-top: 10px;
+	background-color: white;
+	border: 0;
+}
+.content .content-bottom .content-bottons a{
+	text-decoration: none;
+	color: #323232;
+}
+.content .content-bottom .content-bottonst{
+	margin-left: 270px;
+	margin-top: 10px;
+	background-color: white;
+	border: 0;
+}
+.content .content-bottom .content-bottonst a{
+	text-decoration: none;
+	color: #323232;
+}
+.content .content-bottom .content-bottonsts{
+	position: absolute;
+	right: 320px;
+	top: 8px;
+	background-color: #0066FF;
+	color: white;
+	font-size: 14px;
+	width: 40px;
+	height: 25px;
+	border: 0;
+}
+.content .content-bottom .content-bottonsts a{
+	color: white;
+	text-decoration: none;
+}
+.content .content-bottom ul{
+	list-style-type: none;
+	position: absolute;
+	left: 332px;
+	top: 8px;
+}
+.content .content-bottom li{
+	width: 30px;
+	height: 25px;
+	margin-left: 10px;
+	line-height: 25px;
+	text-align: center;
+}
+.content .content-bottom li:hover{
+	background-color: #0024FF;
+}
+.content .content-bottom li a{
+	text-decoration: none;
+	color: #323232;
+	font-size: 13px;
+}
+.content .content-bottom li a:hover{
+	color: white;
+}
+.content .content-bottom span{
+	margin-left: 10px;
+	color: #B4B4B4;
+	font-size: 14px;
+}
+.content .content-bottom input{
+	width: 40px;
+}

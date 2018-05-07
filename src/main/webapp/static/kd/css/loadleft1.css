@@ -1,0 +1,19 @@
+.banner-left{
+	width: 200px;
+	height: auto;
+	float: left;
+/* 	border-right: 1px solid #dcdcdc; */
+}
+.banner-left a{
+	text-decoration: none;
+	
+}
+.banner-left-list1{
+	width: 200px;
+	height: 100px;
+	text-align: center;
+}
+.banner-left-list1 img{
+	margin-top: 22px;
+}
+

@@ -1,0 +1,50 @@
+.banner-list5-type{
+	    /* margin-left: 670px; */
+    font-size: 18px;
+    color: #3974f8;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.banner-list5-div1{
+	width: 90%;
+	margin: auto;	
+	margin-top: 30px;
+	overflow: hidden;
+	padding-bottom: 20px;
+/* 	border-bottom: 1px solid #DCDCDC; */
+}
+
+.banner-div-title{
+	color: #3974F8;
+}
+.banner-list5-div1 ul{
+	list-style: none;
+	margin-top: 20px;
+}
+.banner-list5-div1 li{
+	float: left;
+	width: 250px;
+	margin-top: 15px;
+	margin-left: 60px;
+}
+.banner-list5-div1 input{
+	width: 160px;
+	height: 25px;
+}
+.banner-list5-div1 select{
+	width: 160px;
+	height: 32px;
+}
+.banner-list5-div1-button{
+	width: 150px;
+    height: 40px;
+    color: #fff;
+    font-size: 14px;
+    background-color: #3973F8;
+    cursor: pointer;
+    border: none;
+    position: relative;
+    left: 50%;
+    margin-left: -75px;
+}

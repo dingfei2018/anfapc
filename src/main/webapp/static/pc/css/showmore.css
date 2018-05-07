@@ -1,0 +1,238 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+input:-webkit-autofill {
+	         -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+
+
+/*閺夌儐鍠楅幐閬嶅炊閸撗勭暠闁告劕鎳庨锟�*/
+.main{
+	width: 1200px;
+	height: 160px;
+	margin: auto;
+	border: 1px solid #323232;
+	position: relative;
+	margin-top: 20px;
+}
+.main-left{
+	width: 450px;
+	height: 160px;
+	border-right: 1px solid #323232;
+	position: relative;
+}
+.main-left p{
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+	color: red;
+	text-align: center;
+	position: absolute;
+	right: 15px;
+	bottom: 15px;
+	cursor: pointer;
+}
+.main-left img{
+	margin: 30px 0 0 30px;
+}
+.main-right{
+	width: 750px;
+	height: 160px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	text-align: center;
+	line-height: 160px;
+	overflow: hidden;
+}
+.main-right ul{
+	list-style-type: none;
+}
+.main-right li{
+	float: left;
+}
+
+/*濞戞搩鍙冨Λ鍧楁儍閸曨偄鏁堕悗鐧告嫹*/
+.content{
+	width: 1200px;
+	height: 600px;
+	margin: auto;
+	border: 1px solid #323232;
+	margin-top: 20px;
+	position: relative;
+}
+.content-left{
+	width: 380px;
+	height: 50px;
+	border: 1px solid #323232;
+	margin-top: 40px;
+}
+.content-left ul{
+	list-style-type: none;
+}
+.content-left li{
+	width: 74px;
+	height: 50px;
+	line-height: 50px;
+	float: left;
+	/*margin-left: 55px;*/
+	border-left: 2px solid #323232;
+	text-align: center;
+	font-size: 14px;
+}
+.content-left li img{
+	margin-left: 3px;
+}
+.content-left .content-lefts{
+	margin-left: 0;
+	border-left: 0;
+}
+.content-left .content-leftf{
+	margin-right: 0;
+	/*border-left: 0;*/
+}
+.content-right{
+	width: 810px;
+	height: 50px;
+	position: relative;
+	position: absolute;
+	right: 0;
+	top: 40px;
+	line-height: 50px;
+}
+.content-right input{
+	width: 150px;
+	height: 40px;
+	text-indent: 5px;
+	margin-left: 5px;
+	font-size: 12px;
+}
+.content-right img{
+	position: absolute;
+	right: 45px;
+	top: 21px;
+}
+.content-right .content-input{
+	width: 200px;
+	height: 40px;
+}
+.content-right span{
+	margin-left: 45px;
+	font-size: 12px;
+}
+.content-right p{
+	width: 80px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	position: absolute;
+	right: 10px;
+	bottom: -5px;
+	color: #0000FF;
+	cursor: pointer;
+}
+.content-right select{
+	width: 80px;
+	height: 40px;
+}
+.content-table{
+	width: 100%;
+	margin-top: 10px;
+}
+.content-table tr{
+	height: 30px;
+}
+.content-table .content-th{
+	border-top: 1px solid #E4EBF3;
+	border-bottom: 1px solid #E4EBF3;
+	/*height: 30px;*/
+	/*line-height: 30px;*/
+	font-weight: normal;
+	color: #969696;
+}
+
+.content-table .content-td{
+	border-bottom: 1px solid #323232;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 14px;
+}
+.content-table .content-td span{
+	color: #0024FF;
+}
+.content-table .content-td a{
+	text-decoration: none;
+	background-color: #0024FF;
+	border-radius: 5px;
+	color: white;
+}
+.content-centent {
+	width: 1200px;
+	height: 500px;
+	position: relative;
+}
+.content-centent .content-centento{
+	width: 1200px;
+	height: 64px;
+	border: 1px solid white;
+	position: relative;
+}
+.content-centento .content-centent-button{
+	width: 100px;
+	height: 40px;
+	margin: 10px 0 0 174px;
+	background-color: white;
+	border: white;
+}
+.content-centento .content-centent-buttons{
+	width: 100px;
+	height: 40px;
+	margin: 10px 0 0 390px;
+	background-color: white;
+	border: white;
+}
+.content-centento ul{
+	list-style-type: none;
+	position: absolute;
+	left: 272px;
+	top: 10px;
+}
+.content-centento li{
+	float: left;
+	width: 60px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border: 1px solid #E4EBF3;
+}
+.content-centento li:hover{
+	background-color: red;
+}
+.content-centento li a{
+	text-decoration: none;
+	color: #323232;
+}
+.content-centento li a:hover{
+	color: white;
+}
+.content-centento span{
+	color: #E4EBF3;
+	font-size: 14px;
+}
+.content-centento input{
+	width: 30px;
+}
+.content-centento .content-centent-buttont{
+	width: 60px;
+	height: 40px;
+	position: absolute;
+    right: 201px;
+    top: 10px;	
+    background-color: white;
+	border: white;
+	color: #0024FF;
+}

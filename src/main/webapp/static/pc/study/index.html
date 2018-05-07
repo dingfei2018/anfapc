@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="http://cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.css" rel="stylesheet">
+<link href="css/city-picker.css" rel="stylesheet">
+<link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+<!-- Content -->
+<!-- <div class="container">
+
+<h2 class="page-header">演示</h2> -->
+
+<!-- <div class="docs-methods" style="width: 300px"> -->
+	<!-- <form class="form-inline" style="width: 300px"> -->
+		<div id="distpicker" style="width: 300px">
+			<div class="form-group">
+				<div style="position: relative;">
+					<input id="city-picker3" class="form-control" readonly type="text" value="江苏省/常州市/溧阳市" data-toggle="city-picker">
+				</div>
+			</div>
+		</div>
+	<!-- </form> -->
+<!-- </div> -->
+<!-- </div> -->
+
+<div style="position: relative;"><!-- container -->
+<input id="city-picker1" readonly type="text">
+  <input id="set" type="button" value="赋值"/>
+</div>
+
+
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/city-picker.data.js"></script>
+<script src="js/city-picker.js"></script>
+<script src="js/main.js"></script>
+<!-- 代码部分end -->
+<script type="text/javascript">
+    $(function(){
+        $("#city-picker1").citypicker();
+        $("#set").click(function() {
+            $("#city-picker1").citypicker("reset");
+            $("#city-picker1").citypicker("destroy");
+            $("#city-picker1").citypicker({
+              province: '广东省',
+              city: '广州市',
+              district: '天河区'
+            });
+        });
+    });
+
+</script>
+
+</body>
+</html>

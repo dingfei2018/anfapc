@@ -1,0 +1,158 @@
+ * {
+ 	margin: 0;
+ 	padding: 0;
+ }
+ 
+  .active {
+ 	background: #3974f8 !important;
+ 	color: #fff !important;
+ }
+ body{
+ 	background-color: #dcdcdc;
+ }
+ 
+ .banner{
+ 	width: 100%;
+ 	height: auto;
+ 	margin-top: 30px;
+ }
+ .banner-list{
+ 	width: 1200px;
+ 	height: 830px;
+ 	/*border: 1px solid red;*/
+ 	margin: auto;
+ 	background-color: #fff;
+ 	overflow: hidden;
+ }
+ 
+.banner-list-right{
+ 	width: 1200px;
+ 	height: 50px;
+ 	line-height:50px;
+	border-radius: 5px;
+	margin: auto;
+	margin-bottom: 5px;
+	position: relative;
+}
+.banner-right-list3{
+	width: 1200px;
+	height: 100px;
+	/*border: 1px solid yellow;*/
+	/* display: none; */
+	position: relative;
+}
+.banner-right-list3 ul{
+	list-style-type: none;
+}
+.banner-right-list3 li {
+	float: left;
+}
+.banner-right-list3 li a{
+	text-decoration: none;
+    margin-left: 20px;
+    display: inline-block;
+    width: 120px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: #666;
+}
+
+.banner-list-tir{
+	width: 94px;
+    height: 200px;
+    float: left;
+    margin-top: 100px;
+    position: relative;
+}
+.banner-list-tir .banner-list-tirs{
+	    width: 35px;
+    height: 200px;
+    /* background-color: red; */
+    text-align: center;
+    margin-left: 16px;
+    background-color: #57a7f1;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 6px
+}
+.banner-list-tir .banner-list-tirs:hover{
+	background-color: #f19857;
+}
+.banner-list-tir .banner-list-tirs p{
+	display: inline-block;
+	margin-top: 54px;
+}
+.banner-list-tir img{
+	    position: absolute;
+    right: 0px;
+    top: 75px;
+}
+
+
+
+
+/*表格样式*/
+.banner-list .banner-list-ti{
+    width: 250px;
+    height: 400px;
+    margin-left: 2px;
+    float: left;
+}
+.banner-list .banner-list-ti p{
+	height: 60px;
+	background-color: blue;
+	line-height: 60px;
+	color: #fff;
+	border-radius: 6px;
+	text-align: center;
+	font-size: 22px;
+	cursor: pointer;
+}
+.banner-list .banner-list-ti .banner-list-tis{
+	width:  239px;
+	height: 330px;
+	border: 1px solid #ccc;
+	margin-left: 5px;
+}
+.banner-list .banner-list-ti .banner-list-tis ul{
+	list-style-type: none;
+	margin-top: 30px;
+}
+.banner-list .banner-list-ti .banner-list-tis li a{
+	text-decoration: none;
+    display: inline-block;
+    width: 62px;
+    height: 25px;
+    border: 1px solid #57a7f1;
+    line-height: 25px;
+    text-align: center;
+    float: left;
+    margin-left: 11px;
+    margin-top: 10px;
+    border-radius: 3px;
+    color: #333;
+    background-color: #cfeaff;
+    font-size: 12px;
+}
+.banner-list .banner-list-ti .banner-list-tis li a:hover{
+	background-color: #57a7f1;
+	color:#fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,265 @@
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*杞挱鍥剧殑鍐呭*/
+.content{
+	width: 1200px;
+	height: 100px;
+	margin: auto;
+	border: 1px solid #323232;
+	margin-top: 20px;
+	position: relative;
+}
+.content-left{
+	width: 400px;
+	height: 100px;
+	/*border: 1px solid red;*/
+	position: relative;
+}
+.content-left p{
+	color: red;
+	position: absolute;
+	right: 20px;
+	bottom: 10px;
+}
+.content-right{
+	width: 800px;
+	height: 100px;
+	line-height: 100px;
+	/*border: 1px solid blue;*/
+	border-left: 1px solid #323232;
+	text-align: center;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+
+/*鍙戝竷鍐呭鐨勯儴鍒�*/
+.banner{
+	width: 1200px;
+	height: 650px;
+	border: 1px solid #323232;
+	margin: auto;
+	margin-top: 20px;
+	position: relative;
+}
+/*宸﹁竟鏂规鐨勫唴瀹�*/
+.banner-left{
+	width: 190px;
+	height: 650px;
+	/*border: 1px solid blue;*/
+}
+.banner-left ul{
+	list-style-type: none;
+}
+.banner-left li{
+	width: 190px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	border-bottom: 1px solid #323232;
+}
+.banner-left a{
+	text-decoration: none;
+	color: #323232;
+}
+.banner-randers{
+	width: 20px;
+	height: 20px;
+	background: blue;
+	position: absolute;
+	border-radius: 50%;
+	right: 50px;
+	top: 30px;
+	text-align: center;
+	line-height: 20px;
+}
+.banner-left .banner-randers a{
+	font-size: 18px;
+	color: white;
+}
+/*褰撻紶鏍囨粦杩囨椂锛屾敼鍙樼殑CSS鏍峰紡*/
+.banner-left a:hover{
+	color: white;
+}
+.banner-left li:hover{
+	background: #0024FF;
+}
+.banner-left dl{
+	display: none;
+	text-align: center;
+    font-size: 12px;
+}
+.banner-left dt{
+	width: 190px;
+	height: 40px;
+	line-height: 40px;
+    border-bottom: 1px solid #323232;
+}
+.banner-left dt:hover{
+	background: #0066FF;
+}
+.banner-left dd{
+	width: 190px;
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #323232;
+}
+.banner-left dd:hover{
+	background: #0066FF;
+}
+
+/*鍙宠竟鐨勬柟妗嗙殑鍐呭*/
+.banner-right{
+	width: 1010px;
+	height: 300px;
+	/*border: 1px solid red;*/
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+/*鍙宠竟鏂规鍐呭鐨勪笂杈规*/
+.banner-right-top{
+	width: 1000px;
+	height: 300px;
+    border-top: 1px solid white;
+    border-left: 1px solid #323232;
+	position: relative;
+}
+.banner-right-top a{
+	text-decoration: none;
+	color: #323232;
+}
+.banner-right-top ul{
+	list-style-type: none;
+	margin: 20px 0 0 20px;
+}
+.banner-right-top li{
+	float: left;
+	width: 120px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border: 1px solid #323232;
+}
+/*榧犳爣婊戣繃鏃舵敼鍙樼殑鏍峰紡*/
+.banner-right-top li:hover{
+	background: #0024FF;
+}
+.banner-right-top a:hover{
+	color: white;
+}
+
+/*缃戠偣鍦板潃鐨勫彂甯�*/
+.banner-span{
+	width: 400px;
+	height: 150px;
+	/*background: red;*/
+	margin: 100px 0 0 44px;
+}
+.banner-span select{
+	width: 80px;
+	height: 30px;
+}
+.banner-span input{
+	height: 30px;
+	text-indent: 5px;
+	margin-left: 5px;
+}
+.banner-span span{
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 35px;
+}
+.banner-span .banner-spans{
+	margin-left: 52px;
+}
+
+.banner-spant{
+	width: 400px;
+	height: 150px;
+	/*background: red;*/
+	position: absolute;
+	right: 93px;
+	bottom: 49px;
+}
+.banner-spant span{
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 35px;
+}
+.banner-spant input{
+	width: 250px;
+	height: 30px;
+	text-indent: 5px;
+}
+.banner-spant .banner-spany{
+	margin-left: 52px;
+}
+/*鍙宠竟鏂规鍐呭鐨勪笅杈�*/
+.banner-right-bottom{
+	width: 1000px;
+	height: 348px;
+	border: 1px solid #323232;
+	border-right: 0;
+    border-bottom: 0;
+	position: relative;
+}
+.banner-right-left{
+	width: 400px;
+	height: 150px;
+	/*background: red;*/
+	margin: 50px 0 0 50px;
+}
+.banner-right-left input{
+	width: 250px;
+	height: 30px;
+	margin-top: 20px;
+	text-indent: 5px;
+}
+.banner-right-left span{
+	margin-left: 15px;
+}
+.banner-right-left .banner-right-lefts{
+	margin-left: 47px;
+}
+.banner-right-right{
+	width: 400px;
+	height: 150px;
+	/*background: red;*/
+	position: absolute;
+	right: 100px;
+	top: 50px;
+}
+.banner-right-right input{
+	width: 250px;
+	height: 30px;
+	margin-top: 20px;
+	text-indent: 5px;
+}
+.banner-right-right span{
+	margin-left: 15px;
+}
+.banner-right-bottom a{
+	text-decoration: none;
+	position: absolute;
+	right: 50px;
+	top: 200px;
+	color: #0024FF;
+}
+.banner-right-bottom button{
+	width: 250px;
+	height: 40px;
+	background: #0024FF;
+	color: white;
+	border-radius: 15px;
+	position: absolute;
+	left: 355px;
+	bottom: 42px;
+}

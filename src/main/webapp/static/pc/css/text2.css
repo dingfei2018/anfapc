@@ -1,0 +1,27 @@
+
+
+
+
+body {
+	max-width: 12rem;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+
+.header{
+	width: 12rem;
+	height: .4rem;
+	border: .01rem solid #323232;
+	margin-top: .3rem;
+}
+.header p{
+	font-size: .12rem;
+	width: 2rem;
+	height: .4rem;
+	line-height: .4rem;
+	text-align: center;
+	margin-left: 1.5rem;
+	background-color: red;
+}

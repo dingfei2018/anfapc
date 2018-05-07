@@ -1,0 +1,138 @@
+
+
+*{font-family:'Microsoft YaHei';}
+
+.content-left{
+	width: 188px;
+	height: auto;
+	overflow:hidden;
+	/*border: 1px solid #323232;*/
+	/* border-right: 1px solid #323232 */;
+	/* font-family:"\5B8B\4F53"; */
+	font-family:'Microsoft YaHei';
+	float:left;
+}
+.content-left ul{
+	list-style-type: none;
+}
+.content-left a{
+	text-decoration: none;
+	color: #323232;
+	margin-left: 44px;
+	margin-top: -5px;
+	font-size: 14px;
+	/* font-family:"\5B8B\4F53"; */
+}
+.content-left a:hover{
+	color: #0066FF;
+} 
+/*¸Ä±äµÄÑùÊ½*/
+.content-left dl dt.active{
+	/*background: #3974f8;*/
+
+} 
+.content-left dl dt.active a{
+	color : #3974f8;
+	font-weight:bold;
+}
+.content-left dl dd.active a{
+	color : #3974f8;
+	font-weight:bold;
+}
+.content-left #content-left-op {
+    text-indent: 47px;
+    height: 57px;
+	margin-bottom: 5px;
+    border: 0px;
+    background: url(../../img/member_1.jpg) repeat-x;
+}
+
+
+.content-left li {
+    height: 45px;
+    line-height: 45px;
+    border: 1px solid #dfdfdf;
+	border-bottom: 1px #dfdfdf dotted;
+	border-top: 0px;
+    position: relative;
+    cursor: pointer;
+}
+
+#guns { border-top: 1px solid #dfdfdf;}
+#yulan { border-bottom: 1px solid #dfdfdf;}
+
+.content-left button{
+	width: 187px;
+	height: 44px;
+	margin-top: 3px;
+	border: 0px;
+	background-color: #324fc2;
+	color: #fff;
+	border-bottom-right-radius: 20px;
+}
+.content-left button:hover{
+	background-color: #4163ec;
+}
+.content-left .content-left-img{
+	position: absolute;
+	left: 14px;
+	top: 15px;
+}
+.content-left #btn{
+	position: absolute;
+	right: 15px;
+	top: 15px;
+}
+.content-left #btns{
+    display: none;
+	position: absolute;
+	right: 15px;
+	top: 15px;
+}
+.content-left #btnt{
+	position: absolute;
+	right: 15px;
+	top: 15px;
+}
+.content-left #btnu{
+    display: none;
+	position: absolute;
+	right: 15px;
+	top: 15px;
+}
+.content-left .content-li{
+	background: url(../../img/member_6.jpg) no-repeat 159px 14px;
+}
+/* .content-left li:hover{
+	background: url(../../img/huiyuan.png) repeat-x;
+} */
+.content-left dl{
+	display: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 12px;
+	border: 1px solid #dcdcdc;
+}
+.content-left dl a{
+	font-size: 13px;
+}
+.content-left dt{
+	width: 185px;
+	height: 30px;
+	line-height: 30px;
+   /*  border-bottom: 1px solid #323232; */
+}
+/* .content-left dt:hover{
+	background: url(../../img/huiyuan.png) repeat-x;
+} */
+.content-left dd{
+	width: 190px;
+	height: 30px;
+	line-height: 30px;
+	/* border-bottom: 1px solid #323232; */
+}
+/* .content-left dd:hover{
+	background: url(../../img/huiyuan.png) repeat-x;
+} */
+.conr_title { width:926px; height: auto; margin: auto; font-weight: bold; overflow: hidden;font-size: 18px; color: #333; padding-top: 34px; padding-bottom: 18px; border-bottom: 1px #dddddd solid; margin-bottom: 38px;}
+.conr_con { width:926px; height: auto; margin: auto; overflow: hidden; padding-bottom: 40px;}

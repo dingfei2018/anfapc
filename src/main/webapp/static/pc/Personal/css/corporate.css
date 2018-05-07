@@ -1,0 +1,253 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Microsoft YaHei" ! important;
+}
+
+.main-right img{
+	 width : 750px;
+}
+
+
+
+/*濠电偞鍨堕幖鈺呭矗閸愩剮娑㈠锤濡わ拷缁�鍐煕濞戝崬寮鹃柛鐔锋喘閺岋綁濡搁妷銉純闂佺瀛╅幐鍐茬暦濮樿埖鏅搁柨鐕傛嫹*/
+.content{
+	width: 1200px;
+	 height: auto; 
+	/* border: 1px solid #323232; */
+	margin: auto;
+	margin-top: 25px;
+	overflow: hidden;
+	padding-bottom: 20px;
+}
+
+.content-right{
+	border: 1px solid #dfdfdf; 
+	width: 995px;
+	height: auto;
+	min-height: 790px;
+	overflow: hidden;
+    float: right;
+    position: relative;
+}
+
+.content-right-top{
+	width: 926px;
+    height: auto;
+	overflow: hidden;
+	padding-bottom: 50px;
+}
+
+.content-right-top ul{
+	list-style-type: none;
+    position: absolute;
+    left: 50px;
+    top: 30px;
+    width: 302px;
+    border: 1px solid #323232;
+}
+.content-right-top ul li a {
+    text-decoration: none;
+    float: left;
+    width: 149px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-right: 1px solid #323232;
+    color: #323232;
+    border-left: 0px;
+}
+
+#p2{
+	margin-top: 123px;
+}
+
+.content-right-top .p2{
+	margin-top: 60px;
+	margin-left: 54px;
+	font-size: 16px;
+	font-weight: bold;
+}
+.content-right-top .p3{
+	margin-top: 20px;
+	margin-left: 54px;
+	font-size: 16px;
+    font-weight: bold;
+}
+.content-right-top .p3-img{
+	position: absolute;
+    right: 99px;
+    top: 760px;
+}
+.content-right-top .input1{
+	margin-left: 54px;
+	margin-top: 10px;
+	width: 840px;
+	height: 35px;
+}
+.content-right-top .button1{
+	/* position: absolute;
+    right: 420px;
+    bottom: 75px; */
+    margin-left: 395px;
+    margin-top: 40px;
+    cursor: pointer;
+    width: 190px;
+    height: 40px;
+    background-color: #3974f8;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    font-family: "Microsoft YaHei";
+}
+
+.content-right-top button:hover{
+    background-color: #ff7801;
+}
+
+.content-right-top .content-right-top-p {
+	display: inline-block;
+	width: 1019px;
+    height: 30px;
+    background: url(../../img/daohangtiao.png) repeat-x;
+    line-height: 30px;
+    text-indent: 52px;
+    margin-top: 2px;
+}
+.content-right-top a{
+	text-decoration: none;
+}
+
+.content-right-top .imgs{
+	position: absolute;
+    right: 54px;
+    top: 74px;
+}
+/* #btn{
+	display: inline-block;
+	width: 46px;
+	height: 24px;
+	line-height: 24px;
+	background: #3974f8;
+	text-decoration: none;
+	color: white;
+	border-radius: 3px;
+	font-size: 12px;
+	font-family: "Microsoft YaHei";
+}
+#btn:hover{
+	background-color: #ff7801;
+}
+#btns{
+	display: inline-block;
+	width: 46px;
+	height: 24px;
+	line-height: 24px;
+	border: 1px solid blue;
+	margin-left: 10px;
+	color: #666;
+	border-radius: 3px;
+	font-size: 12px;
+	text-decoration: none;
+	font-family: "Microsoft YaHei";
+}
+#btns:hover{
+	background-color: #3974f8;
+	color: #fff;
+} */
+
+.btn{
+	position: relative;
+}
+.btn img{
+	position: absolute;
+	left: 0px;
+	top: 8px;
+}
+.content-right-top li a:hover{
+	color : white;
+}
+.content-right-top .content-right-top-li{
+	border-right: 0px;
+}
+
+.gtu1{
+
+	width: 442px;
+	clear: both;
+	margin-left: 54px;
+	margin-top: 28px;
+    height: 143px;
+    float: left;
+    /* border: 1px solid #323232; */
+    /* margin-top: 20px; */
+    position: relative;
+    overflow: hidden;
+	
+}
+.gtu1 .imgs{
+	position: absolute;
+    right: 27px;
+    top: 62px;
+}
+.gtu1 span{
+	    position: absolute;
+	font-size: 14px;
+    right: 0px;
+    top: 60px;
+}
+.gtu2{
+	 width: 206px;
+    height: 140px;
+    border: 1px solid #e2e2e2;
+    vertical-align: middle;
+    line-height:1px;
+	border-right:0px;
+    display: table-cell;
+    text-align: center;
+}
+.gtu2-img{
+	max-width: 206px;
+    max-height: 140px;
+}
+.gtu3{
+	width: 172px;
+    height: 140px;
+	position: relative;
+    border: 1px solid #e2e2e2;
+	    right: 61px;
+    top: 0px;
+	position: absolute;
+}
+.file {
+    position: relative;
+    display: inline-block;
+    border-radius: 4px;
+    padding: 6px 30px;
+    overflow: hidden;
+    text-decoration: none;
+    text-indent: -16px;
+    line-height: 20px;
+    margin-top: 54px;
+    margin-left: 15px;
+    background: url(../../img/grey00.png) no-repeat;
+    font-size: 12px;
+    color: #666;
+}
+
+.file input {
+    position: absolute;
+    right: 0;
+    top: 0;
+	font-size: 100px;
+    opacity: 0;
+}
+.file:hover {
+     background: url(../../img/orange00.png) no-repeat;
+     color: #ed6c06;
+    text-decoration: none;
+}
+
+
+

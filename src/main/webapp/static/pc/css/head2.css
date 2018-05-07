@@ -1,0 +1,206 @@
+
+*{font-family: "Microsoft YaHei";}
+
+#activety {
+    border-bottom: 1px solid blue;
+    font-weight: bold;
+    color: #3974f8;
+}
+
+/*缂傚倸鍊搁崐鐑芥倿閿曞倶锟藉啳绠涘☉妯碱槯濠电偞鍨舵穱鐑樻叏閹惰姤鐓冮柛婵嗗閺嗙喖鏌ｉ鐔稿暗闁跨喕妫勭粻宥夊磿闁秴绠犻悘鐐插⒔椤╃兘鏌涢鐘插姕闁抽攱鍨堕妵鍕棘閹稿孩鍎撴繝寰枫倖顏犵紒杈ㄥ笒铻栭柨鐔剁矙钘濋梻鍫熺〒閺嗭箓鏌曟竟顖氬�归崟鍐⒑閸涘﹥瀵欓柛鎰亾椤ュ繘姊虹拠鎻掝劉妞ゆ梹鐗犲畷浼村冀椤愶絽搴婇梺鍦劋閸ㄧ喖寮搁弮鍫熺厵閻庣數顭堥崜杈ㄤ繆閹绘帞绉烘鐐寸墪鑿愭い鎺炴嫹闁诲浚鍠栭…鍧楁儌閸涘﹤顏�*/
+.head-list{
+	width: 100%;
+	height: 59px;
+	background-color: #fff; border-bottom: 1px #dcdcdc solid;
+	
+}
+
+.activety li{
+	color: blue;
+	border-bottom: 2px solid blue;
+}
+.head {
+	width: 1200px;
+	margin: auto;
+	height: 44px;
+	/*border: 1px solid #323232;*/
+	position: relative;
+    font-size: 16px;
+}
+
+.banner-right-gjk-p{
+	position: absolute;
+	right: 370px;
+	top: 5px;
+	color: red;
+}
+.banner-right-gjk-ps{
+	position: absolute;
+	right: 350px;
+	top: 3px;
+	color: red;
+}
+
+.head-left{
+	width: auto;
+	height: 59px;
+    margin-left: 0;
+	color: #666;
+	overflow: hidden;
+	font-size: 14px;
+	line-height: 59px;
+	float: left;
+	/*background: red;*/
+}
+.head-left span{ padding-right: 20px;}
+.head-left .span{ padding-right: 16px;}
+.head-left p{ padding-right: 15px; font-size: 14px; color: #666;font-family: "Microsoft YaHei";}
+.head-content{
+	width: auto;
+	height: 59px;
+	float: left;
+	line-height: 57px;
+}
+.head-content a{
+	text-decoration: none;
+	font-size: 14px;
+	color: #3974f8;
+	margin-right: 20px;
+	font-family: "Microsoft YaHei";
+}
+.head-content a:hover{ color: #ff7801;}
+.head-center a{
+	width: 135px;
+	height: 43px;
+	text-decoration: none;
+	color: red;
+	line-height: 43px;
+	margin-left: 20px;
+}
+.head-content .head-content-right{
+	margin-left: 30px;
+}
+.head-right{
+	width: auto;
+	height: auto;
+	overflow: hidden;
+	float: right;
+}
+.head-right ul{
+	list-style-type: none;
+}
+.head-right li{
+	float: left;
+    margin-left: 23px;
+    margin-right: 23px;
+    cursor: pointer;
+	float: left;
+}
+.head-right li a{
+	font-size: 16px;
+	color: #666;
+	height: 59px;
+	line-height: 59px;
+	text-decoration: none;
+	padding-left:16px; 
+	padding-right:16px; 
+	/* border-bottom: 1px #fff solid; */
+    display: block;
+    font-family: "Microsoft YaHei";
+}
+.head-right li a:hover{
+	color: #3974f8;
+	border-bottom: 1px solid #3974f8;
+}
+
+
+.banner-right-gjk {
+    width: 7px;
+    height: 7px;
+    /* border-radius: 5px; */
+    /* background-color: #da0000; */
+    position: absolute;
+    right: 167px;
+    top: 14px;
+    display:none;
+    background: url(../img/point2.png) no-repeat;
+}
+.banner-right-gjk-p{
+	position: absolute;
+	right: 278px;
+    top: 4px;
+	color: red;
+}
+.banner-right-gjk-ps{
+	position: absolute;
+	right: 276px;
+	top: 3px;
+	color: red;
+}
+/*闂傚倷绀侀幖顐λ囬柆宥呯？闁圭増婢樼粣妤佷繆閵堝懏鍣圭紒鐘卞嵆濮婃椽顢楅敓鐣岀矓閻㈢纾跨�广儱顦伴悡鏇㈡煛閸ャ儱濡煎ù婊勭矒閺屸剝鎷呴崫銉ョ厽闂佽鍠楅〃濠囧箚閸岀偛宸濆┑鐘插亞娴硷拷*/
+.main{
+	width: 1200px;
+	height: 160px;
+	margin: auto;
+	border: 1px solid #e4e4e4;
+	position: relative;
+	margin-top: 20px;
+}
+.main-left{
+	width: 450px;
+	height: 160px;
+	/* border-right: 1px solid white; */
+	position: relative;
+}
+.main-left p{
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+	color: red;
+	text-align: center;
+	position: absolute;
+	right: 15px;
+	bottom: 15px;
+	cursor: pointer;
+}
+.main-left img{
+	margin: 30px 0 0 30px;
+}
+
+/*闂傚倸鍊风粈渚�骞夐敓鐘冲仭闁靛鏅滈崑顏堟煕閵夈垺娅囬柛妤佸哺閺岋綁寮崹顔藉�梺绋块缁夊綊寮诲☉銏犲嵆闁靛鍎查悘鎾绘⒑閸濆嫷鍎忛柛濠傛健瀵鎮㈤搹鍦紲闂侀潧绻掓慨瀵哥不閻熸壋鏀介柣鎰煐瑜把囨煙閸戙倖瀚�*/
+.main-right{
+	width: 860px;
+	height: 160px;
+	position: absolute;
+	right: 0;
+	top: -1px;
+	text-align: center;
+	line-height: 160px;
+	overflow: hidden;
+}
+.main-right ul{
+	list-style-type: none;
+}
+.main-right li{
+	float: left;
+}
+.main-right img{
+    width: 860px;
+	height: 161px;
+}
+
+table tr:nth-child(2n) {
+	background-color: #dee6ff !important;
+ }
+ table tr:focus{
+ 	background-color: #fff8d3 !important;
+ }
+ }
+ 
+ input:focus{ 
+background-color:#ADD8E6;
+}   
+table.tab_css_1 tr.tr_css{
+	background-color: white;
+	
+}

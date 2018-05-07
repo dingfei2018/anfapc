@@ -1,0 +1,161 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+
+/*杞挱鐨勫唴瀹�*/
+.banner{
+	width: 1200px;
+	height: 160px;
+	border: 1px solid #323232;
+	margin: auto;
+	margin-top: 20px;
+	position: relative;
+}
+.banner-left{
+	width: 450px;
+	height: 160px;
+	border-right: 2px solid #323232;
+	position: relative;
+}
+.banner-left p{
+	font-size: 14px;
+	color: red;
+	position: absolute;
+	right: 20px;
+	bottom: 10px;
+}
+.banner-left img{
+	margin-top: 25px;
+	margin-left: 25px;
+}
+.banner-right{
+	width: 750px;
+	height: 160px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	/*background-color: #E1E1E1;*/
+	overflow: hidden;
+}
+.banner-right img{
+	width: 750px;
+	height: 160px;
+}
+.banner-right ul{
+	list-style-type: none;
+}
+.banner-right li{
+	float: left;
+}
+
+
+/*涓棿鐨勫唴瀹�*/
+.content{
+	width: 1200px;
+	height: 800px;
+	border: 1px solid #323232;
+	margin: auto;
+    margin-top: 20px;
+    position: relative;
+}
+.content a{
+	color: #0024FF;
+}
+.content-top{
+	width: 1200px;
+	height: 60px;
+	background-color: #0066FF;
+	text-align: center;
+	line-height: 60px;
+}
+.content-top p{
+	font-size: 20px;
+	color: white;
+}
+
+.content .content-left{
+	width: 200px;
+	height: 250px;
+    position: absolute;
+    left: 180px;
+    top: 100px;
+}
+.content .content-left ul{
+	list-style-type: none;
+}
+.content .content-left a{
+	text-decoration: none;
+}
+.content .content-left li{
+	width: 200px;
+	height: 50px;
+	margin-top: 10px;
+	text-align: center;
+	line-height: 50px;
+}
+.content .content-content{
+	width: 200px;
+	height: 250px;
+	position: absolute;
+	left: 500px;
+	top: 100px;
+}
+.content .content-content a{
+	text-decoration: none;
+}
+.content .content-content ul{
+	list-style-type: none;
+}
+.content .content-content li{
+	margin-top: 20px;
+	height: 40px;
+	width: 200px;
+	text-align: center;
+	line-height: 40px;
+}
+.content .content-right{
+	width: 200px;
+	height: 250px;
+	position: relative;
+	position: absolute;
+	right: 180px;
+	top: 100px;
+	
+}
+.content .content-right a{
+	position: absolute;
+	left: 55px;
+	bottom: 20px;
+	text-align: center;
+}
+.content .content-right  a{
+	text-decoration: none;
+}
+.content-right .content-img{
+	width: 150px;
+	height: 120px;
+	/*border: 1px solid #323232;*/
+	margin: 40px 0 0 20px;
+}
+.content-right .content-img img{
+	width: 150px;
+	height: 120px;
+}
+.content-imgs{
+	width: 600px;
+	height: 400px;
+	/*background: red;*/
+	line-height: 400px;
+	text-align: center;
+	/*border: 1px solid #323232;*/
+	position: absolute;
+	right: 290px;
+	top: 365px;
+}
+.content-imgs img{
+	width: 600px;
+	height: 400px;
+}

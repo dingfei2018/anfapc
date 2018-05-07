@@ -1,0 +1,468 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body { transform:translateZ(0); -webkit-transform:translateZ(0);}
+/* .active{
+	background: url(../img/youce.png) repeat-y;
+} */
+
+#showCity ul li:hover{
+	background-color: #3974f8;
+	color: #fff;
+	font-size : 14px;
+}
+.btnp{
+    width: 228px;
+    height: 25px;
+    border: 1px solid #ccc;
+    position: absolute;
+    background: #fff;
+    right: 308px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 193px;
+    z-index: 999;
+}
+
+.checkboxall{
+	float: left;
+    width: 46px;
+    height: 24px;
+    color: #fff;
+    border: none;
+    font-size: 12px;
+    border-radius: 3px;
+     margin-left: 50px; 
+    background-color: #3974f8;
+    cursor: pointer;
+    /* position: absolute;
+    left: 104px;
+    bottom: 0px; */
+}
+.checkboxall:hover{
+	background-color: #ff7801;
+}
+.checkboxconfirm{
+	float: right;
+    width: 46px;
+    height: 24px;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 12px;
+    margin-left: 36px;
+    border: none;
+    background-color: #3974f8;
+    cursor: pointer;
+   /*  position: absolute;
+    right: 0px;
+    bottom: 0px; */
+}
+.checkboxconfirm:hover{
+	background-color: #ff7801;
+}
+.main-right img{
+	width: 860px;
+	height: 160px;
+}
+
+/*婵犵數鍋為崹鍫曞箹閳哄懎鐭楅柛鎰╁壆濞戙垹閿ゆ俊銈忔嫹缂侊拷閸愵喗鐓曟繛鎴濆船瀵箖鏌涢悢閿嬪枠闁哄矉缍佹俊鎼佸Ψ閵夘喕绱旈梻浣侯焾鐎涒晠骞愰崘鑼殾婵鍩栭弲鎼佹煥閻曞倹瀚�*/
+.content{
+	width: 1200px;
+	height: auto;
+	/* border: 1px solid #323232; */
+	margin: auto;
+	margin-top: 25px;
+	overflow: hidden;
+	position: relative;
+}
+
+
+.content-right{
+    border: 1px solid #dfdfdf;
+    width: 995px;
+    height: auto;
+    min-height: 790px;
+    overflow: hidden;
+    float: right;
+
+}
+.content-right-top{
+	margin-left: 198px;
+    margin-top: 40px;
+	width:auto;
+	overflow: hidden;
+	height: auto;
+	float: left;
+	overflow: hidden;
+	padding-bottom: 14px;
+}
+.content-right .ul {
+    list-style-type: none;
+    height: 54px;
+    padding-top: 16px;
+    width: 925px;
+    margin: auto;
+    border-bottom: 1px solid #dcdcdc;
+}
+.content-right .ul li{
+	float: left;
+	height: 54px;
+	width: 93px;
+	text-align: center;
+	line-height: 54px;
+}
+.content-right .ul li a{
+	text-decoration: none;
+	font-size: 16px;
+    display: block;
+	color: #333;
+	height: 54px;
+	width: auto;
+	text-align: center;
+	line-height: 54px;
+	
+}
+.content-right .ul li a:hover{
+	display: block;
+	color: #3974f8;
+	font-size: 16px;
+	height: 54px;
+	width: auto;
+	text-align: center;
+	line-height: 54px;
+}
+
+.content-right-top label{
+    margin-top: 12px;
+	height: auto;
+	overflow: hidden;
+    clear: both;
+    width: auto;
+    display: block;
+}
+
+.content-right-top label.label10 { text-align:center;}
+
+.content-right-top .label3{
+}
+.content-right-top select{
+	width: 113px;
+    height: 33px;
+    color: #666;
+    border: 1px #dfdfdf solid;
+	float: left;
+	margin-left: 4px;
+
+}
+.content-right-top .select{
+	float: left;
+	margin-left: 15px;
+}
+
+.content-right li a.active{
+	display: block;
+	font-weight: bold;
+	color: #3974f8;
+	border-bottom: 1px solid #3974f8;
+	font-size: 18px;
+	height: 54px;
+	width: auto;
+	text-align: center;
+	line-height: 54px;
+	
+}
+/* .content-right-top button{
+	width: 120px;
+	height: 40px;
+	cursor: pointer;
+	background-color: white;
+	border: 1px solid #323232;
+} */
+/* .content-right-top button:hover{
+	background-color: #0024FF;
+	color: white;
+} */
+.content-right-list{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	right: 25px;
+	top: 35px;
+	background-color: #0024FF;
+	border-radius: 50%;
+	line-height: 20px;
+	text-align: center;
+}
+.content-right-list a{
+    color: white;
+    text-decoration: none;
+}
+
+.content-right-top label span.content-span{ width:128px; text-align: right;}
+
+.content-right-top label span{
+    font-size: 14px;
+    width: auto;
+    text-align: right;
+	text-align: left;
+    display: inline-block;
+    float: left;
+    height: 35px;
+    line-height: 35px;
+    color: #333;
+}
+
+.content-right-top label span.dot{ color: #f00; font-size: 14px; padding-left: 10px;}
+.content-right-top label span.txt_bz {font-size:12px; color: #666; padding-left: 10px;}
+
+.content-right-top label span.is_zs {float:none; height: 24px;font-size: 14px; line-height: 18px; padding-top: 50px; color:#ff7800; padding-top:50px;}
+.content-right-top label span.isal {     float: none;
+    padding-top: 17px;
+    display: inline-block;
+    width: 39px;
+    height: 12px;}
+.content-right-top table{
+	width: 1000px;
+	height: 150px;
+	margin-top: 100px;
+}
+.content-right-top th{
+	height: 60px;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 60px;
+	text-align: center;
+}
+.content-right-top td{
+	text-align: center;
+	height: 60px;
+	line-height: 60px;
+	font-size: 14px;
+}
+.content-right-top .content-right-input{
+	width: 60px;
+}
+.content-right-botton{
+	width: 1019px;
+	height: 319px;
+	border-top: 1px solid #969696;
+	position: relative;
+}
+.content-right-botton span{
+	color : red;
+}
+.content-right-botton dl{
+    margin-left: 296px;
+    margin-top: 131px;
+}
+.content-right-botton dd{
+	margin-top: 15px;
+}
+ .content-right-botton b{
+	font-weight: normal;
+	margin-left: 15px;
+}  
+.content-right-botton .content-right-bottonsi{
+	margin-left: -6px;
+}
+.content-right-botton .content-right-bottons{
+	margin-left: -18px;
+}
+.content-right-botton .content-right-bottonst{
+	margin-left: -55px;
+}
+.content-right-botton .content-right-bottonstp{
+	margin-left: 25px;
+}
+.content-right-botton-b{
+	display: inline-block;
+	margin-right: 10px;
+}
+.content-right-botton storng{
+	font-size: 14px;
+	color: #0066FF;
+}
+.content-right-botton p {
+    height: 30px;
+    background: url(../img/daohangtiao.png) repeat-x;
+    line-height: 30px;
+    text-indent: 16px;
+    margin-top: 2px;
+    color: #666;
+    font-size: 14px;
+    font-family: "Microsoft Yahei";
+}
+.content-right-botton b a {
+	display: inline-block;
+	font-size: 14px;
+}
+.content-right-botton a{
+	text-decoration: none;
+}
+.content-right-botton ul{
+	list-style-type: none;
+	position: absolute;
+	left: 50px;
+	top: 60px;;
+	width: 302px;
+	border : 1px solid #323232;
+}
+.content-right-botton ul li a {
+	text-decoration: none;
+	float: left;
+	width: 149px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	border-right: 1px solid #323232;
+	color : #323232;
+	border-left: 0px;
+}
+.content-right-botton ul li a:hover{
+	background: url(../img/youce.png) repeat-y
+	color : white;
+}
+.content-right-botton .content-right-li li{
+	border-right : 0px;
+}
+.content-right-botton ul{
+	border-right: 0;
+}
+.content-right-botton table{
+	width: 1000px;
+	height: 150px;
+	margin-top: 72px;
+}
+.content-right select{
+	width: 113px;
+    height: 33px;
+    color: #666;
+    border: 1px #dfdfdf solid;
+}
+.content-right #parkid{
+	width: 346px;
+    height: 33px;
+    color: #666;
+    border: 1px #dfdfdf solid;
+        margin-left: 15px;
+}
+.content-right-botton th{
+	height: 60px;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 60px;
+	text-align: center;
+}
+.content-right-botton td{
+	text-align: center;
+	height: 60px;
+	line-height: 60px;
+	font-size: 14px;
+}
+.content-right-botton .content-right-input{
+	width: 60px;
+}
+.content-right input{
+	height: 33px;
+    width: 346px;
+    border: 1px #dfdfdf solid;
+    margin-left: 15px;
+    text-indent: 15px;
+    color: #666;
+    float: left;
+}
+.content-right-botton .content-right-a{
+	text-decoration: none;
+    font-size: 14px;
+    color: #0024FF;
+    position: absolute;
+    right: 25px;
+    top: 204px;
+}
+.content-right-botton button{
+	cursor: pointer;
+    width: 190px;
+    height: 40px;
+    /* background: url(../../img/youce.png) repeat-y; */
+    background-color: #3974f8;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    font-family: "Microsoft YaHei";
+	position: absolute;
+	left: 358px;
+	bottom: -340px;
+}
+.content-right-botton button:hover{
+	background-color: #ff7801; 
+}
+.content-right-botton .content-input{
+	width: 230px;
+}
+.content-right-top .content-input{
+	width: 230px;
+}
+#networkid {width: 346px;
+    height: 33px;
+    border: 1px #dfdfdf solid;
+    margin-left: 15px;
+    text-indent: 15px;
+    color: #666;}
+#isSale {       width: 24px;
+    display: block;
+    height: 14px;
+    float: none;
+}
+p.p_btn {
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+	clear: both;
+}
+ p button{
+	cursor: pointer;
+	text-align: center;
+	width: 190px;
+	height: 40px;
+	background-color: #3974f8;
+	font-size: 16px;
+	color: white;
+	border-radius: 5px;
+	border: 0;
+	font-family: "Microsoft YaHei";
+}
+p button:hover{
+	background-color: #ff7801;
+}
+
+.content-left-ang3{
+	width: 344px;
+    /* height: 200px; */
+    height: auto;
+    background-color: #fff;
+    position: absolute;
+    left: 546px;
+    top: 394px;
+    display: none;
+    overflow-x:hidden;
+    border: 1px solid #a1bff1;
+}
+.content-left-ang3 ul{
+	clear: both;
+	width: 344px;
+}
+.content-left-ang3 li a{
+	height: 20px;
+    text-indent: 12px;
+    text-decoration: none;
+    font-size: 12px;
+    display: inline-block;
+    color: #666;
+    clear: both;
+}
+.content-left-ang3 li a:hover{
+	background-color: #ffffdd;
+	color : #3974f8;
+}

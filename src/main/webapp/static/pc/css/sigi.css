@@ -1,0 +1,157 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Microsoft Yahei";
+}
+
+input {
+         outline:none;
+         background:transparent;
+        border:none;
+          outline:medium;
+      }
+      *:focus { 
+          outline: none;
+         background-color: transparent;
+    }
+    /* ::selection{background:transparent; } */
+    ::-moz-selection{background:transparent; }
+
+/*中间的内容*/
+.contents{
+	width: 100%;
+	height: 500px;
+	margin: auto;
+	margin-top: 20px;
+	position: relative;
+	background: url(../img/login_bj.jpg) #3968ac no-repeat center;
+}
+.content{
+	width: 1200px;
+	height: 500px;
+	margin: auto;
+	position: relative;
+}
+.content-liso{
+	width: 412px;
+	height: 422px;
+	border: 1px solid white;
+	position: absolute;
+	right: 0;
+	top: 48px;
+	background-color: white;
+}
+.content p{
+	font-size: 20px;
+    color : #4470af;
+    margin-left: 26px;
+    margin-top: 31px;
+    
+}
+.content .label1{
+	display: inline-block;
+	border: 1px solid #dcdcdc;
+	height: 34px;
+	background: url(../img/login_1.jpg) no-repeat 8px 5px;
+	margin-left: 30px;
+}
+.content .label2{
+	display: inline-block;
+	border: 1px solid #dcdcdc;
+	height: 34px;
+	background: url(../img/login_2.jpg) no-repeat 8px 5px;
+	margin-left: 30px;
+}
+.content #username{
+	width: 318px;
+	height: 32px;
+	text-indent: 5px;
+	/* margin-top: 3px; */
+   /*  background: url(../img/login_1.jpg) no-repeat 8px 5px; */
+    text-indent: 20px; 
+    margin-left: 30px;
+    border: 1px solid white;
+    -webkit-box-shadow: 0 0 0px 20px white inset;
+    
+}
+.content #password{
+	width: 318px;
+	height: 32px;
+	text-indent: 5px;
+	/* margin-top: 7px; */
+	/* background: url(../img/login_2.jpg) no-repeat 8px 5px; */
+	text-indent: 20px;
+	margin-left: 30px;
+	border: 1px solid white;
+	-webkit-box-shadow: 0 0 0px 20px white inset;
+	
+}
+.content-left span{
+	margin-left: 20px;
+}
+.content-left{
+	width: 412px;
+	height: 150px;
+	margin: 24px 0 0 0px;
+}
+.content-left .content-left-span{
+	margin-left: 36px;
+}
+.content .content-button{
+	width: 350px;
+	height: 40px;
+	border-radius: 5px;
+	background-color: #3974f8;
+	color: white;
+	margin: 26px 0 0 33px;
+	font-size: 18px;
+	border: 0px;
+	cursor: pointer;
+	font-family: "Microsoft YaHei";
+}
+.content .content-button:hover{
+	background-color: #ff7801;
+}
+.content-right{
+	width: 130px;
+	margin: -26px 0 0 265px;
+	font-size: 14px;
+}
+.content-right a{
+	color: #323232;
+	text-decoration: none;
+}
+.content-right a:hover{
+	color: #ee761b;
+}
+.content-right-a{
+	margin-left: 61px;
+}
+
+.content-bottom{
+	width: 350px;
+	height: 60px;
+	border-top: 1px solid #dcdcdc;
+	margin-top: 35px;
+	margin-left: 30px;
+    line-height: 60px;
+    font-size: 14px;
+}
+.content-bottom a{
+	margin-left: 169px;
+	text-decoration: none;
+	color : #ee761b;
+}
+
+
+
+
+
+
+
+
+
+
+
+

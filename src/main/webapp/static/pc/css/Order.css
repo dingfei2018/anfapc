@@ -1,0 +1,391 @@
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.header{
+	width: 1200px;
+	height: 320px;
+	border: 1px solid blue;
+	margin: auto;
+	position: relative;
+}
+
+.header h1{
+	width: 800px;
+	height: 200px;
+	line-height: 200px;
+	text-indent: 35px;
+}
+
+.header-right{
+	width: 280px;
+	height: 120px;
+	border: 1px solid blue;
+	position: absolute;
+	right: 20px;
+	top: 83px;
+}
+.header-right dl{
+	float: left;
+	width: 100px;
+	height: 80px;
+	margin-left: 32px;
+}
+.header-right dd{
+	width: 100px;
+	height: 30px;
+	margin-top: 20px;
+	text-indent: 10px;
+	line-height: 30px;
+}
+.header-right span{
+	color: red;
+}
+.header-right .header-dl{
+	text-align: center;
+}
+.header-right .header-dd{
+	color: red;
+}
+.header ul{
+	list-style-type: none;
+	margin-top: 40px;
+}
+.header a{
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+}
+.header li{
+	width: 198px;
+	height: 80px;
+	border: 1px solid yellow;
+	float: left;
+	line-height: 80px;
+	text-align: center;
+	background: #0024FF;
+}
+.centent{
+	width: 1200px;
+	height: 450px;
+	border: 1px solid red;
+	margin: auto;
+	margin-top: 35px;
+	line-height: 450px;
+	text-align: center;
+}
+
+.benner{
+	width: 1200px;
+	height: 1120px;
+	border: 1px solid green;
+	margin: auto;
+	margin-top: 35px;
+	position: relative;
+}
+.benner-translate{
+	width: 700px;
+	height: 300px;
+	border: 1px solid blue;
+	position: relative;
+}
+.benner-translate h1{
+	margin: 22px 0 0 34px;
+}
+.benner-translate p{
+	font-size: 18px;
+	margin-left: 30px;
+	margin-top: 30px;
+	/*font-size: 15px;*/
+}
+.benner-translate span{
+	margin-left: 30px;
+	color: red;
+}
+.benner-translate a{
+	text-decoration: none;
+	margin-left: 150px;
+	font-size: 20px;
+}
+
+#city_2{
+	margin-top: 34px;
+}
+#city_2 b{
+	margin-left: 80px;
+}
+/*#city_2 select{
+	width: 80px;
+}*/
+#city_3{
+	margin-top: 25px;
+}
+#city_3 b{
+	margin-left: 80px;
+}
+
+.benner-translates {
+	width: 700px;
+	height: 170px;
+	border: 1px solid blue;
+}
+.benner-translates h2{
+	margin: 25px 0 0 35px;
+}
+.benner-translates .benner-tables{
+    width: 700px;
+    height: 100px;
+    margin: 15px 0 0 0;	
+}
+.benner-tables th{
+	text-align: center;
+	border-top: 1px solid #323232;
+	border-bottom: 1px solid #323232;
+}
+.benner-tables td{
+	text-align: center;
+	border-top: 1px solid #323232;
+	border-bottom: 1px solid #323232;
+}
+.benner-translatet{
+	width: 700px;
+	height: 300px;
+	border: 1px solid blue;
+}
+
+.benner-translatet p{
+	font-size: 24px;
+	font-weight: bold;
+	margin: 25px 0 0 35px;
+}
+.benner-translatet .benner-translatet-span{
+	margin-left: 50px;
+	font-size: 18px;
+	font-weight: normal;
+	color: red;
+}
+.benner-translatet input{
+	width: 50px;
+	height: 20px;
+}
+.benner-translatet-table{
+	width: 700px;
+	margin-top: 15px;
+}
+.benner-translatet-table td{
+	height: 50px;
+	text-align: center;
+}
+.benner-translatet-table span{
+	color: red;
+}
+.benner-translatet-button{
+	margin-left: 541px;
+	margin-top: 10px;
+}
+
+.benner-translatet-button button{
+	width: 50px;
+	height: 30px;
+	background: white;
+	color: #0000FF;
+}
+.benner-translatet-button a{
+	text-decoration: none;
+	color: #0000FF;
+}
+.benner-translatet ul{
+	list-style-type: none;
+	margin-left: 10px;
+}
+.benner-translatet li{
+	float: left;
+	margin-left: 20px;
+}
+.benner-translatet span{
+	font-size: 24px;
+	color: red;
+}
+.benner-translatet b{
+	display: block;
+	margin: 10px 0 0 30px;
+	font-size: 18px;
+	font-weight: normal;
+	color: #969696;
+}
+.benner-translate-right{
+	width: 465px;
+	height: 250px;
+	border: 1px solid red;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+}
+.benner-translate-right dl{
+	width: 350px;
+	height: 200px;
+	/*border: 1px solid blue;*/
+	margin-left: 52px;
+	margin-top: 25px;
+}
+.benner-translate-right dt{
+	font-size: 18px;
+	font-weight: bold;
+	margin-left: 15px;
+	height: 60px;
+	line-height: 60px;
+}
+.benner-translate-right dd{
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.benner-translate-right span{
+	font-size: 16px;
+	font-weight:normal;
+	margin-left: 20px;
+}
+.benner-translate-right b{
+	color: red;
+}
+.benner-translateg{
+	width: 700px;
+	height: 342px;
+	border: 1px solid blue;
+}
+.benner-translateg p{
+	margin: 30px 0 0 35px;
+}
+.benner-translateg span{
+	color: red;
+}
+.benner-translateg-table{
+	width: 700px;
+    margin-top: 30px;
+}
+
+.benner-translateg-table td{
+	height: 40px;
+	margin-top: 10px;
+	text-align: center;
+}
+.benner-translateg-table input{
+	height: 25px;
+}
+
+.benner-buttont{
+	width: 600px;
+	height: 60px;
+	/*border: 1px solid blue;*/
+	margin: 60px 0 0 35px;
+}
+.benner-buttont button{
+	width: 250px;
+	height: 60px;
+	margin-left: 170px;
+	background: blue;
+	border-radius: 10px;
+	font-size: 18px;
+	color: white;
+}
+
+.benner-dedicated-right{
+	width: 465px;
+	height: 290px;
+	border: 1px solid red;
+	position: absolute;
+	right: 0px;
+	top: 275px;
+}
+.benner-dedicated-right p{
+	height: 50px;
+	line-height: 50px;
+	text-indent: 70px;
+	margin-top: 7px;
+}
+.benner-dedicated-right span{
+	color: red;
+}
+
+
+.benner-curve-right{
+	width: 465px;
+	height: 200px;
+	border: 1px solid red;
+	position: absolute;
+	right: 0;
+	top: 590px;
+}
+.benner-curve-right p{
+	height: 40px;
+	line-height: 40px;
+	margin-top: 17px;
+	margin-left: 67px;
+}
+
+.benner-curve-right .benner-p{
+	font-size: 18px;
+	font-weight: bold;
+}
+.benner-curve-right span{
+	margin-left: 10px;
+}
+.benner-curve-right b{
+	margin-left: 10px;
+    font-weight: normal;
+}
+
+.benner-picture-right{
+	width: 465px;
+	height: 300px;
+	border: 1px solid blue;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.benner-picture ul{
+	list-style-type: none;
+	margin-top: 188px;
+}
+.benner-picture li{
+	width: 200px;
+	float: left;
+	margin-left: 25px;
+	text-align: center;
+	height: 25px;
+	line-height: 25px;
+	margin-top: 8px;
+}
+.benner-picture-rights{
+	width: 465px;
+	height: 150px;
+	border: 1px solid blue;
+}
+.benner-picture-rights b{
+	font-size: 18px;
+	height: 60px;
+	line-height: 60px;
+	
+}
+.benner-picture-rights p{
+	margin-left: 67px;
+	margin-top: 16px;
+}
+.footer{
+	width: 1200px;
+	height: 150px;
+	border: 1px solid #323232;
+	margin: auto;
+	margin-top: 35px;
+}
+.footer span{
+	color: red;
+}
+
+.footer p{
+	margin-top: 15px;
+	text-align: center;
+}

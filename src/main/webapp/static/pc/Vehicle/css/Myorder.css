@@ -1,0 +1,537 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+#active{
+	display: block;
+    width: 86px;
+    height: 36px;
+    background-color: #c8c8c8;
+    color: #666666;
+    line-height: 36px;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 60px;
+    cursor: default;
+    font-family:"Microsoft Yahei";
+    font-size: 12px;
+    
+}
+
+.activety li{
+	color: blue;
+	border-bottom: 2px solid blue;
+}
+
+/*濠电偞鍨堕幖鈺呭矗閸愩剮娑㈠锤濡や礁鍓梺鍛婃处閸嬪嫰寮崼鏇熷�甸柣褍鎲＄�氾拷*/
+.content{
+	width: 1140px;
+	/* height: 1114px; */
+	margin: auto;
+	border: 1px solid #e4e4e4;
+	margin-top: 20px;
+	position: relative;
+	padding: 10px 30px 30px 30px;
+}
+.content-ul{
+	list-style-type: none;
+	height: 60px;
+	border-bottom: 1px solid #dcdcdc;
+}
+.content-ul li{
+	float: left;
+	height: 60px;
+	line-height: 60px;
+	margin-left: 50px;
+}
+.content-ul
+.content-nomargin{
+	margin-left: 0px;
+}
+.content-ul li a{
+	/* color : #323232; */
+	text-decoration: none;
+	font-size: 16px;
+}
+.content-ul li
+.actives{
+	border-bottom: 2px solid #0066FF;
+	font-weight: bold;
+	color : #0066FF;
+	height: 60px;
+	display: inline-block;
+	font-size: 18px;
+}
+.content-ul li a:hover{
+	color: #3974f8;
+}
+.content-ul .content-li{
+	margin-left: 173px;
+}
+.content-gu{
+	width: 528px;
+	height: 60px;
+	line-height: 60px;
+	position: absolute;
+	right: 30px;
+	top: 0px;
+}
+.content-gu input{
+	margin-left: 15px;
+	height: 22px;
+	background: url(../../img/dateoui.png) no-repeat 119px 4px;
+	text-indent: 5px;
+	font-size: 12px;
+	cursor: pointer;
+	width: 140px;
+}
+.content-gu .content-gu-button{
+	width: 46px;
+	/* background: url(../../img/jianbian6.png) repeat-x repeat-y; */
+	background-color: #3974f8;
+	border: 0px;
+    color : #fff;
+    cursor: pointer;
+    text-indent: 0px;
+    font-size: 12px;
+    height: 24px;
+    border-radius: 3px;
+    font-family: "Microsoft Yahei";
+}
+.content-gu .content-gu-button:hover{
+	
+	background-color: #ff7801;
+}
+.content .content-gun{
+	width: 100%;
+	height: 160px;
+	border: 1px solid #dcdcdc;
+	margin-top: 20px;
+	position: relative;
+}
+.content .content-gun p{
+	height: 30px;
+	background: #e2e6f7;
+	position: relative;
+	font-size: 14px;
+}
+.content-gun-to{
+	position: absolute;
+	left: 20px;
+	top: 10px;
+}
+.content-gun-tot{
+	position: absolute;
+	left: 40px;
+	top: 9px;
+	font-size: 12px;
+}
+.content-gun-too{
+	position: absolute;
+	left: 186px;
+	top: 7px;
+	font-weight: normal;
+	font-size: 12px;
+}
+.content-gun-too strong{
+	font-weight: normal;
+	margin-left: 00px;
+}
+.content-gun-top{
+	position: absolute;
+    right: 7px;
+    top: 7px;
+    cursor: pointer;
+}
+
+.content-gunpo{
+	width: 584px;
+	height: 130px;
+	border-right: 1px solid #dcdcdc;
+	position: relative;
+}
+.content-gunpo table{
+	position: absolute;
+	left: 212px;
+	top: 31px;
+}
+.content-gunpo th{
+	font-weight: normal;
+	margin-left: 20px;
+}
+.content-gunpo .content-gunpo-img{
+	margin-top: 18px;
+	margin-left: 42px;
+}
+.content-gunpo button {
+	width: 140px;
+	height: 28px;
+	/* border-radius: 5px; */
+	color : #323232;
+	background: url(../../img/kuang_2.png) no-repeat;
+	border: none;
+}
+.content-gunpo td{
+	height: 59px;
+}
+
+.content-gunpos{
+	width: 553px;
+	height: 130px;
+	position: absolute;
+	right: 0px;
+	top: 30px;
+}
+.content-gunpos ul{
+	list-style-type: none;
+	margin-left: 0px;
+}
+.content-gunpos li{
+	width: 183px;
+	height: 130px;
+	float: left;
+   /*  line-height: 130px; */
+    text-align: center;	
+    border-right: 1px solid #dcdcdc;
+}
+.content-gunpos .content-gunpos-right{
+	border-right: 0px;
+}
+.content-gunpos a{
+	display: block;
+	text-decoration: none;
+	color : #0066FF;
+	margin-top: 56px;
+	margin-left: 2px;
+}
+/*  .content-gunpos a:hover{
+	color : #0066FF;
+}  */
+.content-gunpos .content-gunpos-ao{
+	display: block;
+    width: 84px;
+	height: 36px;
+	background-color: #3974f8 ;
+	color : #ffffff;
+	line-height: 36px;
+	border-radius: 5px;
+	margin-top: 50px;
+	margin-left: 60px;
+	font-size: 12px;
+	font-family: "Microsoft Yahei";
+}
+.content-gunpos .content-gunpos-ao:hover{
+	background-color: #ff7801;
+}
+.content-gunpos .content-gunpos-aos{
+	border-right: 0px;
+}
+.content-right-tabu{
+	width: 145px;
+	height: 26px;
+	border: 1px solid white;
+	margin: 10px 0 0 15px;
+	line-height: 26px;
+
+}
+.content-right-tabu button {
+    width: 46px;
+    height: 24px;
+    margin-left: 20px;
+    margin-top: -2px;
+    border-radius: 3px;
+    background-color: white;
+    border: 1px solid #cbcbcb;
+    color: #666;
+    font-family: 'Microsoft YaHei';
+    font-size: 12px;
+    cursor: pointer;
+}
+.content-right-tabu button:hover{
+	background-color: #3974f8;
+	color: white;
+}
+.content-centent-bottom{
+	width: 100%;
+	height: 60px;
+	border: 1px solid white;
+	position: relative;
+	margin-top: 32px;
+}
+.content-centent-bottom ul {
+    position: absolute;
+    left: 273px;
+    top: 18px;
+}
+.content-centent-bottom ul {
+    list-style-type: none;
+    border: 0px;
+}
+.content-centent-bottom li {
+    float: left;
+    width: 50px;
+    height: 25px;
+    border: 1px solid #dcdcdc;
+    margin-left: 9px;
+    text-align: center;
+    line-height: 25px;
+}
+.content-centent-bottom li a {
+    display: inline-block;
+    text-decoration: none;
+    width: 50px;
+    height: 25px;
+    color: #323232;
+}
+.content-centent-bottom .content-centent-bottompo {
+    width: 50px;
+    height: 25px;
+    border: 1px solid #dcdcdc;
+    background-color: white;
+}
+.content-centent-bottom .content-centent-bottom-li{
+	border: 0;
+}
+.content-centent-bottom .content-centent-bottom-lis{
+	border: 0;
+}
+.content-centent-bottom .content-centent-bottoms {
+    position: absolute;
+    right: 446px;
+    top: 19px;
+    width: 50px;
+    height: 25px;
+    border: 1px solid #dcdcdc;
+    background-color: white;
+}
+.content-centent-bottom span {
+    position: absolute;
+    right: 208px;
+    top: 19px;
+    color: #323232;
+}
+.content-centent-bottom input{
+	width: 50px;
+}
+.content-centent-bottom .content-centent-bottomusy {
+    width: 50px;
+    margin-left: 10px;
+    height: 25px;
+    color: #323232;
+    border: 0;
+    background-color: white;
+    border: 1px solid #dcdcdc;
+}
+/* .content .content-ul{
+	list-style-type: none;
+	position: absolute;
+	left: 200px;
+	top: 10px;
+}
+闂備胶灏ㄩ幏鐑芥煟閻斿憡绶茬紓宥勭窔閺岋綁濡搁妷銉痪闂佺粯鐗徊璺ㄥ垝閻㈢绀堢憸搴ㄦ偩闁秵鐓曟慨姗嗗墰鑲栭悶姘炬嫹
+.content-active{
+	background-color: #0066FF;
+	color: white;
+}
+.content li{
+	float: left;
+	margin-left: 100px;
+}
+.content .content-li{
+	margin-left: 20px;
+}
+.content li button{
+	width: 190px;
+	height: 40px;
+}
+.content li button:hover{
+	background-color: #0066FF;
+	color: white;
+}
+.content li button a{
+	text-decoration: none;
+	color: #323232;
+}
+.content li button a:hover{
+	color: white;
+}
+
+.content-list{
+	width: 1200px;
+    height: 100px;
+    border-top: 1px solid #B4B4B4;
+    border-bottom: 1px solid #B4B4B4;
+    margin-top: 60px;
+}
+.content-list input{
+	width: 220px;
+	height: 42px;
+	text-indent: 10px;
+	color : #dcdcdc;
+}
+.content-list .content-list-span{
+	display: inline-block;
+	margin: 32px 0 0 262px;
+}
+.content-list button{
+	width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    line-height: 20px;
+    background-color: #2F21CD;
+    border: 0;
+    color: white;
+    font-size: 18px;
+}
+.content-tops{
+	width: 1200px;
+	height: 160px;
+	border-top: 1px solid white;
+    border-bottom: 1px solid #B4B4B4;
+	position: relative;
+}
+.content-tops .content-dl{
+	margin-left: 165px;
+	margin-top: 23px;
+}
+.content-tops .content-dd{
+	margin-left: 10px;
+	margin-top: 10px;
+	width: 130px;
+	height: 88px;
+	border: 1px solid #323232;
+}
+.content-tops .content-dls{
+	position: absolute;
+	right: 193px;
+	top: 23px;
+} 
+.content-tops .content-dls dt{
+	text-indent: 18px;
+}
+.content-tops .content-dls dd{
+	margin-top: 10px;
+}
+.content-tops ul{
+	position: absolute;
+	left: 250px;
+	bottom: 20px;
+	list-style-type: none;
+}
+.content-tops li{
+	margin-left: 207px;
+}
+.content-tops li a{
+	text-decoration: none;
+	color: #0066FF;
+	font-size: 14px;
+}
+.content-tops .content-lin{
+	margin-left: 80px;
+}
+.content-tops .content-lint a{
+	color: red;
+}
+.content .content-bottom{
+	width: 1200px;
+	height: 40px;
+	border-top: 1px solid white;
+	margin-top: 66px;
+	position: relative;
+}
+.content .content-bottom .content-bottons{
+	margin-left: 260px;
+	margin-top: 10px;
+	background-color: white;
+	border: 0;
+}
+.content .content-bottom .content-bottons a{
+	text-decoration: none;
+	color: #323232;
+}
+.content .content-bottom .content-bottonst{
+	margin-left: 596px;
+	margin-top: 13px;
+	background-color: white;
+	border: 0;
+}
+.content .content-bottom .content-bottonst a{
+	text-decoration: none;
+	color: #323232;
+}
+.content .content-bottom .content-bottonsts{
+	position: absolute;
+	right: 320px;
+	top: 11px;
+	background-color: #0066FF;
+	color: white;
+	font-size: 14px;
+	width: 40px;
+	height: 25px;
+	border: 0;
+}
+.content .content-bottom .content-bottonsts a{
+	color: white;
+	text-decoration: none;
+}
+.content .content-bottom ul{
+	list-style-type: none;
+	position: absolute;
+	right: 632px;
+	top: 8px;
+}
+.content .content-bottom li{
+	width: 30px;
+	height: 26px;
+	margin-left: 10px;
+	line-height: 26px;
+	text-align: center;
+	position: relative;
+}
+.content .content-bottom li button{
+	width: 80px;
+	height: 26px;
+	margin-right: 20px;
+	background-color: white;
+	line-height: 26px;
+	border: 0;
+	position: absolute;
+	top: 0;
+    left: 0;
+}
+.content .content-bottom li button a:hover{
+	color: #323232;
+}
+.content .content-bottom .content-li{
+	width: 80px;
+	height: 25px;
+	border: 0;
+	background-color: white;
+	border-top: 1px solid white;
+	color: white;
+}
+.content .content-bottom li:hover{
+	background-color: #0024FF;
+}
+闂佺尨鎷烽柣鐔告緲缂嶄線鏌ｉ妸銉ヮ伀閻炴凹鍋婂畷銉╂晸閿燂拷
+.active{
+	background-color: #0024FF;
+	color: white;
+}
+.content .content-bottom li a{
+	text-decoration: none;
+	color: #323232;
+	font-size: 13px;
+}
+.content .content-bottom li a:hover{
+	color: white;
+}
+.content .content-bottom span{
+	margin-left: 10px;
+	color: #B4B4B4;
+	font-size: 14px;
+}
+.content .content-bottom input{
+	width: 40px;
+} */

@@ -1,0 +1,99 @@
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+
+
+/*娑擃參妫跨悰銊︾壐閻ㄥ嫬鍞寸�癸拷*/
+.content{
+	width: 1200px;
+	height: 600px;
+	margin: auto;
+	border: 1px solid #323232;
+	margin-top: 20px;
+	position: relative;
+	font-size: 14px;
+}
+.content-left{
+	width: 150px;
+	height: 50px;
+	border: 1px solid #323232;
+	margin-top: 40px;
+}
+.content-left ul{
+	list-style-type: none;
+}
+.content-left li{
+	width: 70px;
+	height: 50px;
+	line-height: 50px;
+	float: left;
+	/*margin-left: 55px;*/
+	border-left: 2px solid #323232;
+	text-align: center;
+	font-size: 14px;
+}
+.content-left .content-lefts{
+	margin-left: 0;
+	border-left: 0;
+}
+.content-left .content-leftf{
+	margin-right: 0;
+}
+.content-right{
+	width: 810px;
+	height: 50px;
+	position: absolute;
+	right: 0;
+	top: 40px;
+	line-height: 50px;
+}
+.content-right input{
+	width: 150px;
+	height: 40px;
+	text-indent: 5px;
+	margin-left: 20px;
+}
+.content-right .content-input{
+	width: 235px;
+	height: 40px;
+}
+.content-right span{
+	margin-left: 20px;
+	font-size: 12px;
+}
+.content-right p{
+	width: 80px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	position: absolute;
+	right: 10px;
+	bottom: -5px;
+	color: #0000FF;
+	cursor: pointer;
+}
+.content-table{
+	width: 100%;
+}
+.content-table .content-th{
+	border-top: 2px solid #323232;
+	border-bottom: 2px solid #323232;
+	height: 60px;
+	line-height: 60px;
+}
+.content-table .content-td{
+	border-bottom: 2px solid #323232;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+}
+

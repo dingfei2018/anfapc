@@ -1,0 +1,129 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+/*杞挱鐨勫唴瀹�*/
+.main{
+	width: 1200px;
+	height: 160px;
+	margin: auto;
+	border: 1px solid #323232;
+	position: relative;
+	margin-top: 20px;
+}
+.main-left{
+	width: 450px;
+	height: 160px;
+	border-right: 1px solid #323232;
+	position: relative;
+}
+.main-left p{
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+	color: red;
+	text-align: center;
+	position: absolute;
+	right: 15px;
+	bottom: 15px;
+	cursor: pointer;
+}
+.main-left img{
+	margin: 30px 0 0 30px;
+}
+.main-right{
+	width: 750px;
+	height: 160px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	text-align: center;
+	line-height: 160px;
+	overflow: hidden;
+}
+.main-right ul{
+	list-style-type: none;
+}
+.main-right li{
+	float: left;
+}
+
+/*涓棿鐨勫唴瀹�*/
+.content{
+	width: 1200px;
+	height: 599px;
+	margin: auto;
+	border: 1px solid #323232;
+	margin-top: 20px;
+	position: relative;
+}
+.content-left{
+	width: 1200px;
+	height: 190px;
+	border-top: 1px solid white;
+	position: relative;
+}
+.content-left p{
+	display: block;
+	margin-top: 20px;
+	margin-left: 30px;
+	font-size: 20px;
+	font-weight: bold;
+}
+.content-left b{
+	display: block;
+	margin-top: 25px;
+	margin-left: 30px;
+	font-weight: normal;
+}
+.content-left select{
+	margin-top: 40px;
+	width: 90px;
+}
+.content-left span{
+	margin-left: 30px;
+}
+.content-left input{
+	width: 200px;
+}
+.content-left img{
+	position: absolute;
+	right: 55px;
+	bottom: 37px;
+}
+/*琛ㄦ牸鐨勬牱寮�*/
+.content-table{
+	width: 100%;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.content-table .content-th{
+	border-top: 1px solid #E4EBF3;
+	border-bottom: 1px solid #E4EBF3;
+	height: 30px;
+	line-height: 30px;
+	font-weight: normal;
+	color: #969696;
+	font-size: 12px;
+}
+
+.content-table .content-td{
+	border-bottom: 1px solid #323232;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 14px;
+}
+.content-table .content-td span{
+	color: #0024FF;
+}
+.content-table .content-td a{
+	text-decoration: none;
+	background-color: #0024FF;
+	border-radius: 5px;
+	color: white;
+}

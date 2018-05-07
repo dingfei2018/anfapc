@@ -1,0 +1,64 @@
+
+
+
+
+/*搴曢儴鐨勫唴瀹�*/
+.footer {
+	width: 100%;
+	height: 100px;
+	margin: auto;
+	overflow:hidden;
+	margin-top: 30px;
+	background: #E6E7F1;
+}
+
+.footer-a1 {
+	width: 1200px;
+	height: 100px;
+	margin-left: 0;
+	background: #E6E7F1;
+	position: relative;
+	margin: auto;
+}
+
+.footer-a2 {
+	
+}
+
+
+.footer-a3 {
+	width: 100%;
+	height: auto;
+	padding-top: 25px;
+	color: #dadada;
+	text-align: center;
+}
+
+.footer-a3 dl {
+	float: left;
+	margin-left: 29px;
+	margin-top: 20px;
+	font-size: 14px;
+}
+
+.footer-a3 a{ margin-left:20px; margin-right:20px; color: #666;text-decoration: none; font-size:14px;}
+.footer-a3 p{ padding-top:10px; color: #666;}
+
+.footer-a3 dl dt {
+	width: 58px;
+	height: 40px;
+	border-bottom: 3px solid #0066FF;
+	line-height: 40px;
+}
+
+.footer-a3 dl dd {
+	height: 40px;
+	line-height: 40px;
+}
+.footer-a3 dl dt a{
+	text-decoration: none;
+	color: #0066FF;
+}
+
+
+.footer span{ padding-left:10px; padding-right: 10px; font-size: 12px;}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<groups xmlns="http://www.isdc.ro/wro">
+	<group name="all">
+		<css minimize="true">/static/**.css</css>
+		<js minimize="true">/static/**.js</js>
+	</group>
+	<group name="basic">
+		<css>http://cdn.bootcss.com/bootstrap/3.3.6/css/bootstrap.css</css>
+		<css>/static/pc/study/css/city-picker.css</css>
+		<js>/static/pc/study/js/jquery.js</js>
+		<js>/static/pc/js/menu.js</js>
+		<js>/static/pc/study/js/bootstrap.js</js>
+		<js>/static/pc/study/js/city-picker.data.js</js>
+		<js>/static/pc/study/js/city-picker.js</js>
+	</group>
+
+	<group name="custom">
+	    <css>/static/pc/study/css/main.css</css>
+	    <css>/static/pc/stung/css/slide.css</css>
+		<css>/static/pc/css/test.css</css>
+		<css>/static/pc/css/head.css</css>
+		<css>/static/pc/css/footer.css</css>
+		<css>/static/pc/css/index.css</css>
+		<css>/static/pc/css/lrtk.css</css>
+		<js>/static/pc/study/js/main.js</js>
+		<js>/static/pc/stung/js/slide.js</js>
+		<js>/static/pc/js/search.js</js>
+		<js>/static/pc/js/utils.js</js>
+		<js>/static/pc/js/fontscroll.js</js>
+	</group>
+</groups>

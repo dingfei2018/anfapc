@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+         xsi:noNamespaceSchemaLocation="ehcache.xsd"  
+         updateCheck="false" monitoring="autodetect"  
+         dynamicConfig="true">  
+  
+    <cache name="sms"  
+           maxEntriesLocalHeap="100000"  
+           maxEntriesLocalDisk="10000"  
+           eternal="false"  
+           overflowToDisk="true"  
+           diskSpoolBufferSizeMB="20"  
+           timeToIdleSeconds="0"  
+           timeToLiveSeconds="1800"  
+           memoryStoreEvictionPolicy="LFU"  
+           transactionalMode="off"  
+            /> 
+     <cache name="smsNum"  
+           maxEntriesLocalHeap="100000"  
+           maxEntriesLocalDisk="10000"  
+           eternal="false"  
+           overflowToDisk="true"  
+           diskSpoolBufferSizeMB="20"  
+           timeToIdleSeconds="0"  
+           timeToLiveSeconds="300"  
+           memoryStoreEvictionPolicy="LFU"  
+           transactionalMode="off"  
+            />  
+            
+      <cache name="loadSn"  
+           maxEntriesLocalHeap="100000"  
+           maxEntriesLocalDisk="10000"  
+           eternal="false"  
+           overflowToDisk="true"  
+           diskSpoolBufferSizeMB="20"  
+           timeToIdleSeconds="0"  
+           timeToLiveSeconds="300"  
+           memoryStoreEvictionPolicy="LFU"  
+           transactionalMode="off"  
+            /> 
+      <cache name="userkey"  
+           maxEntriesLocalHeap="100000"  
+           maxEntriesLocalDisk="10000"  
+           eternal="false"  
+           overflowToDisk="true"  
+           diskSpoolBufferSizeMB="20"  
+           timeToIdleSeconds="0"  
+           timeToLiveSeconds="300"  
+           memoryStoreEvictionPolicy="LFU"  
+           transactionalMode="off"  
+            />            
+</ehcache>  

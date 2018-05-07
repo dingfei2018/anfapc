@@ -1,0 +1,243 @@
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family:'Microsoft YaHei','Î¢ÈíÑÅºÚ';
+}
+
+.benner{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	padding-top: 20px;
+	position: relative;
+	background: url("../../img/con_bj.jpg") top repeat-x;
+	overflow: hidden;
+}
+
+.banner-guno{
+	width: 1200px;
+	height: 217px;
+	border-radius: 3px;
+	margin: auto;
+}
+.banner-guno img{
+	width: 1202px;
+	height: 217px;
+}
+
+.banner-list{
+	width: 1200px;
+	height: auto;
+	margin: auto;
+	position: relative;
+	margin-top: 20px;
+}
+
+.banner-list-left{
+	width: 200px;
+	height: 549px;
+	background-color: white;
+	float: left;
+    background: url("../../img/zs_con_leftbj.jpg") no-repeat;
+}
+.banner-list-left p{
+	display: inline-block;
+	margin-top: 30px;
+	margin-left: 27px;
+	font-size: 28px;
+}
+.banner-list-left ul{
+	list-style-type: none;
+	margin-top: 25px;
+}
+.banner-list-left li{
+	height: 30px;
+	line-height: 30px;
+	text-indent: 27px;
+	margin-top: 10px;
+} 
+.banner-list-left .banner-list-lefts{
+	background: url("../../img/zs_connav_bj.jpg") repeat-x;
+	color : white;
+}
+.banner-list-left .banner-list-lefts-a{
+	text-decoration: none;
+	color : white;
+}
+.banner-list-left .banner-list-lefts-as{
+	text-decoration: none;
+	color : #323232;
+}
+.banner-list-left dt{
+	color : #0066FF;
+}
+.banner-list-left dl{
+	font-size: 14px;
+}
+.banner-list-left1{
+	width: 200px;
+	height: 40px;
+	margin-top: 40px;
+	position: relative;
+}
+.banner-list-left1 img{
+	margin-left: 20px;
+}
+.banner-list-left1 dl{
+	position: absolute;
+	left: 70px;
+	top: 0px;
+}
+
+.banner-list-left2{
+	width: 200px;
+	height: 40px;
+	margin-top: 25px;
+	position: relative;
+}
+.banner-list-left2 img{
+	margin-left: 20px;
+}
+.banner-list-left2 dl{
+	position: absolute;
+	left: 70px;
+	top: 0px;
+}
+
+.banner-list-left3{
+	width: 200px;
+	height: 40px;
+	margin-top: 25px;
+	position: relative;
+}
+.banner-list-left3 img{
+	margin-left: 20px;
+}
+.banner-list-left3 dl{
+	position: absolute;
+	left: 70px;
+	top: 0px;
+}
+
+.banner-list-left4{
+	width: 200px;
+	height: 40px;
+	margin-top: 25px;
+	position: relative;
+}
+.banner-list-left4 img{
+	margin-left: 20px;
+}
+.banner-list-left4 dl{
+	position: absolute;
+	left: 70px;
+	top: 0px;
+}
+.banner-list-left4 ul{
+	list-style-type: none;
+	/* position: absolute;
+	right: -52px;
+	top: 10px; */
+}
+.banner-list-left4 li{
+	float: left;
+	margin-top: 22px;
+}
+.banner-list-left4 li a{
+	display: block;
+	width: 44px;
+	height: 44px;
+	background: url(../../img/zs_r_icon8899.jpg);
+}
+.banner-list-left4 li a:hover{
+	background: url(../../img/zs_r_icon8898.jpg);
+}
+.banner-list-left4 .content-right-okl{
+	width: 44px;
+	height: 44px;
+	background: url(../../img/zs_r_icon8855.jpg);
+}
+.banner-list-left4 .content-right-okl:hover{
+	background: url(../../img/zs_r_icon8856.jpg);
+}
+
+.banner-list-right{
+	width: 900px;
+	height: auto;
+	overflow: hidden;
+	float: right;
+	background-color: white;
+	padding: 0 40px 0 40px;
+		padding-bottom: 60px;
+
+}
+.banner-list-right-op{
+	margin-top: 78px;
+	text-indent: 52px;
+}
+.banner-list-right-ops{
+	margin-top: 30px;
+	text-indent: 52px;
+}
+.banner-list-right-opu{
+	margin-top: 30px;
+	text-indent: 52px;
+}
+.banner-list-right-opo{
+	margin-top: 30px;
+	text-indent: 52px;
+}
+.banner-list-right-opos{
+	margin-top: 30px;
+	text-indent: 52px;
+}
+.banner-list-right p{
+	font-size: 14px;
+}
+
+.banner-list-rights{
+	width: 162px;
+	height: 40px;
+	position: absolute;
+	right: 40px;
+	top: 20px;
+	background-color: white;
+}
+.banner-list-rights img{
+	margin-top: 13px;
+	margin-left: 25px;
+}
+.banner-list-rights span{
+	margin-left: 10px;
+	color : #666;
+	font-size: 14px;
+}
+
+
+.banner-list-rightsiu{
+	width: 860px;
+	height: auto;
+	/* height: 660px; */
+	/* border: 1px solid blue; */
+	margin-top: 100px;
+	overflow: hidden;
+	margin-left: 0px;
+	line-height: 23px;
+	padding-left: 20px;
+	color: #666;
+	font-size: 14px;
+}
+.banner-list-rightsiu p{
+line-height: 23px;
+padding-bottom: 15px;
+	padding-top: 15px;
+}
+.banner-list-rightsiu span{
+
+}
+
+
+ 

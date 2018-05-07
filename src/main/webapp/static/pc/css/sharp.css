@@ -1,0 +1,96 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.main{
+	width: 1200px;
+	height: 250px;
+	margin: auto;
+	border: 1px solid #323232;
+	position: relative;
+	margin-top: 20px;
+}
+.main-left{
+	width: 400px;
+	height: 250px;
+	/*border: 1px solid #323232;*/
+	border-right: 1px solid #323232;
+	position: relative;
+}
+.main-left p{
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+	color: red;
+	text-align: center;
+	position: absolute;
+	right: 15px;
+	bottom: 15px;
+	cursor: pointer;
+}
+.main-right{
+	width: 800px;
+	height: 250px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	text-align: center;
+	line-height: 250px;
+	border-bottom: 1px solid #323232;
+}
+
+.banner{
+	width: 1200px;
+	height: 300px;
+	border: 1px solid #323232;
+	margin: auto;
+	margin-top: 25px;
+	position: relative;
+}
+.banner-left{
+	width: 200px;
+	height: 180px;
+	/*border: 1px solid #323232;*/
+	margin: 61px 0 0 75px;
+}
+.banner-left img{
+	width: 200px;
+	height: 180px;
+}
+.banner button{
+	width: 200px;
+	height: 100px;
+	background: #0024FF;
+	text-align: center;
+	line-height: 100px;
+	color: white;
+	position: absolute;
+	right: 75px;
+	top: 104px;
+}
+.banner-right{
+	width: 504px;
+	height: 200px;
+	/*border: 1px solid blue;*/
+	position: absolute;
+	left: 350px;
+	top: 53px;
+}
+.banner-right ul{
+	list-style-type: none;
+}
+.banner-right li{
+	float: left;
+	margin-left: 43px;
+	margin-top: 39px;
+}
+.banner-right p{
+	margin-left: 43px;
+	margin-top: 35px;
+}
+.banner-right a{
+	text-decoration: none;
+}
+
